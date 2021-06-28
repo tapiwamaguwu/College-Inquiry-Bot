@@ -1,0 +1,2072 @@
+{"intents": [
+	{
+		"tag": "greeting",
+		"patterns": "Hi there,How are you,Is anyone there?,Hey,Hello,Good day,Yo",
+		"responses": "Hello,Good to see you again,Hi there, how can I help?,Hi,Hello there,How can i help you,Hi I am Cole: a bot designed to help you with any enquiries about the university of Zimbabwe \n I can help with Undergraduate and Postgraduate programs and the requirements for each \n feel free to ask me anything",
+		"context": ""
+	},
+	{
+		"tag": "goodbye",
+		"patterns": "Bye,See you later,Goodbye,Nice chatting to you, bye,Till next time,Thats all ,i'm done,thats all i have",
+		"responses": "See you!,Have a nice day,Bye! Come back again soon.",
+		"context": ""
+	},
+	{
+		"tag": "thanks",
+		"patterns": "Thanks,Thank you,That's helpful,Awesome, thanks,Thanks for helping me",
+		"responses": "Happy to help!,Any time!,My pleasure",
+		"context": ""
+	},
+	{
+		"tag": "noanswer",
+		"patterns": "",
+		"responses": "Sorry, can't understand you,Please give me more info,Not sure I understand",
+		"context": ""
+	},
+	{
+		"tag": "options",
+		"patterns": "How you could help me?,What you can do?,What help you provide?,How you can be helpful?,What support is offered,Help,I need,can you",
+		"responses": "I can guide you through Admissions program Requirements  Application Information Offering support for Admissions program Requirements  and Application Information",
+		"context": ""
+	},
+	{
+		"tag": "admission",
+		"patterns": "How to apply,i need to review results,i want to apply ,how do i apply,where can i apply ,Programs Offered,Program Duration",
+		"responses": "Which program do you want to apply for?",
+		"context": ""
+	},
+	{
+		"tag": "postgraduate",
+		"patterns": "Postgraduate,i want to apply for post graduate,i want to do a postgraduate degree ,masters,i want to do masters,what masters degree do you have?,masters ",
+		"responses": "You can find a list of Programs here https://www.uz.ac.zw/index.php/48-admissions/297-postgraduate-programmes",
+		"context": ""
+	},
+	{
+		"tag": "undergraduate",
+		"patterns": "How to apply for undergraduate degree,,bachelors degree ,how do i apply,where can i apply ,Programs Offered,Program Duration",
+		"responses": "You can find a list of Programs here ",
+		"context": ""
+	},
+	{
+		"tag": "diploma",
+		"patterns": "How to apply,i need to review results,i want to apply ,how do i apply,where can i apply ,Programs Offered,Program Duration",
+		"responses": "Navigating to Adverse drug reaction module",
+		"context": ""
+	},
+	{
+		"tag": "MCC",
+		"patterns": "MASTER OF SCIENCE CLOUD COMPUTING AND INTERNET OF THINGS MCC , Postgraduate in SCIENCE CLOUD COMPUTING AND INTERNET OF THINGS MCC , I want to do MASTER OF SCIENCE CLOUD COMPUTING AND INTERNET OF THINGS MCC",
+		"responses": "The requirements for MASTER OF SCIENCE CLOUD COMPUTING AND INTERNET OF THINGS MCC  are \r\n  A Minimum of 2.1 degree classification in BSc Cloud Computing and Internet of\r\nThings or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MCE",
+		"patterns": "MASTER OF SCIENCE COMPUTER ENGINEERING MCE , Postgraduate in SCIENCE COMPUTER ENGINEERING MCE , I want to do MASTER OF SCIENCE COMPUTER ENGINEERING MCE",
+		"responses": "The requirements for MASTER OF SCIENCE COMPUTER ENGINEERING MCE  are \r\n  A Minimum of 2.1 degree classification in BSc Computer Engineering or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MCS",
+		"patterns": "MASTER OF SCIENCE COMPUTER SCIENCE MCS , Postgraduate in SCIENCE COMPUTER SCIENCE MCS , I want to do MASTER OF SCIENCE COMPUTER SCIENCE MCS",
+		"responses": "The requirements for MASTER OF SCIENCE COMPUTER SCIENCE MCS  are \r\n  A Minimum of 2.1 degree classification in BSc Computer Science or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MCY",
+		"patterns": "MASTER OF SCIENCE CYBERSECURITY MCY , Postgraduate in SCIENCE CYBERSECURITY MCY , I want to do MASTER OF SCIENCE CYBERSECURITY MCY",
+		"responses": "The requirements for MASTER OF SCIENCE CYBERSECURITY MCY  are \r\n  A Minimum of 2.1 degree classification in BSc Cybersecurity and Forensic Auditing or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MDS",
+		"patterns": "MASTER OF SCIENCE DATA SCIENCE AND INFORMATICS MDS , Postgraduate in SCIENCE DATA SCIENCE AND INFORMATICS MDS , I want to do MASTER OF SCIENCE DATA SCIENCE AND INFORMATICS MDS",
+		"responses": "The requirements for MASTER OF SCIENCE DATA SCIENCE AND INFORMATICS MDS  are \r\n  A Minimum of 2.1 degree classification in BSc Data Science and Informatics or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MHD",
+		"patterns": "MASTER OF SCIENCE COMPUTER HARDWARE DEVELOPMENT MHD , Postgraduate in SCIENCE COMPUTER HARDWARE DEVELOPMENT MHD , I want to do MASTER OF SCIENCE COMPUTER HARDWARE DEVELOPMENT MHD",
+		"responses": "The requirements for MASTER OF SCIENCE COMPUTER HARDWARE DEVELOPMENT MHD  are \r\n  A Minimum of 2.1 degree classification in BSc Hardware Engineering or any\r\nrelated field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MIE",
+		"patterns": "MASTER OF SCIENCE INDUSTRIAL ELECTRONICS TECHNOLOGY MIE , Postgraduate in SCIENCE INDUSTRIAL ELECTRONICS TECHNOLOGY MIE , I want to do MASTER OF SCIENCE INDUSTRIAL ELECTRONICS TECHNOLOGY MIE",
+		"responses": "The requirements for MASTER OF SCIENCE INDUSTRIAL ELECTRONICS TECHNOLOGY MIE  are \r\n  A Minimum of 2.1 degree classification in BSc Electronic and Telecommunications Engineering or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MIS",
+		"patterns": "MASTER OF SCIENCE INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT MIS , Postgraduate in SCIENCE INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT MIS , I want to do MASTER OF SCIENCE INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT MIS",
+		"responses": "The requirements for MASTER OF SCIENCE INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT MIS  are \r\n  A Minimum of 2.1 degree classification in BSc Library and Information Science or\r\nany related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MIT",
+		"patterns": "MASTER OF SCIENCE INFORMATION TECHNOLOGY AUDIT MIT , Postgraduate in SCIENCE INFORMATION TECHNOLOGY AUDIT MIT , I want to do MASTER OF SCIENCE INFORMATION TECHNOLOGY AUDIT MIT",
+		"responses": "The requirements for MASTER OF SCIENCE INFORMATION TECHNOLOGY AUDIT MIT  are \r\n  A Minimum of 2.1 degree classification in BSc Cybersecurity and Forensic\r\nAuditing or any related",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMW",
+		"patterns": "MASTER OF SCIENCE MOBILE AND WIRELESS COMMUNICATIONS MMW , Postgraduate in SCIENCE MOBILE AND WIRELESS COMMUNICATIONS MMW , I want to do MASTER OF SCIENCE MOBILE AND WIRELESS COMMUNICATIONS MMW",
+		"responses": "The requirements for MASTER OF SCIENCE MOBILE AND WIRELESS COMMUNICATIONS MMW  are \r\n  A Minimum of 2.1 degree classification in BSc Network Engineering or BSc\r\nElectronic and Telecommunications Engineering or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MNE",
+		"patterns": "MASTER OF SCIENCE NETWORK ENGINEERING MNE , Postgraduate in SCIENCE NETWORK ENGINEERING MNE , I want to do MASTER OF SCIENCE NETWORK ENGINEERING MNE",
+		"responses": "The requirements for MASTER OF SCIENCE NETWORK ENGINEERING MNE  are \r\n  A Minimum of 2.1 degree classification in BSc Network Engineering or BSc Electronic and Telecommunications Engineering or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSD",
+		"patterns": "MASTER OF SCIENCE COMPUTER SOFTWARE DEVELOPMENT MSD , Postgraduate in SCIENCE COMPUTER SOFTWARE DEVELOPMENT MSD , I want to do MASTER OF SCIENCE COMPUTER SOFTWARE DEVELOPMENT MSD",
+		"responses": "The requirements for MASTER OF SCIENCE COMPUTER SOFTWARE DEVELOPMENT MSD  are \r\n  A Minimum of 2.1 degree classification in BSc Software Engineering or any\r\nrelated field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MTE",
+		"patterns": "MASTER OF SCIENCE TELECOMMUNICATIONS ENGINEERING MTE , Postgraduate in SCIENCE TELECOMMUNICATIONS ENGINEERING MTE , I want to do MASTER OF SCIENCE TELECOMMUNICATIONS ENGINEERING MTE",
+		"responses": "The requirements for MASTER OF SCIENCE TELECOMMUNICATIONS ENGINEERING MTE  are \r\n  A Minimum of 2.1 degree classification in BSc Network Engineering or BSc\r\nElectronic and Telecommunications Engineering or any related field",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "PIS",
+		"patterns": "POSTGRADUATE DIPLOMA INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT \r\nPIS , POSTGRADUATE DIPLOMA INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT \r\nPIS , I want to do POSTGRADUATE DIPLOMA INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT \r\nPIS",
+		"responses": "The requirements for POSTGRADUATE DIPLOMA INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT  are \r\n  A Diploma in Information Science, IT or any related equivalents",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEMP",
+		"patterns": "Master of Education Music Production   MEMP , Postgraduate in Education Music Production   MEMP , I want to do Master of Education Music Production   MEMP",
+		"responses": "The requirements for Master of Education Music Production   MEMP  are \r\n  • an appropriate Honours Degree or a general degree or approved equivalent qualification and                                                            • obtained at least a\r\nlower second division or its approved equivalent in the area of specialization\r\n• a Graduate Diploma in Education of this University or its equivalent; and\r\n• attained a satisfactory standard on any entrance test which the University may\r\ndeem necessary.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MESSP",
+		"patterns": "Master of Education Sport Science Education  (MESSP) , Postgraduate in Education Sport Science Education  (MESSP) , I want to do Master of Education Sport Science Education  (MESSP)",
+		"responses": "The requirements for Master of Education Sport Science Education  (MESSP)  are \r\n  • an appropriate Honours Degree or a general degree or approved equivalent qualification and                                                            • obtained at least a\r\nlower second division or its approved equivalent in the area of specialization\r\n• a Graduate Diploma in Education of this University or its equivalent; and\r\n• attained a satisfactory standard on any entrance test which the University may\r\ndeem necessary.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEAD",
+		"patterns": "Master of Education Art and Design Education   MEAD , Postgraduate in Education Art and Design Education   MEAD , I want to do Master of Education Art and Design Education   MEAD",
+		"responses": "The requirements for Master of Education Art and Design Education   MEAD  are \r\n  • an appropriate Honours Degree or a general degree or approved equivalent qualification and                                                            • obtained at least a\r\nlower second division or its approved equivalent in the area of specialization\r\n• a Graduate Diploma in Education of this University or its equivalent; and\r\n• attained a satisfactory standard on any entrance test which the University may\r\ndeem necessary.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEDTPS",
+		"patterns": "Master of Education Design and Technology Production Systems   MEDTPS , Postgraduate in Education Design and Technology Production Systems   MEDTPS , I want to do Master of Education Design and Technology Production Systems   MEDTPS",
+		"responses": "The requirements for Master of Education Design and Technology Production Systems   MEDTPS  are \r\n  • an appropriate Honours Degree or a general degree or approved equivalent qualification and                                                            • obtained at least a\r\nlower second division or its approved equivalent in the area of specialization\r\n• a Graduate Diploma in Education of this University or its equivalent; and\r\n• attained a satisfactory standard on any entrance test which the University may\r\ndeem necessary.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MScECDSP",
+		"patterns": "Masters of Science Early Childhood Development  and Social Practice   MScECDSP , Masters of Science Early Childhood Development  and Social Practice   Postgraduate inECDSP , I want to do Masters of Science Early Childhood Development  and Social Practice   MScECDSP",
+		"responses": "The requirements for Masters of Science Early Childhood Development  and Social Practice   MScECDSP  are \r\n  Bachelor of Early Childhood Education or equivalent from any recognized University.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEDPED",
+		"patterns": "Master of Education  Primary Education    MEDPED , Postgraduate in Education  Primary Education    MEDPED , I want to do Master of Education  Primary Education    MEDPED",
+		"responses": "The requirements for Master of Education  Primary Education    MEDPED  are \r\n  Bachelor of Education Primary or equivalent from any recognized University.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEATDP",
+		"patterns": "Master of Education Assistive Technologies Development and Production   MEATDP , Postgraduate in Education Assistive Technologies Development and Production   MEATDP , I want to do Master of Education Assistive Technologies Development and Production   MEATDP",
+		"responses": "The requirements for Master of Education Assistive Technologies Development and Production   MEATDP  are \r\n  Normal Entry: A bachelor’s degree with at least a 2:1 in Engineering, Social Sciences, or a disability studies related degree or equivalent qualification in a discipline that provides a suitable basis for the programme (e.g. computing, mechanical, biomedical, electrical or electronic engineering) or a relevant qualification as stipulated by the Zimbabwe National Qualifications Framework. Special Entry: Three years’ experience of working in design or assistive technology development.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MECIMP",
+		"patterns": "Master of Education Transformative Curriculum Theory and Practice    MECIMP , Postgraduate in Education Transformative Curriculum Theory and Practice    MECIMP , I want to do Master of Education Transformative Curriculum Theory and Practice    MECIMP",
+		"responses": "The requirements for Master of Education Transformative Curriculum Theory and Practice    MECIMP  are \r\n  Normal Entry: Bachelor of Education Curriculum Design and Instructional Materials Production;  and any other relevant degree programme in which the Curriculum Theory component is strongly represented.  Relevant post graduate diploma in Education.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEIE",
+		"patterns": "Master of Education Inclusive Education   MEIE , Postgraduate in Education Inclusive Education   MEIE , I want to do Master of Education Inclusive Education   MEIE",
+		"responses": "The requirements for Master of Education Inclusive Education   MEIE  are \r\n  Normal Entry: A Bachelor’s Degree or a Postgraduate diploma from an  accredited and recognised institution or its equivalence in inclusive education or special needs education as stipulated by the Zimbabwe National Qualifications Framework.                                                          Special Entry:  Bachelor of Education degree with long standing recognised and traceable contribution to inclusive education.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MEFHL",
+		"patterns": "Master of Educational Foundations Heritage and Learning   (MEFHL) , Postgraduate in Educational Foundations Heritage and Learning   (MEFHL) , I want to do Master of Educational Foundations Heritage and Learning   (MEFHL)",
+		"responses": "The requirements for Master of Educational Foundations Heritage and Learning   (MEFHL)  are \r\n  Option 1: Sociology of Education and Teacher Development            Option 2: Philosophy of Education and Professional Development        Normal Entry: Bachelor of Education Degree from accredited and recognised institution or Post Graduate Diploma in Education, Graduate Diploma in Education, Grad C.E., B.Sc. Education.                                Special Entry: Bachelor of Education degree with long standing recognised and traceable contribution to sociological or philosophical issues.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSCEP",
+		"patterns": "Master of Science Clinical Educational Psychology   MSCEP , Postgraduate in Science Clinical Educational Psychology   Postgraduate inEP , I want to do Master of Science Clinical Educational Psychology   MSCEP",
+		"responses": "The requirements for Master of Science Clinical Educational Psychology   MSCEP  are \r\n  An  Honours degree in Psychology from accredited and recognised institution plus one year relevant Schools Psychological Service or teaching experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " PGDPEID",
+		"patterns": "Postgraduate Diploma in Education Instructional Systems Design and Practice    PGDPEID , Postgraduate Diploma in Education Instructional Systems Design and Practice    PGDPEID , I want to do Postgraduate Diploma in Education Instructional Systems Design and Practice    PGDPEID",
+		"responses": "The requirements for Postgraduate Diploma in Education Instructional Systems Design and Practice    PGDPEID  are \r\n  First Degree from a recognized university in which at least one teaching subject is represented.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEME",
+		"patterns": "Master of Education Multi lingual Education   MEME , Postgraduate in Education Multi lingual Education   MEME , I want to do Master of Education Multi lingual Education   MEME",
+		"responses": "The requirements for Master of Education Multi lingual Education   MEME  are \r\n  At least 2.2 degree class for B.Ed. degree or First Degree (with GDE/PGDE) from a recognized university, in which the area of specialization is represented.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MELDT",
+		"patterns": "Master of Education Language Development and Technology   MELDT , Postgraduate in Education Language Development and Technology   MELDT , I want to do Master of Education Language Development and Technology   MELDT",
+		"responses": "The requirements for Master of Education Language Development and Technology   MELDT  are \r\n  At least 2.2 degree class for B.Ed. degree or First Degree (with GDE/PGDE) from a recognized university, in which the area of specialization is represented.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MELE",
+		"patterns": "Master of Education Educational Leadership and Ethics   MELE , Postgraduate in Education Educational Leadership and Ethics   MELE , I want to do Master of Education Educational Leadership and Ethics   MELE",
+		"responses": "The requirements for Master of Education Educational Leadership and Ethics   MELE  are \r\n  Options: i) Educational Management, Leadership and Gender and Inclusivity\r\nii) Educational Policy, Planning and Quality Management Bachelor of Education Degree in Educational Management",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEHTES",
+		"patterns": "Master of Education Higher and Tertiary Education Systems    MEHTES , Postgraduate in Education Higher and Tertiary Education Systems    MEHTES , I want to do Master of Education Higher and Tertiary Education Systems    MEHTES",
+		"responses": "The requirements for Master of Education Higher and Tertiary Education Systems    MEHTES  are \r\n  • an appropriate Honours Degree or a general degree or approved equivalent qualification and                                                            • obtained at least a\r\nlower second division or its approved equivalent in the area of specialization\r\n• a Graduate Diploma in Education of this University or its equivalent; and\r\n• attained a satisfactory standard on any entrance test which the University may\r\ndeem necessary.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSCOMMENG",
+		"patterns": "Master of Science in Communication Engineering   MSCOMMENG , Postgraduate in Science in Communication Engineering   Postgraduate inOMMENG , I want to do Master of Science in Communication Engineering   MSCOMMENG",
+		"responses": "The requirements for Master of Science in Communication Engineering   MSCOMMENG  are \r\n  The candidate must hold at least an lower second class Bachelor of Science Honours degree in Electrical Engineering or related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSCMEPE",
+		"patterns": "Master of Science in Electrical Power   MSCMEPE , Postgraduate in Science in Electrical Power   Postgraduate inMEPE , I want to do Master of Science in Electrical Power   MSCMEPE",
+		"responses": "The requirements for Master of Science in Electrical Power   MSCMEPE  are \r\n  The candidate must hold at least an lower second class Bachelor of Science Honours degree in Electrical Engineering or related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MMET",
+		"patterns": "Master of Science Advanced Mineral Processing and Extractive Metallurgy   MMET , Postgraduate in Science Advanced Mineral Processing and Extractive Metallurgy   MMET , I want to do Master of Science Advanced Mineral Processing and Extractive Metallurgy   MMET",
+		"responses": "The requirements for Master of Science Advanced Mineral Processing and Extractive Metallurgy   MMET  are \r\n  The candidate must hold at least an lower second class Bachelor of Science Honours degree in Mining, or Metallurgical Engineering, Geology or related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MMIN",
+		"patterns": "Master of Science Mining Engineering   MMIN , Postgraduate in Science Mining Engineering   MMIN , I want to do Master of Science Mining Engineering   MMIN",
+		"responses": "The requirements for Master of Science Mining Engineering   MMIN  are \r\n  The candidate must hold at least an lower second class Bachelor of Science Honours degree in Mining, or Metallurgical Engineering, Geology or related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSSTE",
+		"patterns": "Master of Science Degree in Structural Engineering    MSSTE , Postgraduate in Science Degree in Structural Engineering    MSSTE , I want to do Master of Science Degree in Structural Engineering    MSSTE",
+		"responses": "The requirements for Master of Science Degree in Structural Engineering    MSSTE  are \r\n  To be admitted into the Programme, candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSQUS",
+		"patterns": "Master of Science Degree in Quantity Surveying   MSQUS , Postgraduate in Science Degree in Quantity Surveying   MSQUS , I want to do Master of Science Degree in Quantity Surveying   MSQUS",
+		"responses": "The requirements for Master of Science Degree in Quantity Surveying   MSQUS  are \r\n  Candidates must have normally obtained an acceptable first degree in Quantity Surveying with a classification of Upper Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSGTE",
+		"patterns": "Master of Science Degree in Geotechnical Engineering    MSGTE , Postgraduate in Science Degree in Geotechnical Engineering    MSGTE , I want to do Master of Science Degree in Geotechnical Engineering    MSGTE",
+		"responses": "The requirements for Master of Science Degree in Geotechnical Engineering    MSGTE  are \r\n  To be admitted into the Programme, candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSHTE",
+		"patterns": "Master of Science Degree in Highway and Transportation Engineering    MSHTE , Postgraduate in Science Degree in Highway and Transportation Engineering    MSHTE , I want to do Master of Science Degree in Highway and Transportation Engineering    MSHTE",
+		"responses": "The requirements for Master of Science Degree in Highway and Transportation Engineering    MSHTE  are \r\n  Candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSIWM",
+		"patterns": "Master of Science Degree In Integrated Water Resources Management   MSIWM , Postgraduate in Science Degree In Integrated Water Resources Management   MSIWM , I want to do Master of Science Degree In Integrated Water Resources Management   MSIWM",
+		"responses": "The requirements for Master of Science Degree In Integrated Water Resources Management   MSIWM  are \r\n  Candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSWRE",
+		"patterns": "Master of Science Degree in Water Resources Engineering and Infrastructure Management    MSWRE , Postgraduate in Science Degree in Water Resources Engineering and Infrastructure Management    MSWRE , I want to do Master of Science Degree in Water Resources Engineering and Infrastructure Management    MSWRE",
+		"responses": "The requirements for Master of Science Degree in Water Resources Engineering and Infrastructure Management    MSWRE  are \r\n  Candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSSWM",
+		"patterns": "Master of Science Degree in Sanitation and Wastewater Management   MSSWM , Postgraduate in Science Degree in Sanitation and Wastewater Management   MSSWM , I want to do Master of Science Degree in Sanitation and Wastewater Management   MSSWM",
+		"responses": "The requirements for Master of Science Degree in Sanitation and Wastewater Management   MSSWM  are \r\n  To be admitted into the Programme, candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSE",
+		"patterns": "MSc Manufacturing Systems Engineering   MSE , Postgraduate in Manufacturing Systems Engineering   MSE , I want to do MSc Manufacturing Systems Engineering   MSE",
+		"responses": "The requirements for MSc Manufacturing Systems Engineering   MSE  are \r\n  Candidates with Bachelor of Science Honours degree from a relevant discipline in Science (Computer Science, Mathematics, Physics, and Statistics) or  a relevant ZNQF level 8 qualification or a relevant Professional Engineering Degree with demonstrable knowledge of basic principles of Algorithms,  Computing, Calculus, Linear Algebra, Probability and Statistics.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MECHART",
+		"patterns": "MSc Mechatronics and Artificial Intelligence    MECHART , Postgraduate in Mechatronics and Artificial Intelligence    MECHART , I want to do MSc Mechatronics and Artificial Intelligence    MECHART",
+		"responses": "The requirements for MSc Mechatronics and Artificial Intelligence    MECHART  are \r\n  Candidates with Bachelor of Science Honours degree from a relevant discipline in Science (Computer Science, Mathematics, Physics, and Statistics) or a relevant ZNQF level 8 qualification or a relevant Professional Engineering Degree with demonstrable knowledge of basic principles of Algorithms, Computing, Calculus, Linear  Algebra, Probability and Statistics.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MREE",
+		"patterns": "Master of Science  in Renewable Energy Engineering   MREE , Postgraduate in Science  in Renewable Energy Engineering   MREE , I want to do Master of Science  in Renewable Energy Engineering   MREE",
+		"responses": "The requirements for Master of Science  in Renewable Energy Engineering   MREE  are \r\n  Candidates with a first degree in an Engineering or recognised   Applied Science discipline with at least a lower second class pass. Candidates with a third class in an Engineering or Applied Science discipline but who have acquired at least five years of good practicing experience in the relevant Energy Sector may also be considered for admission into the programme and may be required to sit for a qualifying examination",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MAHC",
+		"patterns": "Master of Science in Architecture and Heritage Conservation   MAHC , Postgraduate in Science in Architecture and Heritage Conservation   MAHC , I want to do Master of Science in Architecture and Heritage Conservation   MAHC",
+		"responses": "The requirements for Master of Science in Architecture and Heritage Conservation   MAHC  are \r\n  Candidate must have at least an Honours Degree in Architecture or an equivalent degree qualification. Other relevant subject areas shall be considered on individual merits. A minimum overall pass of lower second class (2.2) is required.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSPS",
+		"patterns": "Masters of Science in Spatial Planning Systems   MSPS , Masters of Science in Spatial Planning Systems   MSPS , I want to do Masters of Science in Spatial Planning Systems   MSPS",
+		"responses": "The requirements for Masters of Science in Spatial Planning Systems   MSPS  are \r\n  Candidate must possess a good honours degree with a 2.1 or better in BSc Honours Degree in Spatial Planning and Management or an equivalent degree qualification.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MREM",
+		"patterns": "Masters in Real Estate Management   MREM , Masters in Real Estate Management   MREM , I want to do Masters in Real Estate Management   MREM",
+		"responses": "The requirements for Masters in Real Estate Management   MREM  are \r\n  A.  An Honours degree in a relevant discipline with a 2.2 or better from a recognized institute of Higher Learning.                                                           B. B. A Postgraduate Diploma in Real Estate Management from the University",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MTPL",
+		"patterns": "Master of Science in Transport Planning and Logistics Degree   MTPL , Postgraduate in Science in Transport Planning and Logistics Degree   MTPL , I want to do Master of Science in Transport Planning and Logistics Degree   MTPL",
+		"responses": "The requirements for Master of Science in Transport Planning and Logistics Degree   MTPL  are \r\n  Candidate must have at least an honours degree in the following disciplines: Transport Planning and Management; Transport Logistics; Urban Mobility; Transport Engineering, Spatial Planning and Management, Civil Engineering and Mathematics. Other relevant subject areas shall be considered on individual merits. A minimum overall pass of lower second class (2.2) is required.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSUPD",
+		"patterns": "Joint Master of Science Degree in Sustainable Urban Planning and Development   MSUPD , Joint Postgraduate in Science Degree in Sustainable UrBachelor of arts n Planning and Development   MSUPD , I want to do Joint Master of Science Degree in Sustainable Urban Planning and Development   MSUPD",
+		"responses": "The requirements for Joint Master of Science Degree in Sustainable Urban Planning and Development   MSUPD  are \r\n  Candidate must have at least an honours degree in the following disciplines: Transport Planning and Management; Transport Logistics; Urban mobility; Transport engineering, Spatial Planning and Management, Civil Engineering, Mathematics. Other relevant subject areas shall be considered on individual merits. A minimum overall pass of lower second class (2.2) is required.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MGE",
+		"patterns": "Master of Science Geomatics Engineering Degree    MGE , Postgraduate in Science Geomatics Engineering Degree    MGE , I want to do Master of Science Geomatics Engineering Degree    MGE",
+		"responses": "The requirements for Master of Science Geomatics Engineering Degree    MGE  are \r\n  Candidate must have a BSc. Honours degree or equivalent in Surveying/Geomatics, or Land Management or similar subject. Candidates with lower academic qualifications and significant experience in the industry will be considered on an individual basis after satisfying the Department through an interview and/or a qualifying examination (s).",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " PDLGIS",
+		"patterns": "Postgraduate Diploma in Land and Geographic Information Science   PDLGIS , Postgraduate Diploma in Land and Geographic Information Science   PDLGIS , I want to do Postgraduate Diploma in Land and Geographic Information Science   PDLGIS",
+		"responses": "The requirements for Postgraduate Diploma in Land and Geographic Information Science   PDLGIS  are \r\n  Candidates must have two A level subjects, one of which MUST be Mathematics and a National Diploma in an appropriate subject such as Surveying, Geography, Computer Science, etc. or other qualifications approved by Senate.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "Master_of_Laws_in_Commercial_Law",
+		"patterns": "Master of Laws in Commercial Law , Postgraduate in Laws in Commercial Law , I want to do Master of Laws in Commercial Law",
+		"responses": "The requirements for Master of Laws in Commercial Law  are \r\n  LLBS with a 2.2 or better from this or other recognised University with at least\r\ntwo years working experience in a law related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "Master_of_Laws_in_International_Law",
+		"patterns": "Master of Laws in International Law , Postgraduate in Laws in International Law , I want to do Master of Laws in International Law",
+		"responses": "The requirements for Master of Laws in International Law  are \r\n  LLBS with a 2.2 or better from this or other recognised University with at least\r\ntwo years working experience in a law related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "Master_of_Laws_in_Land_and_Resource_Management_Law",
+		"patterns": "Master of Laws in Land and Resource Management Law , Postgraduate in Laws in Land and Resource Management Law , I want to do Master of Laws in Land and Resource Management Law",
+		"responses": "The requirements for Master of Laws in Land and Resource Management Law  are \r\n  LLBS with a 2.2 or better from this or other recognised University with at least\r\ntwo years working experience in a law related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "Master_of_Laws_in_Intellectual_Property_and_Technology_Law",
+		"patterns": "Master of Laws in Intellectual Property and Technology Law , Postgraduate in Laws in Intellectual Property and Technology Law , I want to do Master of Laws in Intellectual Property and Technology Law",
+		"responses": "The requirements for Master of Laws in Intellectual Property and Technology Law  are \r\n  LLBS with a 2.2 or better from this or other recognised University with at least\r\ntwo years working experience in a law related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "Master_of_Laws_in_Constitutional_and_Electoral_Law",
+		"patterns": "Master of Laws in Constitutional and Electoral Law , Postgraduate in Laws in Constitutional and Electoral Law , I want to do Master of Laws in Constitutional and Electoral Law",
+		"responses": "The requirements for Master of Laws in Constitutional and Electoral Law  are \r\n  LLBS with a 2.2 or better from this or other recognised University with at least\r\ntwo years working experience in a law related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "Master_of_Laws_in_Family_and_Child_Law",
+		"patterns": "Master of Laws in Family and Child Law , Postgraduate in Laws in Family and Child Law , I want to do Master of Laws in Family and Child Law",
+		"responses": "The requirements for Master of Laws in Family and Child Law  are \r\n  LLBS with a 2.2 or better from this or other recognised University with at least two years working experience in a law related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "Master_of_Laws_in_Criminal_Law",
+		"patterns": "Master of Laws in Criminal Law , Postgraduate in Laws in Criminal Law , I want to do Master of Laws in Criminal Law",
+		"responses": "The requirements for Master of Laws in Criminal Law  are \r\n  LLBS with a 2.2 or better from this or other recognised University with at least two years working experience in a law related field.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Clinical_Pharmacology",
+		"patterns": "MSc Clinical Pharmacology , Postgraduate in Clinical Pharmacology , I want to do MSc Clinical Pharmacology",
+		"responses": "The requirements for MSc Clinical Pharmacology  are \r\n  Applicants must hold one of the following qualifications: MBChB degree, BSc Pharmacology, B.Pharm or an equivalent qualification.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Biomedical_Engineering",
+		"patterns": "MSc Biomedical Engineering , Postgraduate in Biomedical Engineering , I want to do MSc Biomedical Engineering",
+		"responses": "The requirements for MSc Biomedical Engineering  are \r\n  A good first degree in Medicine or related area.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Medical_Analytics_and_Informatics",
+		"patterns": "MSc Medical Analytics and Informatics , Postgraduate in Medical Analytics and Informatics , I want to do MSc Medical Analytics and Informatics",
+		"responses": "The requirements for MSc Medical Analytics and Informatics  are \r\n  A good first degree in a related area.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Haematology",
+		"patterns": "MSc Haematology , Postgraduate in Haematology , I want to do MSc Haematology",
+		"responses": "The requirements for MSc Haematology  are \r\n  A good first degree in a related area.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Immunology",
+		"patterns": "MSc Immunology , Postgraduate in Immunology , I want to do MSc Immunology",
+		"responses": "The requirements for MSc Immunology  are \r\n  A good first degree in a relevant area",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Forensic_Medicine",
+		"patterns": "MSc Forensic Medicine , Postgraduate in Forensic Medicine , I want to do MSc Forensic Medicine",
+		"responses": "The requirements for MSc Forensic Medicine  are \r\n  A good first degree in a relevant area",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Human_Genetics_and_Biotechnology",
+		"patterns": "MSc Human Genetics and Biotechnology , Postgraduate in Human Genetics and Biotechnology , I want to do MSc Human Genetics and Biotechnology",
+		"responses": "The requirements for MSc Human Genetics and Biotechnology  are \r\n  A good first degree in a relevant area",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Public_Health_Health_Child_Health_",
+		"patterns": "MSc Public Health Health (with options in: 1.  Health Care Management and Human Capital Deveopment: 2. Human Economics and Financing: 3, Global Health: 4, Maternal Child Health, 5, Policy 6, Leadership and Governance: 7, Environmental Health: 8, Sports Medicine: 9 Monitoring and Evaluation of Public Health Interventions , Postgraduate in Public Health Health (with options in: 1.  Health Care Management and Human Capital Deveopment: 2. Human Economics and Financing: 3, GloBachelor of arts l Health: 4, Maternal Child Health, 5, Policy 6, Leadership and Governance: 7, Environmental Health: 8, Sports Medicine: 9 Monitoring and Evaluation of Public Health Interventions , I want to do MSc Public Health Health (with options in: 1.  Health Care Management and Human Capital Deveopment: 2. Human Economics and Financing: 3, Global Health: 4, Maternal Child Health, 5, Policy 6, Leadership and Governance: 7, Environmental Health: 8, Sports Medicine: 9 Monitoring and Evaluation of Public Health Interventions",
+		"responses": "The requirements for MSc Public Health Health (with options in: 1.  Health Care Management and Human Capital Deveopment: 2. Human Economics and Financing: 3 are \r\n  A good BSc degree in Health Education and Health Promotion or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Occupational_Medicine",
+		"patterns": "MMed Occupational Medicine , MMed Occupational Medicine , I want to do MMed Occupational Medicine",
+		"responses": "The requirements for MMed Occupational Medicine  are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Emergency_Medicine",
+		"patterns": "MMed Emergency Medicine , MMed Emergency Medicine , I want to do MMed Emergency Medicine",
+		"responses": "The requirements for MMed Emergency Medicine  are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_NeuroPsychology",
+		"patterns": "MMed Neuro Psychology , MMed Neuro Psychology , I want to do MMed Neuro Psychology",
+		"responses": "The requirements for MMed Neuro Psychology  are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Paediatrics_with_options_",
+		"patterns": "MMed Paediatrics with options in: 1: Oncology, 2: Community Paediatrics; 3: Neonatology: 4, Paediatrics Cardiology; 5: Metabolic Syndrome: 6: Paediatric Nephrology: 7: Paediatric Neurology; 8: Paediatric Endocrinology , MMed Paediatrics with options in: 1: Oncology, 2: Community Paediatrics; 3: Neonatology: 4, Paediatrics Cardiology; 5: Metabolic Syndrome: 6: Paediatric Nephrology: 7: Paediatric Neurology; 8: Paediatric Endocrinology , I want to do MMed Paediatrics with options in: 1: Oncology, 2: Community Paediatrics; 3: Neonatology: 4, Paediatrics Cardiology; 5: Metabolic Syndrome: 6: Paediatric Nephrology: 7: Paediatric Neurology; 8: Paediatric Endocrinology",
+		"responses": "The requirements for MMed Paediatrics with options in: 1: Oncology are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Medicine_(Infectious_Diseases)",
+		"patterns": "MMed Medicine (Infectious Diseases) , MMed Medicine (Infectious Diseases) , I want to do MMed Medicine (Infectious Diseases)",
+		"responses": "The requirements for MMed Medicine (Infectious Diseases)  are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Medicine_",
+		"patterns": "MMed Medicine with options in: 1, Neurology; 2: Hepatology; 3: Pulmonology; 4:\r\nCardiology; 5: Endocrinology; 6: Diabetology; 7: Gastroentology; 8: Nephrology; 9:\r\nRheumatology: 10: Gerontology; 11: HIV and STIs; 12: Dermatology; 13: Medical\r\nOncology , MMed Medicine with options in: 1, Neurology; 2: Hepatology; 3: Pulmonology; 4:\r\nCardiology; 5: Endocrinology; 6: Diabetology; 7: Gastroentology; 8: Nephrology; 9:\r\nRheumatology: 10: Gerontology; 11: HIV and STIs; 12: Dermatology; 13: Medical\r\nOncology , I want to do MMed Medicine with options in: 1, Neurology; 2: Hepatology; 3: Pulmonology; 4:\r\nCardiology; 5: Endocrinology; 6: Diabetology; 7: Gastroentology; 8: Nephrology; 9:\r\nRheumatology: 10: Gerontology; 11: HIV and STIs; 12: Dermatology; 13: Medical\r\nOncology",
+		"responses": "The requirements for MMed Medicine with options in: 1 are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Obstetrics_and_Gynaecology_",
+		"patterns": "MMed Obstetrics and Gynaecology (Reproductive Health) with options in: 1, Fetal Medicine; 2: Maternal Medicine; 3: Gynaecology Oncology; 4: Uro Gynaecology; 5: Minimum Access Gynaecology , MMed Obstetrics and Gynaecology (Reproductive Health) with options in: 1, Fetal Medicine; 2: Maternal Medicine; 3: Gynaecology Oncology; 4: Uro Gynaecology; 5: Minimum Access Gynaecology , I want to do MMed Obstetrics and Gynaecology (Reproductive Health) with options in: 1, Fetal Medicine; 2: Maternal Medicine; 3: Gynaecology Oncology; 4: Uro Gynaecology; 5: Minimum Access Gynaecology",
+		"responses": "The requirements for MMed Obstetrics and Gynaecology (Reproductive Health) with options in: 1 are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Nursing_Practice",
+		"patterns": "MSc Nursing Practice with options in: 1, Gerontology; 2, Palliative Care; 3, Oncology; 4, Intensive and Coronary Care; 5, Emergency Medicine; 6, Perfusionist; 7, Nephrology; 8,\r\nMedical Surgical; 9, Mental Health; 10, Community Health; 11, Fetal and Neonatal; 12, Ophthalmic; 13, Nursing Anaesthesia , Postgraduate in Nursing Practice with options in: 1, Gerontology; 2, Palliative Care; 3, Oncology; 4, Intensive and Coronary Care; 5, Emergency Medicine; 6, Perfusionist; 7, Nephrology; 8,\r\nMedical Surgical; 9, Mental Health; 10, Community Health; 11, Fetal and Neonatal; 12, Ophthalmic; 13, Nursing Anaesthesia , I want to do MSc Nursing Practice with options in: 1, Gerontology; 2, Palliative Care; 3, Oncology; 4, Intensive and Coronary Care; 5, Emergency Medicine; 6, Perfusionist; 7, Nephrology; 8,\r\nMedical Surgical; 9, Mental Health; 10, Community Health; 11, Fetal and Neonatal; 12, Ophthalmic; 13, Nursing Anaesthesia",
+		"responses": "The requirements for MSc Nursing Practice with options in: 1 are \r\n  A good BSc Nursing Science degree or equivalent.  Must be registered with the Nurses Council of Zimbabwe.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Occupational_Therapy",
+		"patterns": "MSc Occupational Therapy , Postgraduate in Occupational Therapy , I want to do MSc Occupational Therapy",
+		"responses": "The requirements for MSc Occupational Therapy  are \r\n  BSc Honours degree in Occupational Therapy or equivalent.  Registered with the Rehabilitation Council of Zimbabwe.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Rehabilitative_Assistive_Technologies",
+		"patterns": "MSc Rehabilitative Assistive Technologies , Postgraduate in Rehabilitative Assistive Technologies , I want to do MSc Rehabilitative Assistive Technologies",
+		"responses": "The requirements for MSc Rehabilitative Assistive Technologies  are \r\n  BSc Honours degree in Physiotherapy or equivalent.  Registered with the Rehabilitation Council of Zimbabwe.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Physiotherapy",
+		"patterns": "MSc Physiotherapy , Postgraduate in Physiotherapy , I want to do MSc Physiotherapy",
+		"responses": "The requirements for MSc Physiotherapy  are \r\n  BSc Honours degree in Physiotherapy or equivalent.  Registered with the Rehabilitation Council of Zimbabwe.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Rehabilitation_and_Community_Development",
+		"patterns": "MSc Rehabilitation and Community Development , Postgraduate in Rehabilitation and Community Development , I want to do MSc Rehabilitation and Community Development",
+		"responses": "The requirements for MSc Rehabilitation and Community Development  are \r\n  BSc Honours degree in Physiotherapy or equivalent.  Registered with the Rehabilitation Council of Zimbabwe.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Audiology",
+		"patterns": "MSc Audiology , Postgraduate in Audiology , I want to do MSc Audiology",
+		"responses": "The requirements for MSc Audiology  are \r\n  Possession of a BSc in Audiology or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Speech_and_Language_Therapy",
+		"patterns": "MSc Speech and Language Therapy , Postgraduate in Speech and Language Therapy , I want to do MSc Speech and Language Therapy",
+		"responses": "The requirements for MSc Speech and Language Therapy  are \r\n  Possession of a BSc degree in a related area.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSc_Optometry",
+		"patterns": "MSc Optometry , Postgraduate in Optometry , I want to do MSc Optometry",
+		"responses": "The requirements for MSc Optometry  are \r\n  A relevant first degree in a related area or discipline.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Surgery_(with_options_in:_1,_Cardiothoracic_Surgery;_2:_Orthopedics",
+		"patterns": "MMed Surgery (with options in: 1, Cardiothoracic Surgery; 2: Orthopedics , MMed Surgery (with options in: 1, Cardiothoracic Surgery; 2: Orthopedics , I want to do MMed Surgery (with options in: 1, Cardiothoracic Surgery; 2: Orthopedics",
+		"responses": "The requirements for MMed Surgery (with options in: 1 are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Radiology_Diagnostics",
+		"patterns": "MMed Radiology Diagnostics , MMed Radiology Diagnostics , I want to do MMed Radiology Diagnostics",
+		"responses": "The requirements for MMed Radiology Diagnostics  are \r\n  BSc in Radiography or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Medical_Physics",
+		"patterns": "MMed Medical Physics , MMed Medical Physics , I want to do MMed Medical Physics",
+		"responses": "The requirements for MMed Medical Physics  are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MMed_Nuclear_Medicine",
+		"patterns": "MMed Nuclear Medicine , MMed Nuclear Medicine , I want to do MMed Nuclear Medicine",
+		"responses": "The requirements for MMed Nuclear Medicine  are \r\n  MBChB degree or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MMPS",
+		"patterns": "MSc Medical Plant Sciences   MMPS , Postgraduate in Medical Plant Sciences   MMPS , I want to do MSc Medical Plant Sciences   MMPS",
+		"responses": "The requirements for MSc Medical Plant Sciences   MMPS  are \r\n  Normal Entry    A BSc Honours Degree in Biological Sciences, Biochemistry, Agriculture, Microbiology, Chemistry, Pharmacology with a degree class of 2.1 or better or an equivalent degree where Botany was taken as a course.\r\nSpecial Entry    A BSc Honours Degree in Biological Sciences or equivalent degree with a 2.2 division and at least three years of relevant post qualification experience will be required to write and pass a qualifying examination with a\r\nmark representing a 2.1 division or better.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MFPE",
+		"patterns": "MSc Forestry Production Ecology   MFPE , Postgraduate in Forestry Production Ecology   MFPE , I want to do MSc Forestry Production Ecology   MFPE",
+		"responses": "The requirements for MSc Forestry Production Ecology   MFPE  are \r\n  Normal Entry    A good BSc Honours Degree in Forestry or Biological Sciences, with a degree class of 2.1 or better or an equivalent degree.\r\nSpecial Entry    A BSc Honours Degree in Forestry or Biological Sciences or equivalent degree with a 2.2 division and at least three years of relevant post qualification experience will be required to write and pass a qualifying examination with a mark in the 2.1 division or better.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MBCM",
+		"patterns": "MSc Biodiversity Conservation and Management   MBCM , Postgraduate in Biodiversity Conservation and Management   MBCM , I want to do MSc Biodiversity Conservation and Management   MBCM",
+		"responses": "The requirements for MSc Biodiversity Conservation and Management   MBCM  are \r\n  Normal Entry    A good BSc Honours Degree in Biological/Life Sciences or Environmental Sciences with a degree class of 2.1 or better or an equivalent degree.                                                                                       Special Entry    A BSc\r\nHonours Degree in Biological/Life Sciences or Environmental Sciences degree of this University or equivalent degree with a 2.2 division and at least three years of relevant post qualification experience will be required to write and pass a qualifying examination with a mark representing a 2.1 division or better.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MWEM",
+		"patterns": "MSc Wildlife Ecology and Management   MWEM , Postgraduate in Wildlife Ecology and Management   MWEM , I want to do MSc Wildlife Ecology and Management   MWEM",
+		"responses": "The requirements for MSc Wildlife Ecology and Management   MWEM  are \r\n  Normal Entry    A good BSc Honours Degree in Biological/Life Sciences or Environmental Sciences with a degree class of 2.1 or better or an equivalent degree.                                                                                       Special Entry    A BSc\r\nHonours Degree in Biological/Life Sciences or Environmental Sciences degree or equivalent degree with a 2.2 division and at least three years of relevant post qualification experience will be required to write and pass a qualifying examination with a mark representing a 2.1 division or better.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MASA",
+		"patterns": "MSc Aquatic Science and Aquaculture   MASA , Postgraduate in Aquatic Science and Aquaculture   MASA , I want to do MSc Aquatic Science and Aquaculture   MASA",
+		"responses": "The requirements for MSc Aquatic Science and Aquaculture   MASA  are \r\n  Normal Entry    A good BSc Honours Degree in Biological/Life Sciences or Aquaculture degree with a degree class of 2.1 or better or an equivalent degree. Special Entry    A BSc Honours Degree in Biological/Life Sciences or Aquaculture or equivalent degree with a 2.2 division and at least three years of relevant post qualification experience will be required to write and pass a qualifying examination with a mark representing a 2.1 division or better.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MFS",
+		"patterns": "MSc Forensic Science   MFS , Postgraduate in Forensic Science   MFS , I want to do MSc Forensic Science   MFS",
+		"responses": "The requirements for MSc Forensic Science   MFS  are \r\n  Normal Entry    Candidates should possess BSc Honours in Forensic Science, Biological/Life Sciences, Biochemistry, Zoology, Botany, Microbiology, B.Pharmacy or Applied Sciences with a degree class of 2.1 or better.\r\nSpecial Entry    Candidates should possess BSc Honours in Forensic Science, Biological/Life Sciences, Biochemistry, Zoology, Botany, Microbiology, B.Pharmacy or Applied Sciences with a 2.2 division and at least three years of relevant post qualification experience.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MTRE",
+		"patterns": "MSc Tropical Resource Ecology   MTRE , Postgraduate in Tropical Resource Ecology   MTRE , I want to do MSc Tropical Resource Ecology   MTRE",
+		"responses": "The requirements for MSc Tropical Resource Ecology   MTRE  are \r\n  Normal Entry    A BSc Honours Degree in Biological Sciences of this University with a degree class of 2.1 or better or an equivalent degree.\r\nSpecial Entry    A BSc Honours Degree in Biological Sciences or  equivalent degree of this University with a 2.2 division and at least three years relevant post qualification experience will be required to write and pass a qualifying examination with a mark representing a 2.1 division or better.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MTE",
+		"patterns": "MSc Tropical Entomology   MTE , Postgraduate in Tropical Entomology   MTE , I want to do MSc Tropical Entomology   MTE",
+		"responses": "The requirements for MSc Tropical Entomology   MTE  are \r\n  Normal Entry    A BSc Honours Degree in Biological Sciences with a degree class of 2.1 or better or an equivalent degree where entomology was taken as a course.                                                                                              Special Entry    A BSc\r\nHonours Degree in Biological Sciences or  equivalent degree with a 2.2 division and at least three years of relevant post qualification experience will be required to write and pass a qualifying examination with a mark representing a 2.1 division or better.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSc",
+		"patterns": "MSc Computational Science and Mathematical Modelling   MSc , Postgraduate in Computational Science and Mathematical Modelling   Postgraduate in , I want to do MSc Computational Science and Mathematical Modelling   MSc",
+		"responses": "The requirements for MSc Computational Science and Mathematical Modelling   MSc  are \r\n  A BSc Honours Degree in Mathematics and Computational Sciences of this University with a degree class of 2.2 or better or an equivalent degree.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MCPS",
+		"patterns": "Master of Science in Clinical Psychology   MCPS , Postgraduate in Science in Clinical Psychology   MCPS , I want to do Master of Science in Clinical Psychology   MCPS",
+		"responses": "The requirements for Master of Science in Clinical Psychology   MCPS  are \r\n  A good BSc Honours Degree in Psychology or equivalent with a minimum of 2.2  degree class.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MFPV",
+		"patterns": "Master of Science in Forensic Psychology and Victimology   MFPV , Postgraduate in Science in Forensic Psychology and Victimology   MFPV , I want to do Master of Science in Forensic Psychology and Victimology   MFPV",
+		"responses": "The requirements for Master of Science in Forensic Psychology and Victimology   MFPV  are \r\n  A good BSc Honours Degree in Psychology or equivalent with a minimum of 2.2  degree class.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MIOP",
+		"patterns": "Master of Science in Industrial and Organisational Psychology   MIOP , Postgraduate in Science in Industrial and Organisational Psychology   MIOP , I want to do Master of Science in Industrial and Organisational Psychology   MIOP",
+		"responses": "The requirements for Master of Science in Industrial and Organisational Psychology   MIOP  are \r\n  A good BSc Honours Degree in Psychology or equivalent with a minimum of 2.2  degree class.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSPS",
+		"patterns": "Master of Science in Sport Psychology   MSPS , Postgraduate in Science in Sport Psychology   MSPS , I want to do Master of Science in Sport Psychology   MSPS",
+		"responses": "The requirements for Master of Science in Sport Psychology   MSPS  are \r\n  A good BSc Honours Degree in Psychology or equivalent with a minimum of 2.2  degree class.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MCSMD",
+		"patterns": "Master of Science in Community Systems Models and Development   MCSMD , Postgraduate in Science in Community Systems Models and Development   MCSMD , I want to do Master of Science in Community Systems Models and Development   MCSMD",
+		"responses": "The requirements for Master of Science in Community Systems Models and Development   MCSMD  are \r\n  Any good any Social Science Honours Degree program or an equivalent degree with a minimum of 2.2 degree class.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MGD",
+		"patterns": "Master of Science in Gender Social Systems and Development   MGD , Postgraduate in Science in Gender Social Systems and Development   MGD , I want to do Master of Science in Gender Social Systems and Development   MGD",
+		"responses": "The requirements for Master of Science in Gender Social Systems and Development   MGD  are \r\n  Any good any Social Science Honours Degree program or an equivalent degree with a minimum of 2.2 degree class",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSECDP",
+		"patterns": "Master of Science in Socio Ecological Systems and Development Practice   MSECDP , Postgraduate in Science in Socio Ecological Systems and Development Practice   MSECDP , I want to do Master of Science in Socio Ecological Systems and Development Practice   MSECDP",
+		"responses": "The requirements for Master of Science in Socio Ecological Systems and Development Practice   MSECDP  are \r\n  Honours Degree in Sociology or BSc Anthropology Honours Degree or an equivalent degree qualification  with a minimum of 2.1 degree class",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSSA",
+		"patterns": "Master of Science in Sociology and Social Anthropology   MSSA , Postgraduate in Science in Sociology and Social Anthropology   MSSA , I want to do Master of Science in Sociology and Social Anthropology   MSSA",
+		"responses": "The requirements for Master of Science in Sociology and Social Anthropology   MSSA  are \r\n  A good BSc Honours Degree in Sociology or BSc Anthropology Honours Degree or an equivalent degree qualification  with a minimum of 2.1 degree class",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " PDME",
+		"patterns": "Postgraduate Diploma in Monitoring and Evaluation   PDME , Postgraduate Diploma in Monitoring and Evaluation   PDME , I want to do Postgraduate Diploma in Monitoring and Evaluation   PDME",
+		"responses": "The requirements for Postgraduate Diploma in Monitoring and Evaluation   PDME  are \r\n  At least an Honours and Bachelors in any Social Science Degree program or an equivalent degree qualification",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MPIA",
+		"patterns": "Master of Science in Population Informatics and Analytics   MPIA , Postgraduate in Science in Population Informatics and Analytics   MPIA , I want to do Master of Science in Population Informatics and Analytics   MPIA",
+		"responses": "The requirements for Master of Science in Population Informatics and Analytics   MPIA  are \r\n  An Honours degree in the following disciplines: Mathematics; Statistics; Public\r\nHealth; Social and Behavioural Sciences; Law; Education; and, Geo Spatial\r\nSciences. At least a B in O Level Mathematics is a must.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSSDA",
+		"patterns": "Master of Science in Smart Settlement Designs and Amenities   MSSDA , Postgraduate in Science in Smart Settlement Designs and Amenities   MSSDA , I want to do Master of Science in Smart Settlement Designs and Amenities   MSSDA",
+		"responses": "The requirements for Master of Science in Smart Settlement Designs and Amenities   MSSDA  are \r\n  A good Honours Degree with a 2.1 or better in Spatial Planning and Management or a relevant planning discipline",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSUSD",
+		"patterns": "Master of Science in Society Urban Systems and Design   MSUSD , Postgraduate in Science in Society UrBachelor of arts n Systems and Design   MSUSD , I want to do Master of Science in Society Urban Systems and Design   MSUSD",
+		"responses": "The requirements for Master of Science in Society Urban Systems and Design   MSUSD  are \r\n  A good Honours Degree with a 2.1 or better in Urban Systems and Design or a relevant planning discipline",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MAD",
+		"patterns": "Master of Science in Andragogy and Development   MAD , Postgraduate in Science in Andragogy and Development   MAD , I want to do Master of Science in Andragogy and Development   MAD",
+		"responses": "The requirements for Master of Science in Andragogy and Development   MAD  are \r\n  A good Bachelor of Adult Education Degree or an equivalent degree with a minimum of 2.2 degree class.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MUTSDM",
+		"patterns": "Master of Science in Urban Transport Systems Design and Mobility   MUTSDM , Postgraduate in Science in UrBachelor of arts n Transport Systems Design and Mobility   MUTSDM , I want to do Master of Science in Urban Transport Systems Design and Mobility   MUTSDM",
+		"responses": "The requirements for Master of Science in Urban Transport Systems Design and Mobility   MUTSDM  are \r\n  At least an Honours Degree with a minimum of 2.1 degree class in the following disciplines: Transport Planning and Management; Transport Logistics; Urban mobility; Transport engineering, Spatial Planning and Management, Civil Engineering, Mathematics.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " PDPPM",
+		"patterns": "Postgraduate Diploma in Project Planning and Management   PDPPM , Postgraduate Diploma in Project Planning and Management   PDPPM , I want to do Postgraduate Diploma in Project Planning and Management   PDPPM",
+		"responses": "The requirements for Postgraduate Diploma in Project Planning and Management   PDPPM  are \r\n  A good Honours Degree with a 2.1 or better degree class in fields such as\r\nAgriculture, Engineering, Commerce and Development Studies, Rural and Urban Planning, Administration, Geography, Economics, Sociology, Nursing or  Biological Sciences, with at least one year practical experience relevant in project planning and management. O Level Mathematics is a must.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MITD",
+		"patterns": "Master of Science in International Trade and Diplomacy   MITD , Postgraduate in Science in International Trade and Diplomacy   MITD , I want to do Master of Science in International Trade and Diplomacy   MITD",
+		"responses": "The requirements for Master of Science in International Trade and Diplomacy   MITD  are \r\n  Relevant   BSc   (Hons)   in   Political   Science   and   Diplomacy,   BSc   (Hons)   in Government  and  Public  Management,  BSc  (Hons)  in  Security  and  Intelligence, BSc  (Hons)   in   Economics,   BSc  (Hons)   in   Law,   BSc  (Hons)   in   Public  Policy, Governance passed with an Upper second class (2.1) degree classification.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MPIR",
+		"patterns": "Master of Science in Politics and International Relations   MPIR , Postgraduate in Science in Politics and International Relations   MPIR , I want to do Master of Science in Politics and International Relations   MPIR",
+		"responses": "The requirements for Master of Science in Politics and International Relations   MPIR  are \r\n  Relevant BSc (Hons) in Political Science and Diplomacy, BSc (Hons) in Government and Public Management, BSc (Hons) in Economics, BSc (Hons) in Law, BSc (Hons) in Peace, Security and Society passed with an Upper second class (2.1) degree classification.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MPPG",
+		"patterns": "Master of Science in Public Policy and Governance   MPPG , Postgraduate in Science in Public Policy and Governance   MPPG , I want to do Master of Science in Public Policy and Governance   MPPG",
+		"responses": "The requirements for Master of Science in Public Policy and Governance   MPPG  are \r\n  Relevant BSc (Hons) in Government and Public Management, BSc (Hons) in Political Science and Diplomacy, BSc (Hons) In Law, BSc (Hons) in Economics, BSc (Hons) in Local Government passed with an Upper second class (2.1) degree classification.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MCSW",
+		"patterns": "Master of Science in Clinical Social Work   MCSW , Postgraduate in Science in Clinical Social Work   MCSW , I want to do Master of Science in Clinical Social Work   MCSW",
+		"responses": "The requirements for Master of Science in Clinical Social Work   MCSW  are \r\n  A good Honours degree in Social work; two years’ work experience / Master of Social work degree generic and registration with the Council of Social workers  Zimbabwe is a must.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MFCW",
+		"patterns": "Master of Science in Family and Child Welfare   MFCW , Postgraduate in Science in Family and Child Welfare   MFCW , I want to do Master of Science in Family and Child Welfare   MFCW",
+		"responses": "The requirements for Master of Science in Family and Child Welfare   MFCW  are \r\n  A good Honours degree in Social work; two years’ work experience / Master of Social work degree generic and registration with the Council of Social workers  Zimbabwe is a must.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSW",
+		"patterns": "Master of Science in Social Work   MSW , Postgraduate in Science in Social Work   MSW , I want to do Master of Science in Social Work   MSW",
+		"responses": "The requirements for Master of Science in Social Work   MSW  are \r\n  A good Honours degree in Social work or Postgraduate Diploma in Social Work. Registration with the Council of Social workers Zimbabwe is a must.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSWSP",
+		"patterns": "Master of Science in Social Work and Social Policy   MSWSP , Postgraduate in Science in Social Work and Social Policy   MSWSP , I want to do Master of Science in Social Work and Social Policy   MSWSP",
+		"responses": "The requirements for Master of Science in Social Work and Social Policy   MSWSP  are \r\n  A good Honours degree in Social work; two years’ work experience / Master of Social work degree generic and registration with the Council of Social workers  Zimbabwe is a must.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " PGDSW",
+		"patterns": "Postgraduate Diploma in Social Work   PGDSW , Postgraduate Diploma in Social Work   PGDSW , I want to do Postgraduate Diploma in Social Work   PGDSW",
+		"responses": "The requirements for Postgraduate Diploma in Social Work   PGDSW  are \r\n  Any Social Science degree from any recognised University.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MVSARB",
+		"patterns": "Master of Veterinary Science in Animal Reproduction & Biotechnology MVSARB , Postgraduate in Veterinary Science in Animal Reproduction & Biotechnology MVSARB , I want to do Master of Veterinary Science in Animal Reproduction & Biotechnology MVSARB",
+		"responses": "The requirements for Master of Veterinary Science in Animal Reproduction & Biotechnology MVSARB  are \r\n  To be admitted into the faculty postgraduate degree programmes, applicants should have a recognized Bachelor of Science Honours Degree in Veterinary Science or equivalent, with a classification of lower second class or better in the\r\nrelevant subject (s).",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MVSSRM",
+		"patterns": "Master   of   Veterinary   Science   in   Small   Ruminant   Medicine   and   Production Management MVSSRM , Master   of   Veterinary   Science   in   Small   Ruminant   Medicine   and   Production Management MVSSRM , I want to do Master   of   Veterinary   Science   in   Small   Ruminant   Medicine   and   Production Management MVSSRM",
+		"responses": "The requirements for Master   of   Veterinary   Science   in   Small   Ruminant   Medicine   and   Production Management MVSSRM  are \r\n  To  be  admitted  into  the  faculty  postgraduate  degree  programmes,  applicants should  have  a  recognized  Bachelor  of  Science  Honours  Degree  in  Veterinary Science or equivalent, with a classification of lower second class or better in the relevant subject (s).",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MZFD",
+		"patterns": "Master of Veterinary Science in Zoonoses and Animal Food borne Diseases MZFD , Postgraduate in Veterinary Science in Zoonoses and Animal Food borne Diseases MZFD , I want to do Master of Veterinary Science in Zoonoses and Animal Food borne Diseases MZFD",
+		"responses": "The requirements for Master of Veterinary Science in Zoonoses and Animal Food borne Diseases MZFD  are \r\n  To  be  admitted  into  the  faculty  postgraduate  degree  programmes,  applicants should  have  a  recognized  Bachelor  of  Science  Honours  Degree  in  Veterinary Science or equivalent, with a classification of lower second class or better in the\r\nrelevant subject (s).",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MAAE",
+		"patterns": "Mc Agricultural and Applied Economics (MAAE) , Mc Agricultural and Applied Economics (MAAE) , I want to do Mc Agricultural and Applied Economics (MAAE)",
+		"responses": "The requirements for Mc Agricultural and Applied Economics (MAAE)  are \r\n  Applicants  should  have  a  good  BSc  Honours  degree  in  Agricultural  Economic, Economics  or  Business  Studies  or  an  equivalent  degree  where  Econometrics, Macroeconomics and Microeconomics are strongly represented.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MAAPT",
+		"patterns": "MSc Agricultural Administration Policy and Trade (MAAPT) , Postgraduate in Agricultural Administration Policy and Trade (MAAPT) , I want to do MSc Agricultural Administration Policy and Trade (MAAPT)",
+		"responses": "The requirements for MSc Agricultural Administration Policy and Trade (MAAPT)  are \r\n  Applicants  should  have  a  good  BSc  Honours  degree  in  Agricultural  Economic, Economics  or  Business  Studies  or  an  equivalent  degree  where  Econometrics, Macroeconomics and Microeconomics are strongly represented.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MAIDA",
+		"patterns": "MSc Agricultural Informatics and Data Analytics (MAIDA) , Postgraduate in Agricultural Informatics and Data Analytics (MAIDA) , I want to do MSc Agricultural Informatics and Data Analytics (MAIDA)",
+		"responses": "The requirements for MSc Agricultural Informatics and Data Analytics (MAIDA)  are \r\n  Applicants should have a good BSc Honours in Computing Science or Mathematics.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MDST",
+		"patterns": "MSc Dairy Science & Technology (MDST) , Postgraduate in Dairy Science & Technology (MDST) , I want to do MSc Dairy Science & Technology (MDST)",
+		"responses": "The requirements for MSc Dairy Science & Technology (MDST)  are \r\n  Applicants must have a good Honours degree in Animal Science, Livestock Sciences or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MABB",
+		"patterns": "MSc Animal Breeding & Biotechnology (MABB) , Postgraduate in Animal Breeding & Biotechnology (MABB) , I want to do MSc Animal Breeding & Biotechnology (MABB)",
+		"responses": "The requirements for MSc Animal Breeding & Biotechnology (MABB)  are \r\n  Applicants must have a good Honours degree in Animal Science, Livestock Sciences or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MANFPS",
+		"patterns": "MSc Animal Nutrition & Feed Production Sciences (MANFPS) , Postgraduate in Animal Nutrition & Feed Production Sciences (MANFPS) , I want to do MSc Animal Nutrition & Feed Production Sciences (MANFPS)",
+		"responses": "The requirements for MSc Animal Nutrition & Feed Production Sciences (MANFPS)  are \r\n  Applicants must have a good Honours degree in Animal Science, Livestock Sciences or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MCPPT",
+		"patterns": "MSc Crop Protection and Postharvest Technology (MCPPT) , Postgraduate in Crop Protection and Postharvest Technology (MCPPT) , I want to do MSc Crop Protection and Postharvest Technology (MCPPT)",
+		"responses": "The requirements for MSc Crop Protection and Postharvest Technology (MCPPT)  are \r\n  Applicants should have a good Honours degree from a recognized institution of higher  learning  in  any  one  of  the  following  areas:  Agriculture,  Crop  Science, Agronomy,  Horticulture,  Plant  Breeding  and  Biotechnology,  Biological  Sciences (including  approved  modules)  or  an  equivalent Honours  degree with  approved\r\nCrop Science courses.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MH",
+		"patterns": "MSc Horticulture (MH) , Postgraduate in Horticulture (MH) , I want to do MSc Horticulture (MH)",
+		"responses": "The requirements for MSc Horticulture (MH)  are \r\n  Applicants should have a good Honours degree from a recognized institution of higher  learning  in  any  one  of  the  following  areas:  Agriculture,  Crop  Science, Agronomy,  Horticulture,  Plant  Breeding  and  Biotechnology,  Biological  Sciences (including  approved  modules)  or  an  equivalent Honours  degree with  approved\r\nCrop Science courses.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MISFS",
+		"patterns": "MSc Insect Science and Food Systems (MISFS) , Postgraduate in Insect Science and Food Systems (MISFS) , I want to do MSc Insect Science and Food Systems (MISFS)",
+		"responses": "The requirements for MSc Insect Science and Food Systems (MISFS)  are \r\n  Applicants should have a good Honours degree from a recognized institution of\r\nhigher  learning  in  any  one  of  the  following  areas:  Agriculture,  Crop  Science, Agronomy,  Horticulture,  Plant  Breeding  and  Biotechnology,  Biological  Sciences (including  approved  modules)  or  an  equivalent Honours  degree with  approved Crop Science courses.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MPBB",
+		"patterns": "MSc Plant Breeding and Biotechnology (MPBB) , Postgraduate in Plant Breeding and Biotechnology (MPBB) , I want to do MSc Plant Breeding and Biotechnology (MPBB)",
+		"responses": "The requirements for MSc Plant Breeding and Biotechnology (MPBB)  are \r\n  Applicants should have a good Honours degree from a recognized institution of higher  learning  in  any  one  of  the  following  areas:  Agriculture,  Crop  Science, Agronomy,  Horticulture,  Plant  Breeding  and  Biotechnology,  Biological  Sciences (including  approved  modules)  or  an  equivalent Honours  degree with  approved Crop Science courses.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MPPSDA",
+		"patterns": "MSc Plant Production Systems Design and Agronomy (MPPSDA) , Postgraduate in Plant Production Systems Design and Agronomy (MPPSDA) , I want to do MSc Plant Production Systems Design and Agronomy (MPPSDA)",
+		"responses": "The requirements for MSc Plant Production Systems Design and Agronomy (MPPSDA)  are \r\n  Applicants should have a good Honours degree from a recognized institution of higher  learning  in  any  one  of  the  following  areas:  Agriculture,  Crop  Science, Agronomy,  Horticulture,  Plant  Breeding  and  Biotechnology,  Biological  Sciences (including  approved  modules)  or  an  equivalent Honours  degree with  approved\r\nCrop Science courses.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MESE",
+		"patterns": "MSc. Environmental Systems Engineering (MESE) , Postgraduate in. Environmental Systems Engineering (MESE) , I want to do MSc. Environmental Systems Engineering (MESE)",
+		"responses": "The requirements for MSc. Environmental Systems Engineering (MESE)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MIEEM",
+		"patterns": "MSc. Industrial Ecology and Environmental Management (MIEEM) , Postgraduate in. Industrial Ecology and Environmental Management (MIEEM) , I want to do MSc. Industrial Ecology and Environmental Management (MIEEM)",
+		"responses": "The requirements for MSc. Industrial Ecology and Environmental Management (MIEEM)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MCCFS",
+		"patterns": "MSc. Climate Change and Food Systems (MCCFS) , Postgraduate in. Climate Change and Food Systems (MCCFS) , I want to do MSc. Climate Change and Food Systems (MCCFS)",
+		"responses": "The requirements for MSc. Climate Change and Food Systems (MCCFS)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSFPN",
+		"patterns": "MSc. Soil Fertility and Plant Nutrition (MSFPN) , Postgraduate in. Soil Fertility and Plant Nutrition (MSFPN) , I want to do MSc. Soil Fertility and Plant Nutrition (MSFPN)",
+		"responses": "The requirements for MSc. Soil Fertility and Plant Nutrition (MSFPN)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MSSPE",
+		"patterns": "MSc. Soil Science and Production Ecology (MSSPE) , Postgraduate in. Soil Science and Production Ecology (MSSPE) , I want to do MSc. Soil Science and Production Ecology (MSSPE)",
+		"responses": "The requirements for MSc. Soil Science and Production Ecology (MSSPE)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MACDAPS",
+		"patterns": "MSc. Agricultural Chemicals Development and Production Systems (MACDAPS) , Postgraduate in. Agricultural Chemicals Development and Production Systems (MACDAPS) , I want to do MSc. Agricultural Chemicals Development and Production Systems (MACDAPS)",
+		"responses": "The requirements for MSc. Agricultural Chemicals Development and Production Systems (MACDAPS)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MFPST",
+		"patterns": "M.Sc. Food Processing Systems and Technology (MFPST) , M.Sc. Food Processing Systems and Technology (MFPST) , I want to do M.Sc. Food Processing Systems and Technology (MFPST)",
+		"responses": "The requirements for M.Sc. Food Processing Systems and Technology (MFPST)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MAEMS",
+		"patterns": "M.Sc. Agricultural Equipment Manufacturing Systems (MAEMS) , M.Sc. Agricultural Equipment Manufacturing Systems (MAEMS) , I want to do M.Sc. Agricultural Equipment Manufacturing Systems (MAEMS)",
+		"responses": "The requirements for M.Sc. Agricultural Equipment Manufacturing Systems (MAEMS)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MISE",
+		"patterns": "M.Sc. Irrigation Systems Engineering (MISE) , M.Sc. Irrigation Systems Engineering (MISE) , I want to do M.Sc. Irrigation Systems Engineering (MISE)",
+		"responses": "The requirements for M.Sc. Irrigation Systems Engineering (MISE)  are \r\n  Applicants should hold a good Bachelor of Science Honours Degree in the field he/she intends to study at the MSc level or an approved equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " PDTI",
+		"patterns": "Postgraduate Diploma Translation and Interpretation   PDTI , Postgraduate Diploma Translation and Interpretation   PDTI , I want to do Postgraduate Diploma Translation and Interpretation   PDTI",
+		"responses": "The requirements for Postgraduate Diploma Translation and Interpretation   PDTI  are \r\n  A good undergraduate degree programme with 2.1 or better.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MLG",
+		"patterns": "Master of Arts Linguistics   MLG , Postgraduate in Arts Linguistics   MLG , I want to do Master of Arts Linguistics   MLG",
+		"responses": "The requirements for Master of Arts Linguistics   MLG  are \r\n  A good BA Hons degree with 2.1 or better in Linguistics/Applied Linguistics/BA\r\nHons in Languages.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MATI",
+		"patterns": "Master of Arts Language and Multicultural Communication (With Specialisation in Translation and Interpretation)   MATI , Postgraduate in Arts Language and Multicultural Communication (With Specialisation in Translation and Interpretation)   MATI , I want to do Master of Arts Language and Multicultural Communication (With Specialisation in Translation and Interpretation)   MATI",
+		"responses": "The requirements for Master of Arts Language and Multicultural Communication (With Specialisation in Translation and Interpretation)   MATI  are \r\n  A good BA Hons degree with 2.1 or better in Translation and Interpretation or BA Hons Linguistics/Applied Linguistics/BA Hons in Languages  OR  Postgraduate Diploma in Translation and Interpretation.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MLLPE",
+		"patterns": "Master of Arts Language and Literature Production (English)   MLLPE , Postgraduate in Arts Language and Literature Production (English)   MLLPE , I want to do Master of Arts Language and Literature Production (English)   MLLPE",
+		"responses": "The requirements for Master of Arts Language and Literature Production (English)   MLLPE  are \r\n  A good BA Hons degree with 2.1 or better in English or its equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MLLPA",
+		"patterns": "Master of Arts Language and Literature Production (African Languages)   MLLPA , Postgraduate in Arts Language and Literature Production (African Languages)   MLLPA , I want to do Master of Arts Language and Literature Production (African Languages)   MLLPA",
+		"responses": "The requirements for Master of Arts Language and Literature Production (African Languages)   MLLPA  are \r\n  A good BA Hons degree with 2.1 or better in Languages African Languages or its equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MEHKS",
+		"patterns": "Master of Arts in Economic History Heritage and Knowledge Systems   MEHKS , Postgraduate in Arts in Economic History Heritage and Knowledge Systems   MEHKS , I want to do Master of Arts in Economic History Heritage and Knowledge Systems   MEHKS",
+		"responses": "The requirements for Master of Arts in Economic History Heritage and Knowledge Systems   MEHKS  are \r\n  An undergraduate degree in Heritage and Economic History or its equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MTLCA",
+		"patterns": "Master of Arts in Theology Church Leadership and Administration   MTLCA , Postgraduate in Arts in Theology Church Leadership and Administration   MTLCA , I want to do Master of Arts in Theology Church Leadership and Administration   MTLCA",
+		"responses": "The requirements for Master of Arts in Theology Church Leadership and Administration   MTLCA  are \r\n  A good Honours degree in Religious Studies or Religion, Leadership and Society\r\nor any other programme approved by the Faculty.  The degree should be from a recognised Institution and passed with a 2.1 or better.  A degree passed with a",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MPEHD",
+		"patterns": "Master of Arts in Philosophy Practical Ethics and Human Development   MPEHD , Postgraduate in Arts in Philosophy Practical Ethics and Human Development   MPEHD , I want to do Master of Arts in Philosophy Practical Ethics and Human Development   MPEHD",
+		"responses": "The requirements for Master of Arts in Philosophy Practical Ethics and Human Development   MPEHD  are \r\n  A good Honours degree in Philosophy Ethics and Human Development with a 2.1 or better from a recognised Institution or any other programme approved by the\r\nFaculty.  A degree passed with a 2.2 may be considered at the recommendation",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MMPD",
+		"patterns": "Master of Arts Multi Media Production Design Systems   MMPD , Postgraduate in Arts Multi Media Production Design Systems   MMPD , I want to do Master of Arts Multi Media Production Design Systems   MMPD",
+		"responses": "The requirements for Master of Arts Multi Media Production Design Systems   MMPD  are \r\n  A good BA Hons degree with 2.1 or better in Media related programmes or its equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MCPG",
+		"patterns": "Master of Arts Conflict, Peace and Governance   MCPG , Postgraduate in Arts Conflict, Peace and Governance   MCPG , I want to do Master of Arts Conflict, Peace and Governance   MCPG",
+		"responses": "The requirements for Master of Arts Conflict are \r\n  A good honours degree with 2.2 or better in Conflict, Peacebuilding and Social Transformation or any other relevant programme.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MWS",
+		"patterns": "Master of Arts War and Security   MWS , Postgraduate in Arts War and Security   MWS , I want to do Master of Arts War and Security   MWS",
+		"responses": "The requirements for Master of Arts War and Security   MWS  are \r\n  A good honours degree with 2.2 or better in War and Security or any other relevant programme.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MDRRMS",
+		"patterns": "Master of Arts Disaster Risk Reduction and Management Systems   MDRRMS , Postgraduate in Arts Disaster Risk Reduction and Management Systems   MDRRMS , I want to do Master of Arts Disaster Risk Reduction and Management Systems   MDRRMS",
+		"responses": "The requirements for Master of Arts Disaster Risk Reduction and Management Systems   MDRRMS  are \r\n  A good honours degree with 2.2 or better in Disaster Risk Management or any other relevant programme.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MAHI",
+		"patterns": "Master of Arts History and International Affairs   MAHI , Postgraduate in Arts History and International Affairs   MAHI , I want to do Master of Arts History and International Affairs   MAHI",
+		"responses": "The requirements for Master of Arts History and International Affairs   MAHI  are \r\n  A good Honours degree in History or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MAF",
+		"patterns": "Master of Arts Archaeological Forensics   MAF , Postgraduate in Arts Archaeological Forensics   MAF , I want to do Master of Arts Archaeological Forensics   MAF",
+		"responses": "The requirements for Master of Arts Archaeological Forensics   MAF  are \r\n  Honours in Archaeology or Archaeological Sciences or equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": "MCMS",
+		"patterns": "Master of Arts in Communication and Media Studies MCMS , Postgraduate in Arts in Communication and Media Studies MCMS , I want to do Master of Arts in Communication and Media Studies MCMS",
+		"responses": "The requirements for Master of Arts in Communication and Media Studies MCMS  are \r\n  A good BA Hons degree with 2.1 or better in Journalism, Media related programmes or its equivalent.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MHRMP",
+		"patterns": "Master of Arts Heritage Resources Management and Materials Production   MHRMP , Postgraduate in Arts Heritage Resources Management and Materials Production   MHRMP , I want to do Master of Arts Heritage Resources Management and Materials Production   MHRMP",
+		"responses": "The requirements for Master of Arts Heritage Resources Management and Materials Production   MHRMP  are \r\n  Honours in Archaeology or Archaeological Sciences, Multicultural Heritage and\r\nTourism, African Heritage and Knowledge Systems, Museum Studies, Heritage Management or Heritage Studies.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MHCM",
+		"patterns": "MSC HUMAN CAPITAL MANAGEMENT   MHCM , Postgraduate in HUMAN CAPITAL MANAGEMENT   MHCM , I want to do MSC HUMAN CAPITAL MANAGEMENT   MHCM",
+		"responses": "The requirements for MSC HUMAN CAPITAL MANAGEMENT   MHCM  are \r\n  A Good Honours degree with a 2.2 pass or better  in Human Capital Management or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSCM",
+		"patterns": "MSC SUPPLY CHAIN MANAGEMENT   MSCM , Postgraduate in SUPPLY CHAIN MANAGEMENT   Postgraduate inM , I want to do MSC SUPPLY CHAIN MANAGEMENT   MSCM",
+		"responses": "The requirements for MSC SUPPLY CHAIN MANAGEMENT   MSCM  are \r\n  A Good Honours degree with a 2.2 pass or better  in Human Capital Management or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MIBM",
+		"patterns": "MSC INTERNATIONAL BUSINESS MANAGEMENT   MIBM , Postgraduate in INTERNATIONAL BUSINESS MANAGEMENT   MIBM , I want to do MSC INTERNATIONAL BUSINESS MANAGEMENT   MIBM",
+		"responses": "The requirements for MSC INTERNATIONAL BUSINESS MANAGEMENT   MIBM  are \r\n  A Good Honours degree with a 2.2 pass or better  in Business Management  or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MSIM",
+		"patterns": "MSC STRATEGIC AND INTERNATIONAL MARKETING    MSIM , Postgraduate in STRATEGIC AND INTERNATIONAL MARKETING    MSIM , I want to do MSC STRATEGIC AND INTERNATIONAL MARKETING    MSIM",
+		"responses": "The requirements for MSC STRATEGIC AND INTERNATIONAL MARKETING    MSIM  are \r\n  A Good Honours degree with a 2.2 pass or better  in Marketing Management  or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " DPSACCF",
+		"patterns": "POSTGRADUATE DIPLOMA IN PUBLIC SECTOR ACCOUNTING AND FINANCE   DPSACCF , POSTGRADUATE DIPLOMA IN PUBLIC SECTOR ACCOUNTING AND FINANCE   DPSACCF , I want to do POSTGRADUATE DIPLOMA IN PUBLIC SECTOR ACCOUNTING AND FINANCE   DPSACCF",
+		"responses": "The requirements for POSTGRADUATE DIPLOMA IN PUBLIC SECTOR ACCOUNTING AND FINANCE   DPSACCF  are \r\n  A good honours degree with a 2.2 or better in Public Sector Accounting or possess Professional qualifications in line with ZNQF entry requirements",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MCOPFIN",
+		"patterns": "MSC CORPORATE FINANCE AND INVESTMENT MANAGEMENT   MCOPFIN , Postgraduate in CORPORATE FINANCE AND INVESTMENT MANAGEMENT   MCOPFIN , I want to do MSC CORPORATE FINANCE AND INVESTMENT MANAGEMENT   MCOPFIN",
+		"responses": "The requirements for MSC CORPORATE FINANCE AND INVESTMENT MANAGEMENT   MCOPFIN  are \r\n  A Good Honours degree with a 2.2 pass or better  in Accounting or Finance  or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MPACFIN",
+		"patterns": "MSC PUBLIC SECTOR FINANCE AND INVESTMENT MANAGEMENT   MPACFIN , Postgraduate in PUBLIC SECTOR FINANCE AND INVESTMENT MANAGEMENT   MPACFIN , I want to do MSC PUBLIC SECTOR FINANCE AND INVESTMENT MANAGEMENT   MPACFIN",
+		"responses": "The requirements for MSC PUBLIC SECTOR FINANCE AND INVESTMENT MANAGEMENT   MPACFIN  are \r\n  A Good Honours degree with a 2.2 pass or better  in Public Sector Accounting or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MREPGOV",
+		"patterns": "MSC CORPORATE REPORTING AND GOVERNANCE   MREPGOV , Postgraduate in CORPORATE REPORTING AND GOVERNANCE   MREPGOV , I want to do MSC CORPORATE REPORTING AND GOVERNANCE   MREPGOV",
+		"responses": "The requirements for MSC CORPORATE REPORTING AND GOVERNANCE   MREPGOV  are \r\n  A Good Honours degree with a 2.2 pass or better  in Accounting or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MCOPINS",
+		"patterns": "MSC COPRPORATE RECONSTRUCTION AND INSOLVENCY   MCOPINS , Postgraduate in COPRPORATE RECONSTRUCTION AND INSOLVENCY   MCOPINS , I want to do MSC COPRPORATE RECONSTRUCTION AND INSOLVENCY   MCOPINS",
+		"responses": "The requirements for MSC COPRPORATE RECONSTRUCTION AND INSOLVENCY   MCOPINS  are \r\n  A Good Honours degree with a 2.2 pass or better  in Accounting or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MMICDEV",
+		"patterns": "MSC MICROBUSINESS DEVELOPMENT AND DEVELOPMENT   MMICDEV , Postgraduate in MICROBUSINESS DEVELOPMENT AND DEVELOPMENT   MMICDEV , I want to do MSC MICROBUSINESS DEVELOPMENT AND DEVELOPMENT   MMICDEV",
+		"responses": "The requirements for MSC MICROBUSINESS DEVELOPMENT AND DEVELOPMENT   MMICDEV  are \r\n  A Good Honours degree with a 2.2 pass or better  in Accounting or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MACCFIN",
+		"patterns": "MSC ACCOUNTING AND FINANCE   MACCFIN , Postgraduate in ACCOUNTING AND FINANCE   MACCFIN , I want to do MSC ACCOUNTING AND FINANCE   MACCFIN",
+		"responses": "The requirements for MSC ACCOUNTING AND FINANCE   MACCFIN  are \r\n  A Good Honours degree with a 2.2 pass or better  in Accounting or Finance or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MESE",
+		"patterns": "MSC ECONOMETRICS AND COMPUTATIONAL ECONOMICS   MESE , Postgraduate in ECONOMETRICS AND COMPUTATIONAL ECONOMICS   MESE , I want to do MSC ECONOMETRICS AND COMPUTATIONAL ECONOMICS   MESE",
+		"responses": "The requirements for MSC ECONOMETRICS AND COMPUTATIONAL ECONOMICS   MESE  are \r\n  A Good Honours degree with a 2.1 pass or better  in Computational Economics or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MMNR",
+		"patterns": "MSC MINERAL AND NATURAL RESOURCES ECONOMICS   MMNR , Postgraduate in MINERAL AND NATURAL RESOURCES ECONOMICS   MMNR , I want to do MSC MINERAL AND NATURAL RESOURCES ECONOMICS   MMNR",
+		"responses": "The requirements for MSC MINERAL AND NATURAL RESOURCES ECONOMICS   MMNR  are \r\n  A Good Honours degree with a 2.1 pass or better  in Economics  or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MIET",
+		"patterns": "MSC INDUSTRIAL ECONOMICS AND TRADE   MIET , Postgraduate in INDUSTRIAL ECONOMICS AND TRADE   MIET , I want to do MSC INDUSTRIAL ECONOMICS AND TRADE   MIET",
+		"responses": "The requirements for MSC INDUSTRIAL ECONOMICS AND TRADE   MIET  are \r\n  A Good Honours degree with a 2.1 pass or better  in Economics  or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MBEIA",
+		"patterns": "MSC BUSINESS ECONOMICS AND INVESTMENT ANALYSIS   MBEIA , Postgraduate in BUSINESS ECONOMICS AND INVESTMENT ANALYSIS   MBEIA , I want to do MSC BUSINESS ECONOMICS AND INVESTMENT ANALYSIS   MBEIA",
+		"responses": "The requirements for MSC BUSINESS ECONOMICS AND INVESTMENT ANALYSIS   MBEIA  are \r\n  A Good Honours degree with a 2.1 pass or better  in Economics  or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " MTHM",
+		"patterns": "MSC TOURISM AND HOSPITALITY MANAGEMENT   MTHM , Postgraduate in TOURISM AND HOSPITALITY MANAGEMENT   MTHM , I want to do MSC TOURISM AND HOSPITALITY MANAGEMENT   MTHM",
+		"responses": "The requirements for MSC TOURISM AND HOSPITALITY MANAGEMENT   MTHM  are \r\n  A Good Honours degree with a 2.1 pass or better  in Tourism and Hospitality Management  or possess Professional qualifications in line with ZNQF entry requirements.",
+		"context": "Postgraduate"
+	},
+	{
+		"tag": " HVCDAM",
+		"patterns": "BSc Honours Value Chain Development and Agricultural  Marketing  HVCDAM , undergraduate  Honours Value Chain Development and Agricultural  Marketing  HVCDAM , I want to do BSc Honours Value Chain Development and Agricultural  Marketing  HVCDAM",
+		"responses": "The requirements for BSc Honours Value Chain Development and Agricultural  Marketing  HVCDAM  are \r\n  Good ‘O’ Level passes (Grade B or better) in Mathematics and Science AND at least 2 ‘A’ Level passes in Mathematics or Economics/ Business Studies/ and one subject from Accounts, Biology, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized\r\nAgricultural college",
+		"context": ""
+	},
+	{
+		"tag": " HDCS",
+		"patterns": "BSc  Honours  Agricultural  Development  and  Communication   Systems  HDCS , undergraduate   Honours  Agricultural  Development  and  Communication   Systems  HDCS , I want to do BSc  Honours  Agricultural  Development  and  Communication   Systems  HDCS",
+		"responses": "The requirements for BSc  Honours  Agricultural  Development  and  Communication   Systems  HDCS  are \r\n  Good ‘O’ Level passes (Grade B or better) in Mathematics and Science AND at least 2 ‘A’ Level passes in Mathematics or Economics/ Business Studies/ and one subject from Accounts, Biology, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized\r\nAgricultural College",
+		"context": ""
+	},
+	{
+		"tag": "HANRE",
+		"patterns": "BSc Honours Agricultural and Natural Resource Economics HANRE , undergraduate  Honours Agricultural and Natural Resource Economics HANRE , I want to do BSc Honours Agricultural and Natural Resource Economics HANRE",
+		"responses": "The requirements for BSc Honours Agricultural and Natural Resource Economics HANRE  are \r\n  Good ‘O’ Level passes (Grade B or better) in Mathematics and Science AND at least 2 ‘A’ Level passes in Mathematics or Economics/ Business Studies/ and one subject from Accounts, Biology, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized\r\nAgricultural college",
+		"context": ""
+	},
+	{
+		"tag": "HAI",
+		"patterns": "BSc Honours Agricultural Informatics HAI , undergraduate  Honours Agricultural Informatics HAI , I want to do BSc Honours Agricultural Informatics HAI",
+		"responses": "The requirements for BSc Honours Agricultural Informatics HAI  are \r\n  Good ‘O’ Level passes (Grade B or better) in Mathematics and Science AND at least 2 ‘A’ Level passes in Mathematics or Economics/ Business Studies/ and one subject from Accounts, Biology, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized\r\nAgricultural college",
+		"context": ""
+	},
+	{
+		"tag": "HPPST",
+		"patterns": "BSc Honours Plant Production Science  & Technology HPPST , undergraduate  Honours Plant Production Science  & Technology HPPST , I want to do BSc Honours Plant Production Science  & Technology HPPST",
+		"responses": "The requirements for BSc Honours Plant Production Science  & Technology HPPST  are \r\n  At least 2 ‘A’ Level passes in Biology and one subject from Mathematics, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized Agricultural college",
+		"context": ""
+	},
+	{
+		"tag": "HHPS",
+		"patterns": "BSc Honours Horticulture and Plantation Sciences HHPS , undergraduate  Honours Horticulture and Plantation Sciences HHPS , I want to do BSc Honours Horticulture and Plantation Sciences HHPS",
+		"responses": "The requirements for BSc Honours Horticulture and Plantation Sciences HHPS  are \r\n  At least 2 ‘A’ Level passes in Biology and one subject from Mathematics, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized Agricultural college",
+		"context": ""
+	},
+	{
+		"tag": "HCISS",
+		"patterns": "BSc Honours Crop Improvement and Seed Systems HCISS , undergraduate  Honours Crop Improvement and Seed Systems HCISS , I want to do BSc Honours Crop Improvement and Seed Systems HCISS",
+		"responses": "The requirements for BSc Honours Crop Improvement and Seed Systems HCISS  are \r\n  At least 2 ‘A’ Level passes in Biology and one subject from Mathematics, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized Agricultural college",
+		"context": ""
+	},
+	{
+		"tag": "HLPNS",
+		"patterns": "BSc Honours Livestock Production and Nutrition Sciences HLPNS , undergraduate  Honours Livestock Production and Nutrition Sciences HLPNS , I want to do BSc Honours Livestock Production and Nutrition Sciences HLPNS",
+		"responses": "The requirements for BSc Honours Livestock Production and Nutrition Sciences HLPNS  are \r\n  At least 2 ‘A’ Level passes in Biology and one subject from Mathematics, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized Agricultural college",
+		"context": ""
+	},
+	{
+		"tag": "HLIGC",
+		"patterns": "BSc Honours Livestock Improvement and Genetic Conservation HLIGC , undergraduate  Honours Livestock Improvement and Genetic Conservation HLIGC , I want to do BSc Honours Livestock Improvement and Genetic Conservation HLIGC",
+		"responses": "The requirements for BSc Honours Livestock Improvement and Genetic Conservation HLIGC  are \r\n  At least 2 ‘A’ Level passes in Biology and one subject from Mathematics, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR",
+		"context": ""
+	},
+	{
+		"tag": "HRSLPE",
+		"patterns": "BSc Honours Rangeland Science and Livestock Production Ecology HRSLPE , undergraduate  Honours Rangeland Science and Livestock Production Ecology HRSLPE , I want to do BSc Honours Rangeland Science and Livestock Production Ecology HRSLPE",
+		"responses": "The requirements for BSc Honours Rangeland Science and Livestock Production Ecology HRSLPE  are \r\n  At least 2 ‘A’ Level passes in Biology and one subject from Mathematics, Geography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR a Diploma in Agriculture from a recognized Agricultural college",
+		"context": ""
+	},
+	{
+		"tag": "HMDST",
+		"patterns": "BSc Honours Meat and Dairy Sciences and Technology HMDST , undergraduate  Honours Meat and Dairy Sciences and Technology HMDST , I want to do BSc Honours Meat and Dairy Sciences and Technology HMDST",
+		"responses": "The requirements for BSc Honours Meat and Dairy Sciences and Technology HMDST  are \r\n  At least 2 ‘A’ Level passes in Biology and one subject from Mathematics,\r\nGeography, Chemistry, Physics and Agriculture/ Crop Science/Animal Science OR",
+		"context": ""
+	},
+	{
+		"tag": "HSSLM",
+		"patterns": "BSc Honours Soil Science and Land Management HSSLM , undergraduate  Honours Soil Science and Land Management HSSLM , I want to do BSc Honours Soil Science and Land Management HSSLM",
+		"responses": "The requirements for BSc Honours Soil Science and Land Management HSSLM  are \r\n  At least 2 ‘A’ Level passes in Chemistry and one subject from Biology, Physics, Mathematics, Geography and Agriculture/Crop Science/ Animal Science",
+		"context": ""
+	},
+	{
+		"tag": "HWWMS",
+		"patterns": "BSc Honours Water and Waste Management Systems HWWMS , undergraduate  Honours Water and Waste Management Systems HWWMS , I want to do BSc Honours Water and Waste Management Systems HWWMS",
+		"responses": "The requirements for BSc Honours Water and Waste Management Systems HWWMS  are \r\n  At least 2 ‘A’ Level passes from Chemistry, Biology, Physics, Mathematics, Geography and Agriculture/Crop Science/Animal Science.",
+		"context": ""
+	},
+	{
+		"tag": "HAEMS",
+		"patterns": "BSc Honours Agricultural and Environmental Monitoring Systems HAEMS , undergraduate  Honours Agricultural and Environmental Monitoring Systems HAEMS , I want to do BSc Honours Agricultural and Environmental Monitoring Systems HAEMS",
+		"responses": "The requirements for BSc Honours Agricultural and Environmental Monitoring Systems HAEMS  are \r\n  At least 2 ‘A’ Level passes from Chemistry, Biology, Physics, Mathematics, Geography and Agriculture/Crop Science/Animal Science.",
+		"context": ""
+	},
+	{
+		"tag": "HCSRL",
+		"patterns": "BSc Honours Climate Science Resilience and Livelihoods HCSRL , undergraduate  Honours Climate Science Resilience and Livelihoods HCSRL , I want to do BSc Honours Climate Science Resilience and Livelihoods HCSRL",
+		"responses": "The requirements for BSc Honours Climate Science Resilience and Livelihoods HCSRL  are \r\n  At least 2 ‘A’ Level passes from Chemistry, Biology, Physics, Mathematics, Geography and Agriculture/Crop Science/Animal Science.",
+		"context": ""
+	},
+	{
+		"tag": "HAEST",
+		"patterns": "BSc Honours Applied Environmental Sciences and Technology HAEST , undergraduate  Honours Applied Environmental Sciences and Technology HAEST , I want to do BSc Honours Applied Environmental Sciences and Technology HAEST",
+		"responses": "The requirements for BSc Honours Applied Environmental Sciences and Technology HAEST  are \r\n  At least ‘A’ Level passes in Biology and one subject from Chemistry, Physics, Mathematics, Geography and Agriculture/Crop Science/ Animal Science",
+		"context": ""
+	},
+	{
+		"tag": " HAEDMS",
+		"patterns": "BSc Honours Agricultural Equipment Design and  Manufacturing Systems  HAEDMS , undergraduate  Honours Agricultural Equipment Design and  Manufacturing Systems  HAEDMS , I want to do BSc Honours Agricultural Equipment Design and  Manufacturing Systems  HAEDMS",
+		"responses": "The requirements for BSc Honours Agricultural Equipment Design and  Manufacturing Systems  HAEDMS  are \r\n  At least 2 ‘A’ Level passes in Mathematics and Physics (compulsory).",
+		"context": ""
+	},
+	{
+		"tag": "HFE",
+		"patterns": "BSc Honours Food Engineering HFE , undergraduate  Honours Food Engineering HFE , I want to do BSc Honours Food Engineering HFE",
+		"responses": "The requirements for BSc Honours Food Engineering HFE  are \r\n  At least 2 ‘A’ Level passes in Mathematics and Physics (compulsory).",
+		"context": ""
+	},
+	{
+		"tag": "HWRIE",
+		"patterns": "BSc Honours Water Resources and Irrigation Engineering HWRIE , undergraduate  Honours Water Resources and Irrigation Engineering HWRIE , I want to do BSc Honours Water Resources and Irrigation Engineering HWRIE",
+		"responses": "The requirements for BSc Honours Water Resources and Irrigation Engineering HWRIE  are \r\n  At least 2 ‘A’ Level passes in Mathematics and Physics (compulsory).",
+		"context": ""
+	},
+	{
+		"tag": "HAPPDSE",
+		"patterns": "BSc Honours Agricultural Processing Plant Design and Systems Engineering HAPPDSE , undergraduate  Honours Agricultural Processing Plant Design and Systems Engineering HAPPDSE , I want to do BSc Honours Agricultural Processing Plant Design and Systems Engineering HAPPDSE",
+		"responses": "The requirements for BSc Honours Agricultural Processing Plant Design and Systems Engineering HAPPDSE  are \r\n  At least 2 ‘A’ Level passes in Mathematics and Physics (compulsory).",
+		"context": ""
+	},
+	{
+		"tag": " HFTRP",
+		"patterns": "BA Honours Film Radio and Television Production   HFTRP , Bachelor of arts  Honours Film Radio and Television Production   HFTRP , I want to do BA Honours Film Radio and Television Production   HFTRP",
+		"responses": "The requirements for BA Honours Film Radio and Television Production   HFTRP  are \r\n  At least 2 'A' level in Arts subjects",
+		"context": ""
+	},
+	{
+		"tag": " HMMP",
+		"patterns": "BA Honours MultiMedia Production   HMMP , Bachelor of arts  Honours MultiMedia Production   HMMP , I want to do BA Honours MultiMedia Production   HMMP",
+		"responses": "The requirements for BA Honours MultiMedia Production   HMMP  are \r\n  At least 2 'A' level in Arts subjects",
+		"context": ""
+	},
+	{
+		"tag": " HMMC",
+		"patterns": "BA Honours Media and Marketing Communication   HMMC , Bachelor of arts  Honours Media and Marketing Communication   HMMC , I want to do BA Honours Media and Marketing Communication   HMMC",
+		"responses": "The requirements for BA Honours Media and Marketing Communication   HMMC  are \r\n  At least 2 'A' level passes in Arts subjects or Commercials",
+		"context": ""
+	},
+	{
+		"tag": " HBAM",
+		"patterns": "BA Honours African Musicology   HBAM , Bachelor of arts  Honours African Musicology   HBachelor of arts M , I want to do BA Honours African Musicology   HBAM",
+		"responses": "The requirements for BA Honours African Musicology   HBAM  are \r\n  At least 2 'A' level passesin  Arts subjects",
+		"context": ""
+	},
+	{
+		"tag": " HLLIE",
+		"patterns": "BA   Honours   Language  Literature   and  Intercultural   Communication      HLLIE , Bachelor of arts    Honours   Language  Literature   and  Intercultural   Communication      HLLIE , I want to do BA   Honours   Language  Literature   and  Intercultural   Communication      HLLIE",
+		"responses": "The requirements for BA   Honours   Language  Literature   and  Intercultural   Communication      HLLIE  are \r\n  A' level passes in English Literature or Literature in English and any Arts subjects.",
+		"context": ""
+	},
+	{
+		"tag": " HMCTI",
+		"patterns": "BA Honours Multilingual Communication Translation and Interpretation    HMCTI , Bachelor of arts  Honours Multilingual Communication Translation and Interpretation    HMCTI , I want to do BA Honours Multilingual Communication Translation and Interpretation    HMCTI",
+		"responses": "The requirements for BA Honours Multilingual Communication Translation and Interpretation    HMCTI  are \r\n  A'   level   passes   in   Arts   subjects   and   O   Level   African/Foreign   Languages\r\nOR                                                                                                                     Diploma     in\r\nTranslation & Interpretation Studies or its equivalent",
+		"context": ""
+	},
+	{
+		"tag": " HMHT",
+		"patterns": "BA Honours Multicultural Heritage and Tourism   HMHT , Bachelor of arts  Honours Multicultural Heritage and Tourism   HMHT , I want to do BA Honours Multicultural Heritage and Tourism   HMHT",
+		"responses": "The requirements for BA Honours Multicultural Heritage and Tourism   HMHT  are \r\n  2 'A' level subjects including Heritage Studies, Museum Studies, History and Geography",
+		"context": ""
+	},
+	{
+		"tag": " HPEHD",
+		"patterns": "BA Honours Philosophy Ethics and Human Development   HPEHD , Bachelor of arts  Honours Philosophy Ethics and Human Development   HPEHD , I want to do BA Honours Philosophy Ethics and Human Development   HPEHD",
+		"responses": "The requirements for BA Honours Philosophy Ethics and Human Development   HPEHD  are \r\n  ‘A’ Level passes in Arts subjects plus 5 ‘O’ Level Subjects including English language  Or  A diploma in Philosophy from a recognised institution",
+		"context": ""
+	},
+	{
+		"tag": " HRLDS",
+		"patterns": "BA Honours Religion Leadership and Society   HRLDS , Bachelor of arts  Honours Religion Leadership and Society   HRLDS , I want to do BA Honours Religion Leadership and Society   HRLDS",
+		"responses": "The requirements for BA Honours Religion Leadership and Society   HRLDS  are \r\n  A’ Level passes in Divinity and any other Arts subjects plus 5 ‘O’ Level Subjects including English language  Or  A diploma in Religious Studies/ Theology from a recognised institution",
+		"context": ""
+	},
+	{
+		"tag": " HAHKS",
+		"patterns": "BA Honours African Heritage and Knowledge Systems   HAHKS , Bachelor of arts  Honours African Heritage and Knowledge Systems   HAHKS , I want to do BA Honours African Heritage and Knowledge Systems   HAHKS",
+		"responses": "The requirements for BA Honours African Heritage and Knowledge Systems   HAHKS  are \r\n  2 'A' level subjects including Heritage Studies, Museum Studies, History and Geography",
+		"context": ""
+	},
+	{
+		"tag": " HASHD",
+		"patterns": "BA Honours Archaeological Sciences and Human Development   HASHD , Bachelor of arts  Honours Archaeological Sciences and Human Development   HASHD , I want to do BA Honours Archaeological Sciences and Human Development   HASHD",
+		"responses": "The requirements for BA Honours Archaeological Sciences and Human Development   HASHD  are \r\n  O’level Maths and 2 'A' level subjects including Heritage Studies, Museum Studies, History, Geography, Chemistry and Biology",
+		"context": ""
+	},
+	{
+		"tag": " DAH",
+		"patterns": "BA Honours Digital Archival and Historical Information Management   DAH , Bachelor of arts  Honours Digital Archival and Historical Information Management   DAH , I want to do BA Honours Digital Archival and Historical Information Management   DAH",
+		"responses": "The requirements for BA Honours Digital Archival and Historical Information Management   DAH  are \r\n  'A' level pass in History and any other Arts subjects",
+		"context": ""
+	},
+	{
+		"tag": "HJMB",
+		"patterns": "BA Honours Journalism,Media and Broadcasting HJMB , Bachelor of arts  Honours Journalism,Media and Broadcasting HJMB , I want to do BA Honours Journalism,Media and Broadcasting HJMB",
+		"responses": "The requirements for BA Honours Journalism are \r\n  At least 2 'A' level passes in Arts subjects",
+		"context": ""
+	},
+	{
+		"tag": "HFA",
+		"patterns": "BA Honours Fine Arts HFA , Bachelor of arts  Honours Fine Arts HFA , I want to do BA Honours Fine Arts HFA",
+		"responses": "The requirements for BA Honours Fine Arts HFA  are \r\n  At least 2 'A' level passes in Arts subjects",
+		"context": ""
+	},
+	{
+		"tag": "HVPA",
+		"patterns": "BA Honours Visual and performing Arts HVPA , Bachelor of arts  Honours Visual and performing Arts HVPA , I want to do BA Honours Visual and performing Arts HVPA",
+		"responses": "The requirements for BA Honours Visual and performing Arts HVPA  are \r\n  At least 2 'A' level passes in Arts subjects",
+		"context": ""
+	},
+	{
+		"tag": "HCPST",
+		"patterns": "BA Honours Conflict peace Building and Social Transformation HCPST , Bachelor of arts  Honours Conflict peace Building and Social Transformation HCPST , I want to do BA Honours Conflict peace Building and Social Transformation HCPST",
+		"responses": "The requirements for BA Honours Conflict peace Building and Social Transformation HCPST  are \r\n  At least 2 'A' level passes in Arts subjects",
+		"context": ""
+	},
+	{
+		"tag": " HRRDM",
+		"patterns": "BA Honours Risk Reduction and Disaster Management   HRRDM , Bachelor of arts  Honours Risk Reduction and Disaster Management   HRRDM , I want to do BA Honours Risk Reduction and Disaster Management   HRRDM",
+		"responses": "The requirements for BA Honours Risk Reduction and Disaster Management   HRRDM  are \r\n  At least 2 A’ Level passes in Arts and Humanities; Sciences OR Diploma in Disaster Management or its equivalent.",
+		"context": ""
+	},
+	{
+		"tag": "HPSACCF",
+		"patterns": "BSc Honours Public Sector Accounting and Finance HPSACCF , undergraduate  Honours Public Sector Accounting and Finance HPSACCF , I want to do BSc Honours Public Sector Accounting and Finance HPSACCF",
+		"responses": "The requirements for BSc Honours Public Sector Accounting and Finance HPSACCF  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the  National\r\nQualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HFORACC",
+		"patterns": "BSc Honours Forensic Accounting  HFORACC , undergraduate  Honours Forensic Accounting  HFORACC , I want to do BSc Honours Forensic Accounting  HFORACC",
+		"responses": "The requirements for BSc Honours Forensic Accounting  HFORACC  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the  National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HACCN",
+		"patterns": "BSc Honours Accounting and Finance HACCN , undergraduate  Honours Accounting and Finance HACCN , I want to do BSc Honours Accounting and Finance HACCN",
+		"responses": "The requirements for BSc Honours Accounting and Finance HACCN  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the  National\r\nQualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HFCSDA",
+		"patterns": "BSc Honours Financial and Accounting Systems Development and Applications HFCSDA , undergraduate  Honours Financial and Accounting Systems Development and Applications HFCSDA , I want to do BSc Honours Financial and Accounting Systems Development and Applications HFCSDA",
+		"responses": "The requirements for BSc Honours Financial and Accounting Systems Development and Applications HFCSDA  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HFISMGT",
+		"patterns": "BSc Honours Fiscal Management HFISMGT , undergraduate  Honours Fiscal Management HFISMGT , I want to do BSc Honours Fiscal Management HFISMGT",
+		"responses": "The requirements for BSc Honours Fiscal Management HFISMGT  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the  National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HARMGT",
+		"patterns": "BSc Honours Audit and Risk Management HARMGT , undergraduate  Honours Audit and Risk Management HARMGT , I want to do BSc Honours Audit and Risk Management HARMGT",
+		"responses": "The requirements for BSc Honours Audit and Risk Management HARMGT  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the",
+		"context": ""
+	},
+	{
+		"tag": "HLHM",
+		"patterns": "BSc Honours Leisure and Hospitality Management  HLHM , undergraduate  Honours Leisure and Hospitality Management  HLHM , I want to do BSc Honours Leisure and Hospitality Management  HLHM",
+		"responses": "The requirements for BSc Honours Leisure and Hospitality Management  HLHM  are \r\n  At 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the    National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HCAHC",
+		"patterns": "BSc Honours Culinary Arts and Hotel Catering  HCAHC , undergraduate  Honours Culinary Arts and Hotel Catering  HCAHC , I want to do BSc Honours Culinary Arts and Hotel Catering  HCAHC",
+		"responses": "The requirements for BSc Honours Culinary Arts and Hotel Catering  HCAHC  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the  National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HETD",
+		"patterns": "BSc Honours Economic Tourism Development  HETD , undergraduate  Honours Economic Tourism Development  HETD , I want to do BSc Honours Economic Tourism Development  HETD",
+		"responses": "The requirements for BSc Honours Economic Tourism Development  HETD  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English\r\nLanguage or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": " HITMI",
+		"patterns": "BSc Honours Integrated Tourism Marketing and Internationalisation  HITMI , undergraduate  Honours Integrated Tourism Marketing and Internationalisation  HITMI , I want to do BSc Honours Integrated Tourism Marketing and Internationalisation  HITMI",
+		"responses": "The requirements for BSc Honours Integrated Tourism Marketing and Internationalisation  HITMI  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the National\r\nQualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HBED",
+		"patterns": "BSc Honours Business Enterprise Development HBED , undergraduate  Honours Business Enterprise Development HBED , I want to do BSc Honours Business Enterprise Development HBED",
+		"responses": "The requirements for BSc Honours Business Enterprise Development HBED  are \r\n  At least 2  'A' Level passes plus 5 'O Level passes including Maths and English\r\nLanguage or Relevant diploma or equivalent as prescribed under the  National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HCM",
+		"patterns": "BSc Honours Human Capital Development Science HCM , undergraduate  Honours Human Capital Development Science HCM , I want to do BSc Honours Human Capital Development Science HCM",
+		"responses": "The requirements for BSc Honours Human Capital Development Science HCM  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under  National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": " HBMSDA",
+		"patterns": "BSc Honours Business Management Systems Design and Applications  HBMSDA , undergraduate  Honours Business Management Systems Design and Applications  HBMSDA , I want to do BSc Honours Business Management Systems Design and Applications  HBMSDA",
+		"responses": "The requirements for BSc Honours Business Management Systems Design and Applications  HBMSDA  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HBMI",
+		"patterns": "BSc Honours Business Marketing Informatics HBMI , undergraduate  Honours Business Marketing Informatics HBMI , I want to do BSc Honours Business Marketing Informatics HBMI",
+		"responses": "The requirements for BSc Honours Business Marketing Informatics HBMI  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HDBANK",
+		"patterns": "BSc Digital Banking  HDBANK , undergraduate  Digital Bachelor of arts nking  HDBachelor of arts NK , I want to do BSc Digital Banking  HDBANK",
+		"responses": "The requirements for BSc Digital Banking  HDBANK  are \r\n  at least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HPRM",
+		"patterns": "BSc Honours Public Relations and Marketing HPRM , undergraduate  Honours Public Relations and Marketing HPRM , I want to do BSc Honours Public Relations and Marketing HPRM",
+		"responses": "The requirements for BSc Honours Public Relations and Marketing HPRM  are \r\n  At least 2'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the  National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HSCM",
+		"patterns": "BSc Honours Supply Chain Management  HSCM , undergraduate  Honours Supply Chain Management  HSCM , I want to do BSc Honours Supply Chain Management  HSCM",
+		"responses": "The requirements for BSc Honours Supply Chain Management  HSCM  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HECD",
+		"patterns": "BSc Honours Economics and Development HECD , undergraduate  Honours Economics and Development HECD , I want to do BSc Honours Economics and Development HECD",
+		"responses": "The requirements for BSc Honours Economics and Development HECD  are \r\n  At least 2'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HBIE",
+		"patterns": "BSc Honours Business and Industrial Economics HBIE , undergraduate  Honours Business and Industrial Economics HBIE , I want to do BSc Honours Business and Industrial Economics HBIE",
+		"responses": "The requirements for BSc Honours Business and Industrial Economics HBIE  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HFET",
+		"patterns": "BSc Honours Financial Economics and Trade HFET , undergraduate  Honours Financial Economics and Trade HFET , I want to do BSc Honours Financial Economics and Trade HFET",
+		"responses": "The requirements for BSc Honours Financial Economics and Trade HFET  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English\r\nLanguage or Relevant diploma or equivalent as prescribed under the National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HCOE",
+		"patterns": "BSc Honours Computational Economics HCOE , undergraduate  Honours Computational Economics HCOE , I want to do BSc Honours Computational Economics HCOE",
+		"responses": "The requirements for BSc Honours Computational Economics HCOE  are \r\n  At least 2 'A' Level passes plus 5 'O Level passes including Maths and English Language or Relevant diploma or equivalent as prescribed under  National Qualifications Framework",
+		"context": ""
+	},
+	{
+		"tag": "HET",
+		"patterns": "BSc Hon Electronics and Telecommunications Engineering HET , undergraduate  Hon Electronics and Telecommunications Engineering HET , I want to do BSc Hon Electronics and Telecommunications Engineering HET",
+		"responses": "The requirements for BSc Hon Electronics and Telecommunications Engineering HET  are \r\n  Normal Entry: At least 2 'A' Level passes in the following subjects or their recognised equivalents: Mathematics, Computer Science, Physics; five Ordinary Level passes including Mathematics, an official indegenous language or approved\r\nequivalent and any other subject(s) deemed necessary. Special Entry: Diploma in",
+		"context": ""
+	},
+	{
+		"tag": "HCF",
+		"patterns": "BSc._Honours_Cyber_Security_and_Forensic_Auditing__HCF HCF , undergraduate ._Honours_Cyber_Security_and_Forensic_Auditing__HCF HCF , I want to do BSc._Honours_Cyber_Security_and_Forensic_Auditing__HCF HCF",
+		"responses": "The requirements for BSc._Honours_Cyber_Security_and_Forensic_Auditing__HCF HCF  are \r\n  Normal__Entry:__At__least__2__'A'__Level__passes__in__the__following__subjects__or__their_recognised__equivalents:__Mathematics,__Computer__Science,__Physics;__five__Ordinary_Level_passes_including_Mathematics,_an_official_indegenous_language_or_approved_equivalent_and_any_other_subject(s)_deemed_necessary._Special_Entry:_Diploma_in_IT_or_equivalent",
+		"context": ""
+	},
+	{
+		"tag": "HNE",
+		"patterns": "BSc Hons Network Engineering HNE , undergraduate  Hons Network Engineering HNE , I want to do BSc Hons Network Engineering HNE",
+		"responses": "The requirements for BSc Hons Network Engineering HNE  are \r\n  Normal  Entry:  At  least  2  'A'  Level  passes  in  the  following  subjects  or  their recognised  equivalents:  Mathematics,  Computer  Science,  Physics;  five  Ordinary Level passes including Mathematics, an official indegenous language or approved equivalent and any other subject(s) deemed necessary. Special Entry: Diploma in IT or equivalent",
+		"context": ""
+	},
+	{
+		"tag": "HDS",
+		"patterns": "BSc. Honours Data Science and Informatics HDS , undergraduate . Honours Data Science and Informatics HDS , I want to do BSc. Honours Data Science and Informatics HDS",
+		"responses": "The requirements for BSc. Honours Data Science and Informatics HDS  are \r\n  Normal  Entry:  At  least  2   'A'  Level  passes  in  of  the  following  subjects  or  their recognised  equivalents:  Mathematics,  Computer  Science,  Physics;  five  Ordinary Level passes including Mathematics, an official indegenous language or approved equivalent and any other subject(s) deemed necessary. Special Entry: Diploma in IT or equivalent",
+		"context": ""
+	},
+	{
+		"tag": "HCE",
+		"patterns": "BSc Hons. Computer Engineering HCE , undergraduate  Hons. Computer Engineering HCE , I want to do BSc Hons. Computer Engineering HCE",
+		"responses": "The requirements for BSc Hons. Computer Engineering HCE  are \r\n  Normal  Entry  :At  least  2  'A'Passes  at  Advanced  Level  in  at  least  two  of  the following   subjects   or   their   recognised   equivalents:   Mathematics,   Computer Science,  Physics;  five  Ordinary  Level  passes  including  Mathematics,  an  official indegenous  language  or  approved  equivalent  and  any  other  subject(s)  deemed necessary. Special Entry: Diploma in IT or equivalent",
+		"context": ""
+	},
+	{
+		"tag": "HHE",
+		"patterns": "BSc. Honours Hardware Engineering  HHE , undergraduate . Honours Hardware Engineering  HHE , I want to do BSc. Honours Hardware Engineering  HHE",
+		"responses": "The requirements for BSc. Honours Hardware Engineering  HHE  are \r\n  Normal  Entry:  At  least  2  'A'  level  passes  from  the  following  subjects  or  their recognised  equivalents:  Mathematics,  Computer  Science,  Physics;  five  Ordinary Level passes including Mathematics, an official indegenous language or approved equivalent and any other subject(s) deemed necessary. Special Entry: Diploma in IT or equivalent",
+		"context": ""
+	},
+	{
+		"tag": "HSE",
+		"patterns": "BSc. Honours Software Engineering  HSE , undergraduate . Honours Software Engineering  HSE , I want to do BSc. Honours Software Engineering  HSE",
+		"responses": "The requirements for BSc. Honours Software Engineering  HSE  are \r\n  Normal  Entry  :  At  least  2  'A'  level  passes  from  the  following  subjects  or  their recognised  equivalents:  Mathematics,  Computer  Science,  Physics;  five  Ordinary Level passes including Mathematics, an official indegenous language or approved equivalent and any other subject(s) deemed necessary. Special Entry: Diploma in IT or equivalent",
+		"context": ""
+	},
+	{
+		"tag": "HCS",
+		"patterns": "BSc. Honours Computer Science HCS , undergraduate . Honours Computer Science HCS , I want to do BSc. Honours Computer Science HCS",
+		"responses": "The requirements for BSc. Honours Computer Science HCS  are \r\n  Normal  Entry:  At  least  2  'A'  level  passes  from  the  following  subjects  or  their recognised  equivalents:  Mathematics,  Computer  Science,  Physics;  five  Ordinary Level passes including Mathematics, an official indegenous language or approved equivalent and any other subject(s) deemed necessary. Special Entry: Diploma in IT or equivalent",
+		"context": ""
+	},
+	{
+		"tag": "HAI",
+		"patterns": "BSc. Honours Artificial Intelligence and Machine Learning HAI , undergraduate . Honours Artificial Intelligence and Machine Learning HAI , I want to do BSc. Honours Artificial Intelligence and Machine Learning HAI",
+		"responses": "The requirements for BSc. Honours Artificial Intelligence and Machine Learning HAI  are \r\n  Normal  Entry:  At  least  2  'A'  level  passes  from  the  following  subjects  or  their recognised  equivalents:  Mathematics,  Computer  Science,  Physics;  five  Ordinary Level passes including Mathematics, an official indegenous language or approved equivalent and any other subject(s) deemed necessary. Special Entry: Diploma in IT or equivalent",
+		"context": ""
+	},
+	{
+		"tag": "HCC",
+		"patterns": "BSc. Honours Cloud Computing and Internet of Things HCC , undergraduate . Honours Cloud Computing and Internet of Things HCC , I want to do BSc. Honours Cloud Computing and Internet of Things HCC",
+		"responses": "The requirements for BSc. Honours Cloud Computing and Internet of Things HCC  are \r\n  Normal  Entry:  At  least  2  'A'  level  passes  from  the  following  subjects  or  their recognised  equivalents:  Mathematics,  Computer  Science,  Physics;  five  Ordinary Level passes including Mathematics, an official indegenous language or approved equivalent and any other subject(s) deemed necessary. Special Entry: Diploma in IT or equivalent",
+		"context": ""
+	},
+	{
+		"tag": "(HAUD)",
+		"patterns": "BSc Hons in Audiology (HAUD) , undergraduate  Hons in Audiology (HAUD) , I want to do BSc Hons in Audiology (HAUD)",
+		"responses": "The requirements for BSc Hons in Audiology (HAUD)  are \r\n  3  Advanced  level  passes  including  Biology  and  any  2  from  Maths,  Physics  and Chemistry",
+		"context": ""
+	},
+	{
+		"tag": "HPM",
+		"patterns": "B._Pharmacy_Hons._(HPM) HPM , B._Pharmacy_Hons._(HPM) HPM , I want to do B._Pharmacy_Hons._(HPM) HPM",
+		"responses": "The requirements for B._Pharmacy_Hons._(HPM) HPM  are \r\n  3_‘A’_Level_passes_in_Chemistry_(Compulsory)_&_any_two_of_Biology,_Physics_or\r\nMaths.",
+		"context": ""
+	},
+	{
+		"tag": "HCP",
+		"patterns": "BSc Hons Clinical Pharmacology HCP , undergraduate  Hons Clinical Pharmacology HCP , I want to do BSc Hons Clinical Pharmacology HCP",
+		"responses": "The requirements for BSc Hons Clinical Pharmacology HCP  are \r\n  3 ‘A’ Level passes in Chemistry (Compulsory) & any two of Biology, Physics or Maths.",
+		"context": ""
+	},
+	{
+		"tag": "HPT",
+		"patterns": "BSc_Physiotherapy_Hons._(HPT) HPT , undergraduate _Physiotherapy_Hons._(HPT) HPT , I want to do BSc_Physiotherapy_Hons._(HPT) HPT",
+		"responses": "The requirements for BSc_Physiotherapy_Hons._(HPT) HPT  are \r\n  3_‘A’_Level_passes_in_Biology_(Compulsory)_&_any_two_of_Chemistry,_Maths_&\r\nPhysics.",
+		"context": ""
+	},
+	{
+		"tag": "HOE",
+		"patterns": "BSc_Hons_Occupational_and_Environmental_Health__(HOE) HOE , undergraduate _Hons_Occupational_and_Environmental_Health__(HOE) HOE , I want to do BSc_Hons_Occupational_and_Environmental_Health__(HOE) HOE",
+		"responses": "The requirements for BSc_Hons_Occupational_and_Environmental_Health__(HOE) HOE  are \r\n  3_‘A’_Levels_in_Biology_and_any_two_of_Chemistry,_Maths_or_Physics.",
+		"context": ""
+	},
+	{
+		"tag": "HNS",
+		"patterns": "BSc_Hons_Nursing_Science_(BSc_Hons_NS) HNS , undergraduate _Hons_Nursing_Science_(undergraduate _Hons_NS) HNS , I want to do BSc_Hons_Nursing_Science_(BSc_Hons_NS) HNS",
+		"responses": "The requirements for BSc_Hons_Nursing_Science_(BSc_Hons_NS) HNS  are \r\n  2_‘A’_Level_passes_in_Biology,_Chemistry,_Maths_or_Physics.Applicants_with_a_Diploma_in_General_Nursing_or_equivalent_will_be_considered_and_shall_receive\r\n120_credit_points.",
+		"context": ""
+	},
+	{
+		"tag": " HFM",
+		"patterns": "BSc Hons Forensic Medicine  HFM , undergraduate  Hons Forensic Medicine  HFM , I want to do BSc Hons Forensic Medicine  HFM",
+		"responses": "The requirements for BSc Hons Forensic Medicine  HFM  are \r\n  3 'A' level passes in the following subjects: Biology,Chemistry, Maths, or Physics",
+		"context": ""
+	},
+	{
+		"tag": "HBMLS",
+		"patterns": "BSc Medical Laboratory Sciences HBMLS , undergraduate  Medical Laboratory Sciences HBMLS , I want to do BSc Medical Laboratory Sciences HBMLS",
+		"responses": "The requirements for BSc Medical Laboratory Sciences HBMLS  are \r\n  3 ‘A’ Level passes in Chemistry (Compulsory) & any two of Biology, Physics or\r\nMaths.",
+		"context": ""
+	},
+	{
+		"tag": "Bachelor_of_Science_Degree_in_Health_Education_and_Health_Promotion",
+		"patterns": "Bachelor_of_Science_Degree_in_Health_Education_and_Health_Promotion Bachelor_of_Science_Degree_in_Health_Education_and_Health_Promotion , Bachelor of arts chelor_of_Science_Degree_in_Health_Education_and_Health_Promotion Bachelor of arts chelor_of_Science_Degree_in_Health_Education_and_Health_Promotion , I want to do Bachelor_of_Science_Degree_in_Health_Education_and_Health_Promotion Bachelor_of_Science_Degree_in_Health_Education_and_Health_Promotion",
+		"responses": "The requirements for Bachelor_of_Science_Degree_in_Health_Education_and_Health_Promotion Bachelor_of_Science_Degree_in_Health_Education_and_Health_Promotion  are \r\n  3_'A'_level_passes_in_the_following_subjects:_Biology,Chemistry,_Maths,_or_Physics",
+		"context": ""
+	},
+	{
+		"tag": "HRD",
+		"patterns": "BSc_Hons._Radiography_(Diagnosis)_(BSc_HRD) HRD , undergraduate _Hons._Radiography_(Diagnosis)_(undergraduate _HRD) HRD , I want to do BSc_Hons._Radiography_(Diagnosis)_(BSc_HRD) HRD",
+		"responses": "The requirements for BSc_Hons._Radiography_(Diagnosis)_(BSc_HRD) HRD  are \r\n  3_‘A’_Level_passes_in_Biology,_Chemistry,_Maths,_Physics_or_Zoology",
+		"context": ""
+	},
+	{
+		"tag": "HRT",
+		"patterns": "BSc Hons Radiology Therapy HRT , undergraduate  Hons Radiology Therapy HRT , I want to do BSc Hons Radiology Therapy HRT",
+		"responses": "The requirements for BSc Hons Radiology Therapy HRT  are \r\n  3 ‘A’ Level passes in Biology, Chemistry, Maths, Physics or Zoology",
+		"context": ""
+	},
+	{
+		"tag": "BSHO",
+		"patterns": "BSc_(Hons)_Degree_in_Optometry_(BSHO) BSHO , undergraduate _(Hons)_Degree_in_Optometry_(BSHO) BSHO , I want to do BSc_(Hons)_Degree_in_Optometry_(BSHO) BSHO",
+		"responses": "The requirements for BSc_(Hons)_Degree_in_Optometry_(BSHO) BSHO  are \r\n  3_Advanced_Level_Passes_in_Mathematics,_and_any_2_of_the_Following;_Physics,_Biology,_and_Chemistry",
+		"context": ""
+	},
+	{
+		"tag": "MBChB",
+		"patterns": "a)_Bachelor_of_Medicine_and_Bachelor_of_Surgery_(MBChB); MBChB , a)_Bachelor of arts chelor_of_Medicine_and_Bachelor of arts chelor_of_Surgery_(MBChB); MBChB , I want to do a)_Bachelor_of_Medicine_and_Bachelor_of_Surgery_(MBChB); MBChB",
+		"responses": "The requirements for a)_Bachelor_of_Medicine_and_Bachelor_of_Surgery_(MBChB); MBChB  are \r\n  3_‘A’_Level_passes_in_Chemistry_(Compulsory)_&_any_2_of_Biology,_Physics_or_Maths.",
+		"context": ""
+	},
+	{
+		"tag": "BDS",
+		"patterns": "b)_Bachelor_of_Dental_Surgery_(BDS); BDS , b)_Bachelor of arts chelor_of_Dental_Surgery_(BDS); BDS , I want to do b)_Bachelor_of_Dental_Surgery_(BDS); BDS",
+		"responses": "The requirements for b)_Bachelor_of_Dental_Surgery_(BDS); BDS  are \r\n  3_‘A’_Level_passes_in_Chemistry_(Compulsory)_&_any_2_of_Biology,_Physics_or\r\nMaths.",
+		"context": ""
+	},
+	{
+		"tag": "BSc HPS",
+		"patterns": "BSc Honours Drug Discovery and Therapeutics BSc HPS , undergraduate  Honours Drug Discovery and Therapeutics undergraduate  HPS , I want to do BSc Honours Drug Discovery and Therapeutics BSc HPS",
+		"responses": "The requirements for BSc Honours Drug Discovery and Therapeutics BSc HPS  are \r\n  Advanced Level passes in at least two of the following: Biology, Chemistry, Physics, Mathematics, Geography, Agriculture, Computers and Nutrition.",
+		"context": ""
+	},
+	{
+		"tag": "BSCHOT",
+		"patterns": "BSc_Occupational_Therapy_(BSCHOT) BSCHOT , undergraduate _Occupational_Therapy_(undergraduate HOT) undergraduate HOT , I want to do BSc_Occupational_Therapy_(BSCHOT) BSCHOT",
+		"responses": "The requirements for BSc_Occupational_Therapy_(BSCHOT) BSCHOT  are \r\n  3_‘A’_Level_passes_in_Biology_(Compulsory)_&_any_two_of_Chemistry,_Maths_&_Physics.",
+		"context": ""
+	},
+	{
+		"tag": "BSc HBIOENG",
+		"patterns": "BSc Honours Biomedical Engineering BSc HBIOENG , undergraduate  Honours Biomedical Engineering undergraduate  HBIOENG , I want to do BSc Honours Biomedical Engineering BSc HBIOENG",
+		"responses": "The requirements for BSc Honours Biomedical Engineering BSc HBIOENG  are \r\n  Advanced Level passes in at least two of the following: Biology, Chemistry, Physics, Mathematics, Geography, Agriculture, Computers and Nutrition.",
+		"context": ""
+	},
+	{
+		"tag": "BSc HMANI",
+		"patterns": "BSc Honours Medical Analytics and Informatics BSc HMANI , undergraduate  Honours Medical Analytics and Informatics undergraduate  HMANI , I want to do BSc Honours Medical Analytics and Informatics BSc HMANI",
+		"responses": "The requirements for BSc Honours Medical Analytics and Informatics BSc HMANI  are \r\n  Advanced Level passes in at least two of the following: Biology, Chemistry, Physics, Mathematics, Geography, Agriculture, Computers and Nutrition.",
+		"context": ""
+	},
+	{
+		"tag": "BSc HSLT",
+		"patterns": "BSc Honours Language and Speech Therapy BSc HSLT , undergraduate  Honours Language and Speech Therapy undergraduate  HSLT , I want to do BSc Honours Language and Speech Therapy BSc HSLT",
+		"responses": "The requirements for BSc Honours Language and Speech Therapy BSc HSLT  are \r\n  3 \"A\" level passes in Biology and any other two of the following subjects: Mathematics, Physics plus 5 \"O\" levels including Physics, Chemistry, Biology, Mathematics and English Language",
+		"context": ""
+	},
+	{
+		"tag": "BEDHJE",
+		"patterns": "Bachelor of Education (Honours) Junior Education  BEDHJE , Bachelor of arts chelor of Education (Honours) Junior Education  BEDHJE , I want to do Bachelor of Education (Honours) Junior Education  BEDHJE",
+		"responses": "The requirements for Bachelor of Education (Honours) Junior Education  BEDHJE  are \r\n  1) At least 5 'O' Level passes including English Language, Mathematics and  a Science subject; 2) at least 2 'A' level passes in relevant science subjects or A Diploma in Education or any other relevant qualification as prescribed in the National Qualifications Framework (NQF)",
+		"context": ""
+	},
+	{
+		"tag": "HDMJES",
+		"patterns": "Bachelor of Education (Honours) Development and Management of Junior Education Schools HDMJES , Bachelor of arts chelor of Education (Honours) Development and Management of Junior Education Schools HDMJES , I want to do Bachelor of Education (Honours) Development and Management of Junior Education Schools HDMJES",
+		"responses": "The requirements for Bachelor of Education (Honours) Development and Management of Junior Education Schools HDMJES  are \r\n  1) At least 5 'O' Level passes including English Language, Mathematics and  a Science subject; 2) at least 2 'A' level passes in relevant subjects or A Diploma in Education or any other relevant qualification as prescribed in the National Qualifications Framework (NQF)",
+		"context": ""
+	},
+	{
+		"tag": "HDMES",
+		"patterns": "Bachelor of Education (Honours) Development and Management of Early Childhood Schools HDMES , Bachelor of arts chelor of Education (Honours) Development and Management of Early Childhood Schools HDMES , I want to do Bachelor of Education (Honours) Development and Management of Early Childhood Schools HDMES",
+		"responses": "The requirements for Bachelor of Education (Honours) Development and Management of Early Childhood Schools HDMES  are \r\n  1) At least 5 'O' Level passes including English Language, Mathematics and  a Science subject; 2) at least 2 'A' level passes in relevant subjects or A Diploma in Education or any other relevant qualification as prescribed in the  National Qualifications Framework (NQF)",
+		"context": ""
+	},
+	{
+		"tag": "BEHLG",
+		"patterns": "Bachelor of Education (Honours) in Leadership and Governance BEHLG , Bachelor of arts chelor of Education (Honours) in Leadership and Governance BEHLG , I want to do Bachelor of Education (Honours) in Leadership and Governance BEHLG",
+		"responses": "The requirements for Bachelor of Education (Honours) in Leadership and Governance BEHLG  are \r\n  1) At least 5 'O' Level passes including English Language, Mathematics and  a Science subject; 2) at least 2 'A' level passes in relevant subjects or A Diploma in Education or any other relevant qualification as prescribed in the  National Qualifications Framework (NQF)",
+		"context": ""
+	},
+	{
+		"tag": "Bachelor_of_Education_(Honours)_Languages_and_Literature",
+		"patterns": "Bachelor_of_Education_(Honours)_Languages_and_Literature Bachelor_of_Education_(Honours)_Languages_and_Literature , Bachelor of arts chelor_of_Education_(Honours)_Languages_and_Literature Bachelor of arts chelor_of_Education_(Honours)_Languages_and_Literature , I want to do Bachelor_of_Education_(Honours)_Languages_and_Literature Bachelor_of_Education_(Honours)_Languages_and_Literature",
+		"responses": "The requirements for Bachelor_of_Education_(Honours)_Languages_and_Literature Bachelor_of_Education_(Honours)_Languages_and_Literature  are \r\n  1)_At_least_5_'O'_Level_passes_including_English_Language,_Mathematics_and__a_Science_subject;_2)_at_least_2_'A'_level_passes_in_relevant_subjects_or_A_Diploma_in_Education_or_any_other_relevant_qualification_as_prescribed_in_the_National_Qualifications_Framework_(NQF)",
+		"context": ""
+	},
+	{
+		"tag": "Bachelor_of_Education_(Honours)_Civics_Religion_and_Ethics",
+		"patterns": "Bachelor_of_Education_(Honours)_Civics_Religion_and_Ethics Bachelor_of_Education_(Honours)_Civics_Religion_and_Ethics , Bachelor of arts chelor_of_Education_(Honours)_Civics_Religion_and_Ethics Bachelor of arts chelor_of_Education_(Honours)_Civics_Religion_and_Ethics , I want to do Bachelor_of_Education_(Honours)_Civics_Religion_and_Ethics Bachelor_of_Education_(Honours)_Civics_Religion_and_Ethics",
+		"responses": "The requirements for Bachelor_of_Education_(Honours)_Civics_Religion_and_Ethics Bachelor_of_Education_(Honours)_Civics_Religion_and_Ethics  are \r\n  1)_At_least_5_'O'_Level_passes_including_English_Language,_Mathematics_and__a_Science_subject;_2)_at_least_2_'A'_level_passes_in_relevant_subjects_or_A_Diploma_in_Education_or_any_other_relevant_qualification_as_prescribed_in_the__National_Qualifications_Framework_(NQF)",
+		"context": ""
+	},
+	{
+		"tag": "BEHHHED",
+		"patterns": "Bachelor of Education Honours History Heritage and Economic Development (Post Diploma and Post 'A' Level) BEHHHED , Bachelor of arts chelor of Education Honours History Heritage and Economic Development (Post Diploma and Post 'A' Level) BEHHHED , I want to do Bachelor of Education Honours History Heritage and Economic Development (Post Diploma and Post 'A' Level) BEHHHED",
+		"responses": "The requirements for Bachelor of Education Honours History Heritage and Economic Development (Post Diploma and Post 'A' Level) BEHHHED  are \r\n  1) At least 5 'O' Level passes including English Language, Mathematics and  a Science subject; 2) at least 2 'A' level passes in relevant subjects or A Diploma in Education or any other relevant qualification as prescribed in the  National Qualifications Framework (NQF)",
+		"context": ""
+	},
+	{
+		"tag": "Bachelor_of_Science_Honours__Science__Mathematics_and_Technology_",
+		"patterns": "Bachelor_of_Science_Honours__Science__Mathematics_and_Technology_ Bachelor_of_Science_Honours__Science__Mathematics_and_Technology_ , Bachelor of arts chelor_of_Science_Honours__Science__Mathematics_and_Technology_ Bachelor of arts chelor_of_Science_Honours__Science__Mathematics_and_Technology_ , I want to do Bachelor_of_Science_Honours__Science__Mathematics_and_Technology_ Bachelor_of_Science_Honours__Science__Mathematics_and_Technology_",
+		"responses": "The requirements for Bachelor_of_Science_Honours__Science__Mathematics_and_Technology_ Bachelor_of_Science_Honours__Science__Mathematics_and_Technology_  are \r\n  1)_At_least_5_'O'_Level_passes_including_English_Language,_Mathematics_and__a_Science_subject;_2)_at_least_2_'A'_level_passes_in_relevant_subjects_or_A_Diploma_in_Education_or_any_other_relevant_qualification_as_prescribed_in_the_National_Qualifications_Framework_(NQF)",
+		"context": ""
+	},
+	{
+		"tag": "HENCENG",
+		"patterns": "BSc Honours Civil Engineering HENCENG , undergraduate  Honours Civil Engineering HENCENG , I want to do BSc Honours Civil Engineering HENCENG",
+		"responses": "The requirements for BSc Honours Civil Engineering HENCENG  are \r\n  3 'A'passes in Maths,Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HENCEQS",
+		"patterns": "BSc Honours Construction Engineering and Quantity Surveying HENCEQS , undergraduate  Honours Construction Engineering and Quantity Surveying HENCEQS , I want to do BSc Honours Construction Engineering and Quantity Surveying HENCEQS",
+		"responses": "The requirements for BSc Honours Construction Engineering and Quantity Surveying HENCEQS  are \r\n  3 'A'passes in Maths, Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HCE",
+		"patterns": "BSc Honours Chemical Engineering HCE , undergraduate  Honours Chemical Engineering HCE , I want to do BSc Honours Chemical Engineering HCE",
+		"responses": "The requirements for BSc Honours Chemical Engineering HCE  are \r\n  3 'A'passes in Maths,Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HMIE",
+		"patterns": "BSc Honours Mining  and Geological Engineering HMIE , undergraduate  Honours Mining  and Geological Engineering HMIE , I want to do BSc Honours Mining  and Geological Engineering HMIE",
+		"responses": "The requirements for BSc Honours Mining  and Geological Engineering HMIE  are \r\n  3 'A'passes in Maths,Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HMTE",
+		"patterns": "BSc Honours Materials Technology and Engineering HMTE , undergraduate  Honours Materials Technology and Engineering HMTE , I want to do BSc Honours Materials Technology and Engineering HMTE",
+		"responses": "The requirements for BSc Honours Materials Technology and Engineering HMTE  are \r\n  3 'A'passes in Maths,Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HMET",
+		"patterns": "BSc Honours Metallurgical Engineering HMET , undergraduate  Honours Metallurgical Engineering HMET , I want to do BSc Honours Metallurgical Engineering HMET",
+		"responses": "The requirements for BSc Honours Metallurgical Engineering HMET  are \r\n  3 'A'passes in Maths,Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HENMECH",
+		"patterns": "BSc Honours Mechanical Engineering HENMECH , undergraduate  Honours Mechanical Engineering HENMECH , I want to do BSc Honours Mechanical Engineering HENMECH",
+		"responses": "The requirements for BSc Honours Mechanical Engineering HENMECH  are \r\n  3 'A'passes in Maths, Physics and Chemistry/Technical Drawing/Computing\r\nScience",
+		"context": ""
+	},
+	{
+		"tag": "HENIND",
+		"patterns": "BSc Industrial Engineering HENIND , undergraduate  Industrial Engineering HENIND , I want to do BSc Industrial Engineering HENIND",
+		"responses": "The requirements for BSc Industrial Engineering HENIND  are \r\n  3 'A'passes in Maths, Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HENMTR",
+		"patterns": "BSc Honours Mechatronics HENMTR , undergraduate  Honours Mechatronics HENMTR , I want to do BSc Honours Mechatronics HENMTR",
+		"responses": "The requirements for BSc Honours Mechatronics HENMTR  are \r\n  3 'A'passes in Maths, Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HENELENG",
+		"patterns": "BSc Honours Electrical and Electronic Engineering HENELENG , undergraduate  Honours Electrical and Electronic Engineering HENELENG , I want to do BSc Honours Electrical and Electronic Engineering HENELENG",
+		"responses": "The requirements for BSc Honours Electrical and Electronic Engineering HENELENG  are \r\n  3 'A'passes in Maths, Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HENPENG",
+		"patterns": "BSc Honours Energy and Power Systems Engineering HENPENG , undergraduate  Honours Energy and Power Systems Engineering HENPENG , I want to do BSc Honours Energy and Power Systems Engineering HENPENG",
+		"responses": "The requirements for BSc Honours Energy and Power Systems Engineering HENPENG  are \r\n  3 'A'passes in Maths, Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "AUTO",
+		"patterns": "BSc Honours Automotive Engineering AUTO , undergraduate  Honours Automotive Engineering AUTO , I want to do BSc Honours Automotive Engineering AUTO",
+		"responses": "The requirements for BSc Honours Automotive Engineering AUTO  are \r\n  3 'A'passes in Maths, Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "AEROV",
+		"patterns": "BSc_Honours_Aeronautical_Engineering_with_the_following_options:Avionics(AEROV)__OR_Aviation_Mechanics_(AEROM) AEROV , undergraduate _Honours_Aeronautical_Engineering_with_the_following_options:Avionics(AEROV)__OR_Aviation_Mechanics_(AEROM) AEROV , I want to do BSc_Honours_Aeronautical_Engineering_with_the_following_options:Avionics(AEROV)__OR_Aviation_Mechanics_(AEROM) AEROV",
+		"responses": "The requirements for BSc_Honours_Aeronautical_Engineering_with_the_following_options:Avionics(AEROV)__OR_Aviation_Mechanics_(AEROM) AEROV  are \r\n  3_'A'passes_in_Maths,_Physics_and_Chemistry/Technical_Drawing/Computing_Science",
+		"context": ""
+	},
+	{
+		"tag": "(HGEG) OR Surveying (HGES)",
+		"patterns": "BSc Honours Geomatics Engineering  with the following options:Geoinformatics Engineering  (HGEG) OR Surveying (HGES) , undergraduate  Honours Geomatics Engineering  with the following options:Geoinformatics Engineering  (HGEG) OR Surveying (HGES) , I want to do BSc Honours Geomatics Engineering  with the following options:Geoinformatics Engineering  (HGEG) OR Surveying (HGES)",
+		"responses": "The requirements for BSc Honours Geomatics Engineering  with the following options:Geoinformatics Engineering  (HGEG) OR Surveying (HGES)  are \r\n  3 'A' level passes in Maths,Physics, and Chemistry/Geography/Computer Science/Technical Graphics",
+		"context": ""
+	},
+	{
+		"tag": "HLAM",
+		"patterns": "BSc Honours Land Administration and Management HLAM , undergraduate  Honours Land Administration and Management HLAM , I want to do BSc Honours Land Administration and Management HLAM",
+		"responses": "The requirements for BSc Honours Land Administration and Management HLAM  are \r\n  3 'A' level passes in Maths,Geography and any other natural science or commercials",
+		"context": ""
+	},
+	{
+		"tag": "HSPM",
+		"patterns": "BSc Honours Spatial Planning and Management HSPM , undergraduate  Honours Spatial Planning and Management HSPM , I want to do BSc Honours Spatial Planning and Management HSPM",
+		"responses": "The requirements for BSc Honours Spatial Planning and Management HSPM  are \r\n  3 'A' level subjects including Geography and any 2 Natural Science/Commercial subjects",
+		"context": ""
+	},
+	{
+		"tag": "BARCH",
+		"patterns": "BSc Honours Architecture BARCH , undergraduate  Honours Architecture Bachelor of arts RCH , I want to do BSc Honours Architecture BARCH",
+		"responses": "The requirements for BSc Honours Architecture BARCH  are \r\n  3 'A'passes in Maths, Physics and Chemistry/Technical Drawing/Computing Science",
+		"context": ""
+	},
+	{
+		"tag": "HTSD",
+		"patterns": "BSc Honours Transport Systems Development HTSD , undergraduate  Honours Transport Systems Development HTSD , I want to do BSc Honours Transport Systems Development HTSD",
+		"responses": "The requirements for BSc Honours Transport Systems Development HTSD  are \r\n  3 'A' level subjects including Geography and any 2 Natural Science/Commercial subjects.",
+		"context": ""
+	},
+	{
+		"tag": "HRE",
+		"patterns": "BSc Honours Real Estate HRE , undergraduate  Honours Real Estate HRE , I want to do BSc Honours Real Estate HRE",
+		"responses": "The requirements for BSc Honours Real Estate HRE  are \r\n  O' level Geography passes required. 'A' level passes in Natural sciences or Commercial subjects",
+		"context": ""
+	},
+	{
+		"tag": "LLBS",
+		"patterns": "B._Laws_Hons._(LLBS) LLBS , B._Laws_Hons._(LLBS) LLBS , I want to do B._Laws_Hons._(LLBS) LLBS",
+		"responses": "The requirements for B._Laws_Hons._(LLBS) LLBS  are \r\n  At_least_a_“B’_in_‘O’_Level_English_Language_and_good_‘A’_Levels_in_any_subject\r\ncombination.",
+		"context": ""
+	},
+	{
+		"tag": "LLBSS",
+		"patterns": "B.Substantive Laws LLBSS , B.Substantive Laws LLBSS , I want to do B.Substantive Laws LLBSS",
+		"responses": "The requirements for B.Substantive Laws LLBSS  are \r\n  Any tertiary qualifications and relevant experience",
+		"context": ""
+	},
+	{
+		"tag": "HBCGBE",
+		"patterns": "C) Genetics and Bioengineering; HBCGBE , C) Genetics and Bioengineering; HBCGBE , I want to do C) Genetics and Bioengineering; HBCGBE",
+		"responses": "The requirements for C) Genetics and Bioengineering; HBCGBE  are \r\n  The candidate must have obtained a Pass at \"A\" Level in Chemistry and Biology or their recognized equivalents.\r\nSpecial Entry :\r\na) National Certificate: at first year\r\nb) Diploma: at 2nd year of the programme\r\nc) HND: at 2nd year and exempted of some other courses\r\nA person who holds a BSc Degree with a major in an appropriate subject or an equivalent qualification and has passed that major subject in the upper second division or a higher division",
+		"context": ""
+	},
+	{
+		"tag": "HBCBIM",
+		"patterns": "D) Immunology and Microbiology; HBCBIM , D) Immunology and Microbiology; HBCBIM , I want to do D) Immunology and Microbiology; HBCBIM",
+		"responses": "The requirements for D) Immunology and Microbiology; HBCBIM  are \r\n  The candidate must have obtained a Pass at\" A\" Level in Chemistry and Biology or their recognized equivalents\r\nSpecial Entry :\r\na) National Certificate: at first year\r\nb) Diploma: at 2nd year of the programme\r\nc) HND: at 2nd year and exempted of some other courses\r\nA person who holds a BSc Degree with a major in an appropriate subject or an equivalent qualification and has passed that major subject in the upper second division or a higher division",
+		"context": ""
+	},
+	{
+		"tag": "Industrial_and_Environmental_Microbiology",
+		"patterns": "Industrial_and_Environmental_Microbiology Industrial_and_Environmental_Microbiology , Industrial_and_Environmental_Microbiology Industrial_and_Environmental_Microbiology , I want to do Industrial_and_Environmental_Microbiology Industrial_and_Environmental_Microbiology",
+		"responses": "The requirements for Industrial_and_Environmental_Microbiology Industrial_and_Environmental_Microbiology  are \r\n  Normal_Entry:_The_candidate_must_have_obtained_a_Pass_at_A_Level_in_Chemistry_and_Biology_or_their_recognized_equivalents.\r\nSpecial_Entry_:\r\na)_National_Certificate:_at_first_year\r\nb)_Diploma:_at_2nd_year_of_the_programme\r\nc)_HND:_at_2nd_year_and_exempted_of_some_other_courses\r\nA_person_who_holds_a_BSc_Degree_with_a_major_in_an_appropriate_subject_or_an_equivalent_qualification_and_has_passed_that_major_subject_in_the_upper_second\r\ndivision_or_a_higher_division",
+		"context": ""
+	},
+	{
+		"tag": "HBCBPBMC",
+		"patterns": "F)  Plant Biochemistry and Medicinal Chemistry HBCBPBMC , F)  Plant Biochemistry and Medicinal Chemistry HBCBPBMC , I want to do F)  Plant Biochemistry and Medicinal Chemistry HBCBPBMC",
+		"responses": "The requirements for F)  Plant Biochemistry and Medicinal Chemistry HBCBPBMC  are \r\n  The candidate must have obtained a Pass at A Level in Chemistry and Biology or their recognized equivalents\r\nSpecial Entry :\r\na) National Certificate: at first year\r\nb) Diploma: at 2nd year of the programme\r\nc) HND: at 2nd year and exempted of some other courses\r\nA person who holds a BSc Degree with a major in an appropriate subject or an equivalent qualification and has passed that major subject in the upper second\r\ndivision or a higher division",
+		"context": ""
+	},
+	{
+		"tag": "BZHSC",
+		"patterns": "BSc Honours Biological Sciences BZHSC , undergraduate  Honours Biological Sciences BZHSC , I want to do BSc Honours Biological Sciences BZHSC",
+		"responses": "The requirements for BSc Honours Biological Sciences BZHSC  are \r\n  Normal Entry: At least  2 'A' Level passes in Science subjects including Biology AND have obtained a Pass at `O’ Level in Mathematics.\r\nSpecial Entry\r\nDiploma in Biological Science or equivalent qualification plus a minimum of 2 years relevant work experience.",
+		"context": ""
+	},
+	{
+		"tag": "HFRWE",
+		"patterns": "BSc Honours Forestry Rangeland and Wildlife Ecology HFRWE , undergraduate  Honours Forestry Rangeland and Wildlife Ecology HFRWE , I want to do BSc Honours Forestry Rangeland and Wildlife Ecology HFRWE",
+		"responses": "The requirements for BSc Honours Forestry Rangeland and Wildlife Ecology HFRWE  are \r\n  Normal Entry : At least 2 'A' level passes in Science subjects including Biology AND have obtained a Pass at `O’ Level in Mathematics\r\nSpecial Entry\r\nDiploma in Biological Science or equivalent qualification plus a minimum of 2 years relevant work experience",
+		"context": ""
+	},
+	{
+		"tag": "HBHC",
+		"patterns": "BSc Honours Biodiversity and Heritage Conservation HBHC , undergraduate  Honours Biodiversity and Heritage Conservation HBHC , I want to do BSc Honours Biodiversity and Heritage Conservation HBHC",
+		"responses": "The requirements for BSc Honours Biodiversity and Heritage Conservation HBHC  are \r\n  Normal Entry\r\nAt least 2 'A' leve passe in Science subjects including Biology AND have obtained a Pass at `O’ Level in Mathematics.\r\nSpecial Entry:\r\nDiploma in Biological Science or equivalent qualification plus a minimum of 2",
+		"context": ""
+	},
+	{
+		"tag": " HPEC",
+		"patterns": "BSc Honours Pollution and Environmental Chemistry   HPEC , undergraduate  Honours Pollution and Environmental Chemistry   HPEC , I want to do BSc Honours Pollution and Environmental Chemistry   HPEC",
+		"responses": "The requirements for BSc Honours Pollution and Environmental Chemistry   HPEC  are \r\n  Have  obtained  a  Pass  at  A  Level  in  Chemistry  and  at  least  one  other  ‘A’  Level subject; that is, Physics, Mathematics, Biology or their equivalents;                   OR have obtained a Diploma OR its recognized equivalent qualification as approved by the University in an appropriate subject from a recognized institution AND at least  two  years  working  experience  in  a  relevant  field  (proof  of  employment required)",
+		"context": ""
+	},
+	{
+		"tag": "HASE",
+		"patterns": "BSc Honours Aquatic Science and Ecology HASE , undergraduate  Honours Aquatic Science and Ecology HASE , I want to do BSc Honours Aquatic Science and Ecology HASE",
+		"responses": "The requirements for BSc Honours Aquatic Science and Ecology HASE  are \r\n  Normal Entry: At least 2 'A' level passes in Science subjects including Biology AND have obtained a Pass at `O’ Level in Mathematics.\r\nSpecial Entry\r\nDiploma in Biological Science or equivalent qualification plus a minimum of 2 years relevant work experience",
+		"context": ""
+	},
+	{
+		"tag": " HFSSC ",
+		"patterns": "BSc Honours Forensic Science    HFSSC  , undergraduate  Honours Forensic Science    HFSSC  , I want to do BSc Honours Forensic Science    HFSSC ",
+		"responses": "The requirements for BSc Honours Forensic Science    HFSSC   are \r\n  Pass at A Level in two of the following subjects or their recognised equivalents: Biology and Biochemistry Option: Biology and Chemistry\r\nChemistry and Biology Option: Biology and Chemistry Chemistry and Biochemistry Option: Biology and Chemistry\r\nPhysics and Chemistry Option:  Physics, Chemistry and Mathematics AND\r\nhave obtained a Pass at `O’ Level in Mathematics. Special Entry\r\nDiploma in Forensic Science or equivalent qualification plus a minimum of 2 years relevant work experience.",
+		"context": ""
+	},
+	{
+		"tag": "HICH",
+		"patterns": "BSc Honours Industrial Chemistry HICH , undergraduate  Honours Industrial Chemistry HICH , I want to do BSc Honours Industrial Chemistry HICH",
+		"responses": "The requirements for BSc Honours Industrial Chemistry HICH  are \r\n  Have   obtained   passes   at   A   Level   in   Chemistry   and   Mathematics,   or   their equivalents;                                                                                                                       OR\r\nHave  obtained  a diploma  or its  recognised equivalent  qualification and  at least two years relevant working experience.",
+		"context": ""
+	},
+	{
+		"tag": "HPHC",
+		"patterns": "BSc Honours Pharmaceutical Chemistry HPHC , undergraduate  Honours Pharmaceutical Chemistry HPHC , I want to do BSc Honours Pharmaceutical Chemistry HPHC",
+		"responses": "The requirements for BSc Honours Pharmaceutical Chemistry HPHC  are \r\n  Have obtained passes at A Level in Mathematics and Chemistry, or their equivalents;\r\nOR\r\nhave obtained a Diploma OR its recognized equivalent qualification as approved by the University in an appropriate subject from a recognized institution AND at least two years working experience in a relevant field (proof of employment required)",
+		"context": ""
+	},
+	{
+		"tag": " HGL",
+		"patterns": "BSc Honours Geological Sciences  HGL , undergraduate  Honours Geological Sciences  HGL , I want to do BSc Honours Geological Sciences  HGL",
+		"responses": "The requirements for BSc Honours Geological Sciences  HGL  are \r\n  Have obtained passes at A Level in Mathematics and Chemistry, or their equivalents;\r\nOR\r\nhave obtained a Diploma OR its recognized equivalent qualification as approved by the University in an appropriate subject from a recognized institution AND at least two years working experience in a relevant field (proof of employment required)",
+		"context": ""
+	},
+	{
+		"tag": " HPCT",
+		"patterns": "BSc Honours Petroleum Chemistry and Technology   HPCT , undergraduate  Honours Petroleum Chemistry and Technology   HPCT , I want to do BSc Honours Petroleum Chemistry and Technology   HPCT",
+		"responses": "The requirements for BSc Honours Petroleum Chemistry and Technology   HPCT  are \r\n  Have obtained passes at A Level in Mathematics and Chemistry, or their equivalents;\r\nOR\r\nhave obtained a Diploma OR its recognized equivalent qualification as approved by the University in an appropriate subject from a recognized institution AND at least two years working experience in a relevant field (proof of employment required)",
+		"context": ""
+	},
+	{
+		"tag": " HGISEO",
+		"patterns": "BSc Honours Geographical Information Science and Earth Observation   HGISEO , undergraduate  Honours Geographical Information Science and Earth Observation   HGISEO , I want to do BSc Honours Geographical Information Science and Earth Observation   HGISEO",
+		"responses": "The requirements for BSc Honours Geographical Information Science and Earth Observation   HGISEO  are \r\n  To qualify for entry to the Bachelor of Science Honours Degree in Geographical Information Science and Earth Observation, a prospective student must have obtained passes in at least two ‘A’ Level subjects, that includes Geography, Physics, Biology, Mathematics or their equivalents.\r\nOR                                                                                                                have obtained\r\na Diploma OR its recognized equivalent qualification as approved by the University in an appropriate subject from a recognized institution AND at least two years working experience in a relevant field (proof of employment required)",
+		"context": ""
+	},
+	{
+		"tag": " HGISINT",
+		"patterns": "BSc Honours Geospatial Intelligence   HGISINT , undergraduate  Honours Geospatial Intelligence   HGISINT , I want to do BSc Honours Geospatial Intelligence   HGISINT",
+		"responses": "The requirements for BSc Honours Geospatial Intelligence   HGISINT  are \r\n  To be admitted into the programme applicants must normally have a good pass in ‘A’ Level Geography, Physics, Biology or Mathematics including in ‘O’ Level Mathematics.     Applicants with either post  “A” Level qualifications in a relevant area or with relevant and equivalent work experience may be admitted with the approval of Senate.",
+		"context": ""
+	},
+	{
+		"tag": " MCH",
+		"patterns": "BSc Honours Mathematics and Computational Science   MCH , undergraduate  Honours Mathematics and Computational Science   MCH , I want to do BSc Honours Mathematics and Computational Science   MCH",
+		"responses": "The requirements for BSc Honours Mathematics and Computational Science   MCH  are \r\n  Mathematics at 'A' Level  and at least one other subject at Advanced Level, or their recognized equivalents.",
+		"context": ""
+	},
+	{
+		"tag": " HASC",
+		"patterns": "BSc Honours Actuarial Science   HASC , undergraduate  Honours Actuarial Science   HASC , I want to do BSc Honours Actuarial Science   HASC",
+		"responses": "The requirements for BSc Honours Actuarial Science   HASC  are \r\n  A pass at 'A' Level in Mathematics with B and any one Advanced Level subject excluding General Paper.",
+		"context": ""
+	},
+	{
+		"tag": " HFM",
+		"patterns": "BSc Honours Financial Mathematics   HFM , undergraduate  Honours Financial Mathematics   HFM , I want to do BSc Honours Financial Mathematics   HFM",
+		"responses": "The requirements for BSc Honours Financial Mathematics   HFM  are \r\n  Mathematics at 'A' Level and at least one other subject at Advanced Level, or their recognized equivalents.",
+		"context": ""
+	},
+	{
+		"tag": " HDSC",
+		"patterns": "BSc Honours Data Science and Systems   HDSC , undergraduate  Honours Data Science and Systems   HDSC , I want to do BSc Honours Data Science and Systems   HDSC",
+		"responses": "The requirements for BSc Honours Data Science and Systems   HDSC  are \r\n  A pass at 'A' Level in Mathematics with A or better and any one Advanced Level subject excluding General Paper.",
+		"context": ""
+	},
+	{
+		"tag": " HASTS",
+		"patterns": "BSc Applied Statistics   HASTS , undergraduate  Applied Statistics   HASTS , I want to do BSc Applied Statistics   HASTS",
+		"responses": "The requirements for BSc Applied Statistics   HASTS  are \r\n  A pass at 'A'Level in Mathematics/Statistics and any one Advanced Level subject excluding General Paper.",
+		"context": ""
+	},
+	{
+		"tag": " HND",
+		"patterns": "BSc Honours Nutrition and Dietetics  HND , undergraduate  Honours Nutrition and Dietetics  HND , I want to do BSc Honours Nutrition and Dietetics  HND",
+		"responses": "The requirements for BSc Honours Nutrition and Dietetics  HND  are \r\n  Normal Entry: 'A' level passes in two subjects one of which must be Chemistry. Special Entry : Diploma in Nutrition or Diploma Hospital Food Service Management.  Mature Entry : The candidate must be at least 25 years old and 2 years relevant work experience",
+		"context": ""
+	},
+	{
+		"tag": " HFST",
+		"patterns": "BSc Honours Food Science and Technology   HFST , undergraduate  Honours Food Science and Technology   HFST , I want to do BSc Honours Food Science and Technology   HFST",
+		"responses": "The requirements for BSc Honours Food Science and Technology   HFST  are \r\n  Normal Entry:'A' level passes in two subjects one of which must be Chemistry.\r\nSpecial Entry : NC Science Technology, ND Food Science & HND Food Science Mature Entry :  The candidate must be at least 25 years old and have 2 years relevant  work experience",
+		"context": ""
+	},
+	{
+		"tag": " HSST",
+		"patterns": "BSc Honours Space Science and Technology   HSST , undergraduate  Honours Space Science and Technology   HSST , I want to do BSc Honours Space Science and Technology   HSST",
+		"responses": "The requirements for BSc Honours Space Science and Technology   HSST  are \r\n  Normal Entry: \"A\" Level passes in Physics and Mathematics\r\nSpecial Entry : Diploma in a relevant field",
+		"context": ""
+	},
+	{
+		"tag": " HMCS",
+		"patterns": "BSc Honours Climate Science and Meteorology   HMCS , undergraduate  Honours Climate Science and Meteorology   HMCS , I want to do BSc Honours Climate Science and Meteorology   HMCS",
+		"responses": "The requirements for BSc Honours Climate Science and Meteorology   HMCS  are \r\n  \"A\" Level Physics and Mathematics\r\nSpecial Entry : A credit in the Basic Instruction Package for Meteorological Technicians (BIP MetTech) and at least two (2) years relevant experience",
+		"context": ""
+	},
+	{
+		"tag": " HIPH",
+		"patterns": "BSc Honours Industrial Physics   HIPH , undergraduate  Honours Industrial Physics   HIPH , I want to do BSc Honours Industrial Physics   HIPH",
+		"responses": "The requirements for BSc Honours Industrial Physics   HIPH  are \r\n  \"A' Level Physics and Mathematics                                                      Special Entry : Diploma in a relevant field",
+		"context": ""
+	},
+	{
+		"tag": "HDDSEH",
+		"patterns": "BSc Digital Disease Surveillance and Environmental Health HDDSEH , undergraduate  Digital Disease Surveillance and Environmental Health HDDSEH , I want to do BSc Digital Disease Surveillance and Environmental Health HDDSEH",
+		"responses": "The requirements for BSc Digital Disease Surveillance and Environmental Health HDDSEH  are \r\n  Normal Entry: At least  2 'A' Level passes in Science subjects including Biology AND have obtained a Pass at `O’ Level in Mathematics.\r\nSpecial Entry\r\nDiploma in Biological Science or equivalent qualification plus a minimum of 2 years relevant work experience.",
+		"context": ""
+	},
+	{
+		"tag": "HGLE",
+		"patterns": "BSc Geography and Landscape Ecology HGLE , undergraduate  Geography and Landscape Ecology HGLE , I want to do BSc Geography and Landscape Ecology HGLE",
+		"responses": "The requirements for BSc Geography and Landscape Ecology HGLE  are \r\n  To be admitted into the programme applicants must normally have a good pass in ‘A’ Level Geography, Physics, Biology or Mathematics including in ‘O’ Level Mathematics.     Applicants with either post  “A” Level qualifications in a relevant area or with relevant and equivalent work experience may be admitted with the approval of Senate.",
+		"context": ""
+	},
+	{
+		"tag": " HMS",
+		"patterns": "BSc Honours Materials Science   HMS , undergraduate  Honours Materials Science   HMS , I want to do BSc Honours Materials Science   HMS",
+		"responses": "The requirements for BSc Honours Materials Science   HMS  are \r\n  A' Level Physics, Chemistry Mathematics                                             Special entry: Diploma in a relevant field",
+		"context": ""
+	},
+	{
+		"tag": " HMPH",
+		"patterns": "BSc Honours Medical Physics   HMPH , undergraduate  Honours Medical Physics   HMPH , I want to do BSc Honours Medical Physics   HMPH",
+		"responses": "The requirements for BSc Honours Medical Physics   HMPH  are \r\n  \"A\" Level Physics and Mathematics                                                      Special Entry : Diploma in a relevant field",
+		"context": ""
+	},
+	{
+		"tag": "GPM",
+		"patterns": "BSc Honours Government and Public Management GPM , undergraduate  Honours Government and Public Management GPM , I want to do BSc Honours Government and Public Management GPM",
+		"responses": "The requirements for BSc Honours Government and Public Management GPM  are \r\n  5 ‘O’ level passes including Mathematics plus any 2 ‘A’ Level passes in Commercials, Economics.",
+		"context": ""
+	},
+	{
+		"tag": "POSD",
+		"patterns": "BSc Honours Political Science and Diplomacy POSD , undergraduate  Honours Political Science and Diplomacy POSD , I want to do BSc Honours Political Science and Diplomacy POSD",
+		"responses": "The requirements for BSc Honours Political Science and Diplomacy POSD  are \r\n  5 “O” level passes plus 2 ‘A’ Level passes including History and Divinity or any\r\narts subjects.",
+		"context": ""
+	},
+	{
+		"tag": "BSCID",
+		"patterns": "BSc Honours Social Innovation and Community Development BSCID , undergraduate  Honours Social Innovation and Community Development undergraduate ID , I want to do BSc Honours Social Innovation and Community Development BSCID",
+		"responses": "The requirements for BSc Honours Social Innovation and Community Development BSCID  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus any 2 A’ Level passes in Mathematics and Physics or any other relevant Social Science or humanities subject.",
+		"context": ""
+	},
+	{
+		"tag": "BSTACD",
+		"patterns": "BSc Honours Smart Technology Applications and Community Development BSTACD , undergraduate  Honours Smart Technology Applications and Community Development BSTACD , I want to do BSc Honours Smart Technology Applications and Community Development BSTACD",
+		"responses": "The requirements for BSc Honours Smart Technology Applications and Community Development BSTACD  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus any 2 A’ Level passes in Mathematics and Physics or any other relevant Social Science or humanities subject.",
+		"context": ""
+	},
+	{
+		"tag": "HISO",
+		"patterns": "BSc Honours Industrial Sociology HISO , undergraduate  Honours Industrial Sociology HISO , I want to do BSc Honours Industrial Sociology HISO",
+		"responses": "The requirements for BSc Honours Industrial Sociology HISO  are \r\n  5 “O” level passes, including English Language with a B or better and any 2 “A” level passes.",
+		"context": ""
+	},
+	{
+		"tag": "HUD",
+		"patterns": "BSc Honours Urbanisation and Social Amenities Development HUD , undergraduate  Honours UrBachelor of arts nisation and Social Amenities Development HUD , I want to do BSc Honours Urbanisation and Social Amenities Development HUD",
+		"responses": "The requirements for BSc Honours Urbanisation and Social Amenities Development HUD  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus any 2 “A” level passes.",
+		"context": ""
+	},
+	{
+		"tag": "HUCH",
+		"patterns": "BSc Honours Anthropology and Cultural Heritage  HUCH , undergraduate  Honours Anthropology and Cultural Heritage  HUCH , I want to do BSc Honours Anthropology and Cultural Heritage  HUCH",
+		"responses": "The requirements for BSc Honours Anthropology and Cultural Heritage  HUCH  are \r\n  5 “O” level passes, including English Language with a B or better and any 2 “A” level passes.",
+		"context": ""
+	},
+	{
+		"tag": "HCS",
+		"patterns": "BSc Honours Criminology and Society HCS , undergraduate  Honours Criminology and Society HCS , I want to do BSc Honours Criminology and Society HCS",
+		"responses": "The requirements for BSc Honours Criminology and Society HCS  are \r\n  5 “O” level passes, including English and any 2 “A” level passes.",
+		"context": ""
+	},
+	{
+		"tag": "BCLL",
+		"patterns": "BSc Honours Community Education and Lifelong Learning BCLL , undergraduate  Honours Community Education and Lifelong Learning BCLL , I want to do BSc Honours Community Education and Lifelong Learning BCLL",
+		"responses": "The requirements for BSc Honours Community Education and Lifelong Learning BCLL  are \r\n  5 “O” Level passes including English and an indigenous language plus at least 1 “A” level pass. At least one year experience as an Lifelong education Practitioner.",
+		"context": ""
+	},
+	{
+		"tag": "HSSM",
+		"patterns": "BSc Honours Human Settlement Spatiality and Mobility HSSM , undergraduate  Honours Human Settlement Spatiality and Mobility HSSM , I want to do BSc Honours Human Settlement Spatiality and Mobility HSSM",
+		"responses": "The requirements for BSc Honours Human Settlement Spatiality and Mobility HSSM  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus any 2 A’ Level passes in any one of the following subjects Business Studies, Accounting, Geography, Computer Science or Economics. ‘A’ level Mathematics\r\nor Statistics is compulsory.",
+		"context": ""
+	},
+	{
+		"tag": "HPSAD",
+		"patterns": "BSc Honours Population Science and Applied Demography HPSAD , undergraduate  Honours Population Science and Applied Demography HPSAD , I want to do BSc Honours Population Science and Applied Demography HPSAD",
+		"responses": "The requirements for BSc Honours Population Science and Applied Demography HPSAD  are \r\n  5 ‘O’ level passes including Mathematics plus any 2 ‘A’ Level passes.\r\n¾",
+		"context": ""
+	},
+	{
+		"tag": "HIOP",
+		"patterns": "BSc Honours Organisational and Industrial Psychology HIOP , undergraduate  Honours Organisational and Industrial Psychology HIOP , I want to do BSc Honours Organisational and Industrial Psychology HIOP",
+		"responses": "The requirements for BSc Honours Organisational and Industrial Psychology HIOP  are \r\n  5 “O” level passes, including Mathematics at grade B or better, and a relevant\r\nScience subject plus at least any 2 “A” level passes in Arts, Sciences or Commercials.",
+		"context": ""
+	},
+	{
+		"tag": "HCDP",
+		"patterns": "BSc Honours Child Development and Psychology HCDP , undergraduate  Honours Child Development and Psychology HCDP , I want to do BSc Honours Child Development and Psychology HCDP",
+		"responses": "The requirements for BSc Honours Child Development and Psychology HCDP  are \r\n  5 “O” level passes, including Mathematics at grade C or better, and a relevant Science subject plus at least any 2 “A” level passes.",
+		"context": ""
+	},
+	{
+		"tag": "HDP",
+		"patterns": "BSc Honours Developmental Psychology HDP , undergraduate  Honours Developmental Psychology HDP , I want to do BSc Honours Developmental Psychology HDP",
+		"responses": "The requirements for BSc Honours Developmental Psychology HDP  are \r\n  5 “O” level passes, including Mathematics at grade B or better, and a relevant Science subject plus at least any 2 “A” level passes in Arts, Sciences or Commercials.",
+		"context": ""
+	},
+	{
+		"tag": "HFPC",
+		"patterns": "BSc Honours Forensic Psychology and Criminology HFPC , undergraduate  Honours Forensic Psychology and Criminology HFPC , I want to do BSc Honours Forensic Psychology and Criminology HFPC",
+		"responses": "The requirements for BSc Honours Forensic Psychology and Criminology HFPC  are \r\n  5 “O” level passes, including Mathematics at grade B or better, and a relevant Science subject plus any at least 2 “A” level passes in Arts, Sciences or Commercials.",
+		"context": ""
+	},
+	{
+		"tag": "HTSD",
+		"patterns": "BSc Transport Systems and Development HTSD , undergraduate  Transport Systems and Development HTSD , I want to do BSc Transport Systems and Development HTSD",
+		"responses": "The requirements for BSc Transport Systems and Development HTSD  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus at least 2 A’ Level passes in the following subjects Business Studies, Geography, Computer Science or Economics. ‘A’ level Mathematics or Statistics is compulsory.",
+		"context": ""
+	},
+	{
+		"tag": "HSW",
+		"patterns": "BSc Honours Social Work HSW , undergraduate  Honours Social Work HSW , I want to do BSc Honours Social Work HSW",
+		"responses": "The requirements for BSc Honours Social Work HSW  are \r\n  5 “O” level passes including Mathematics plus at least 2 ‘A’ Level passes in any Arts subjects.",
+		"context": ""
+	},
+	{
+		"tag": "HVSB",
+		"patterns": "BSc Honours  Veterinary Bioengineering HVSB , undergraduate  Honours  Veterinary Bioengineering HVSB , I want to do BSc Honours  Veterinary Bioengineering HVSB",
+		"responses": "The requirements for BSc Honours  Veterinary Bioengineering HVSB  are \r\n  A. Candidates should have the following:\r\n1) Normal entry: At least five (5) O level subjects, including Mathematics and English\r\n2) At least three (3) A level passes in Mathematics, Chemistry, Physics and Biology. Passes in Mathematics and Physics are compulsory\r\nB. Special entry may be considered for candidates who have obtained an appropriate BSc degree from a recognised University",
+		"context": ""
+	}
+]}
