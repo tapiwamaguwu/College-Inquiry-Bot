@@ -29,4 +29,4 @@ def chat():
         return str(response)
 
 if __name__ == "__main__":
-    app.run(host='127.0.0.1',port=5000,debug=True,threaded=True)
+    app.run(port=5000,threaded=True)
