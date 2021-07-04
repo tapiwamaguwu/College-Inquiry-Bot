@@ -69,7 +69,7 @@ def predict_class(sentence, model):
 
 def getResponse(ints, intents_json):
     print("ints: ",ints)
-    if ints.len()==0:
+    if len(ints)==0:
         tag='noanswer'
     else:    
         tag = ints[0]['intent']
@@ -88,6 +88,7 @@ def chatbot_response(msg):
     res = getResponse(ints, intents)
     return res
 
+#tests chat bot before deployment
 response = chatbot_response("Hi")
 print(response)
 # print("Hi I\'m Cole, a bot designed to help you with any enquiries about the university of Zimbabwe \n I can help with Undergraduate and Postgraduate programs and the requirements for each \n feel free to ask me anything ")

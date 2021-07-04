@@ -17,7 +17,7 @@
 	{
 		"tag": "noanswer",
 		"patterns": "",
-		"responses": "Sorry, can't understand you,Please give me more info,Not sure I understand. Kindly rephrase the question, Kindly rephrase the question"
+		"responses": "Sorry 😢. I can't understand you. Kindly rephrase the question,Unfortunately I couldn't understand your request. Please give me more info,Not sure I understand. Kindly rephrase the question, Kindly rephrase the question. I didn't quite understand the query."
 	},
 	{
 		"tag": "options",
@@ -177,17 +177,17 @@
 	{
 		"tag": " MEME",
 		"patterns": "Master of Education Multi lingual Education   MEME , Postgraduate in Education Multi lingual Education   MEME , I want to do Master of Education Multi lingual Education   MEME",
-		"responses": "The requirements for Master of Education Multi lingual Education   MEME  are  \r\n  At least 2.2 degree class for B.Ed. degree or First Degree (with GDE/PGDE) from a recognized university, in which the area of specialization is represented."
+		"responses": "The requirements for Master of Education Multi lingual Education   MEME  are  \r\n  At least 2.2 degree class for B.Ed. degree or First Degree (with GDE/PGDE) from a recognized university in which the area of specialization is represented."
 	},
 	{
 		"tag": " MELDT",
 		"patterns": "Master of Education Language Development and Technology   MELDT , Postgraduate in Education Language Development and Technology   MELDT , I want to do Master of Education Language Development and Technology   MELDT",
-		"responses": "The requirements for Master of Education Language Development and Technology   MELDT  are  \r\n  At least 2.2 degree class for B.Ed. degree or First Degree (with GDE/PGDE) from a recognized university, in which the area of specialization is represented."
+		"responses": "The requirements for Master of Education Language Development and Technology   MELDT  are  \r\n  At least 2.2 degree class for B.Ed. degree or First Degree (with GDE/PGDE) from a recognized university in which the area of specialization is represented."
 	},
 	{
 		"tag": " MELE",
 		"patterns": "Master of Education Educational Leadership and Ethics   MELE , Postgraduate in Education Educational Leadership and Ethics   MELE , I want to do Master of Education Educational Leadership and Ethics   MELE",
-		"responses": "The requirements for Master of Education Educational Leadership and Ethics   MELE  are  \r\n  Options: i) Educational Management, Leadership and Gender and Inclusivity \r\nii) Educational Policy, Planning and Quality Management Bachelor of Education Degree in Educational Management"
+		"responses": "The requirements for Master of Education Educational Leadership and Ethics   MELE  are  \r\n  Options: i) Educational Management, Leadership and Gender and Inclusivity \r\nii) Educational Policy; Planning and Quality Management Bachelor of Education Degree in Educational Management"
 	},
 	{
 		"tag": " MEHTES",
@@ -207,7 +207,7 @@
 	{
 		"tag": " MMET",
 		"patterns": "Master of Science Advanced Mineral Processing and Extractive Metallurgy   MMET , Postgraduate in Science Advanced Mineral Processing and Extractive Metallurgy   MMET , I want to do Master of Science Advanced Mineral Processing and Extractive Metallurgy   MMET",
-		"responses": "The requirements for Master of Science Advanced Mineral Processing and Extractive Metallurgy   MMET  are \r\n   The candidate must hold at least an lower second class Bachelor of Science Honours degree in Mining, or Metallurgical Engineering, Geology or related field."
+		"responses": "The requirements for Master of Science Advanced Mineral Processing and Extractive Metallurgy   MMET  are \r\n   The candidate must hold at least an lower second class Bachelor of Science Honours degree in Mining; or Metallurgical Engineering; Geology or related field."
 	},
 	{
 		"tag": " MMIN",
@@ -217,7 +217,7 @@
 	{
 		"tag": " MSSTE",
 		"patterns": "Master of Science Degree in Structural Engineering    MSSTE , Postgraduate in Science Degree in Structural Engineering    MSSTE , I want to do Master of Science Degree in Structural Engineering    MSSTE",
-		"responses": "The requirements for Master of Science Degree in Structural Engineering    MSSTE  are \r\n   To be admitted into the Programme, candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience."
+		"responses": "The requirements for Master of Science Degree in Structural Engineering    MSSTE  are \r\n   To be admitted into the Programme: candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience."
 	},
 	{
 		"tag": " MSQUS",
@@ -227,7 +227,7 @@
 	{
 		"tag": " MSGTE",
 		"patterns": "Master of Science Degree in Geotechnical Engineering    MSGTE , Postgraduate in Science Degree in Geotechnical Engineering    MSGTE , I want to do Master of Science Degree in Geotechnical Engineering    MSGTE",
-		"responses": "The requirements for Master of Science Degree in Geotechnical Engineering    MSGTE  are \r\n   To be admitted into the Programme, candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience."
+		"responses": "The requirements for Master of Science Degree in Geotechnical Engineering    MSGTE  are \r\n   To be admitted into the Programme: candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower Second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience."
 	},
 	{
 		"tag": " MSHTE",
@@ -247,17 +247,17 @@
 	{
 		"tag": " MSSWM",
 		"patterns": "Master of Science Degree in Sanitation and Wastewater Management   MSSWM , Postgraduate in Science Degree in Sanitation and Wastewater Management   MSSWM , I want to do Master of Science Degree in Sanitation and Wastewater Management   MSSWM",
-		"responses": "The requirements for Master of Science Degree in Sanitation and Wastewater Management   MSSWM  are \r\n   To be admitted into the Programme, candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience."
+		"responses": "The requirements for Master of Science Degree in Sanitation and Wastewater Management   MSSWM  are \r\n   To be admitted into the Programme: candidates must have normally obtained an acceptable first degree in Civil Engineering with a classification of lower second Class or better. All candidates should have a minimum of proven two (2) years relevant and proven post qualification experience."
 	},
 	{
 		"tag": " MSE",
 		"patterns": "MSc Manufacturing Systems Engineering   MSE , Postgraduate in Manufacturing Systems Engineering   MSE , I want to do MSc Manufacturing Systems Engineering   MSE",
-		"responses": "The requirements for MSc Manufacturing Systems Engineering   MSE  are \r\n   Candidates with Bachelor of Science Honours degree from a relevant discipline in Science (Computer Science, Mathematics, Physics, and Statistics) or  a relevant ZNQF level 8 qualification or a relevant Professional Engineering Degree with demonstrable knowledge of basic principles of Algorithms,  Computing, Calculus, Linear Algebra, Probability and Statistics."
+		"responses": "The requirements for MSc Manufacturing Systems Engineering   MSE  are \r\n   Candidates with Bachelor of Science Honours degree from a relevant discipline in Science (Computer Science, Mathematics, Physics, and Statistics) or  a relevant ZNQF level 8 qualification or a relevant Professional Engineering Degree with demonstrable knowledge of basic principles of Algorithms Computing Calculus Linear Algebra Probability and Statistics."
 	},
 	{
 		"tag": " MECHART",
 		"patterns": "MSc Mechatronics and Artificial Intelligence    MECHART , Postgraduate in Mechatronics and Artificial Intelligence    MECHART , I want to do MSc Mechatronics and Artificial Intelligence    MECHART",
-		"responses": "The requirements for MSc Mechatronics and Artificial Intelligence    MECHART  are \r\n   Candidates with Bachelor of Science Honours degree from a relevant discipline in Science (Computer Science, Mathematics, Physics, and Statistics) or a relevant ZNQF level 8 qualification or a relevant Professional Engineering Degree with demonstrable knowledge of basic principles of Algorithms, Computing, Calculus, Linear  Algebra, Probability and Statistics."
+		"responses": "The requirements for MSc Mechatronics and Artificial Intelligence    MECHART  are \r\n   Candidates with Bachelor of Science Honours degree from a relevant discipline in Science (Computer Science Mathematics Physics and Statistics) or a relevant ZNQF level 8 qualification or a relevant Professional Engineering Degree with demonstrable knowledge of basic principles of Algorithms Computing Calculus Linear  Algebra Probability and Statistics."
 	},
 	{
 		"tag": " MREE",
