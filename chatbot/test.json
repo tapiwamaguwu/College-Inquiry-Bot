@@ -1647,32 +1647,32 @@
 	{
 		"tag": "BSCID",
 		"patterns": "BSc Honours Social Innovation and Community Development BSCID , undergraduate  Honours Social Innovation and Community Development undergraduate ID , I want to do BSc Honours Social Innovation and Community Development BSCID",
-		"responses": "The requirements for BSc Honours Social Innovation and Community Development BSCID  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus any 2 A’ Level passes in Mathematics and Physics or any other relevant Social Science or humanities subject."
+		"responses": "The requirements for BSc Honours Social Innovation and Community Development BSCID  are \r\n  5 “O” level passes including English and Mathematics at grade C or better plus any 2 A’ Level passes in Mathematics and Physics or any other relevant Social Science or humanities subject."
 	},
 	{
 		"tag": "BSTACD",
 		"patterns": "BSc Honours Smart Technology Applications and Community Development BSTACD , undergraduate  Honours Smart Technology Applications and Community Development BSTACD , I want to do BSc Honours Smart Technology Applications and Community Development BSTACD",
-		"responses": "The requirements for BSc Honours Smart Technology Applications and Community Development BSTACD  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus any 2 A’ Level passes in Mathematics and Physics or any other relevant Social Science or humanities subject."
+		"responses": "The requirements for BSc Honours Smart Technology Applications and Community Development BSTACD  are \r\n  5 “O” level passes including English and Mathematics at grade C or better plus any 2 A’ Level passes in Mathematics and Physics or any other relevant Social Science or humanities subject."
 	},
 	{
 		"tag": "HISO",
 		"patterns": "BSc Honours Industrial Sociology HISO , undergraduate  Honours Industrial Sociology HISO , I want to do BSc Honours Industrial Sociology HISO",
-		"responses": "The requirements for BSc Honours Industrial Sociology HISO  are \r\n  5 “O” level passes, including English Language with a B or better and any 2 “A” level passes."
+		"responses": "The requirements for BSc Honours Industrial Sociology HISO  are \r\n  5 “O” level passes including English Language with a B or better and any 2 “A” level passes."
 	},
 	{
 		"tag": "HUD",
 		"patterns": "BSc Honours Urbanisation and Social Amenities Development HUD , undergraduate  Honours UrBachelor of arts nisation and Social Amenities Development HUD , I want to do BSc Honours Urbanisation and Social Amenities Development HUD",
-		"responses": "The requirements for BSc Honours Urbanisation and Social Amenities Development HUD  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus any 2 “A” level passes."
+		"responses": "The requirements for BSc Honours Urbanisation and Social Amenities Development HUD  are \r\n  5 “O” level passes including English and Mathematics at grade C or better plus any 2 “A” level passes."
 	},
 	{
 		"tag": "HUCH",
 		"patterns": "BSc Honours Anthropology and Cultural Heritage  HUCH , undergraduate  Honours Anthropology and Cultural Heritage  HUCH , I want to do BSc Honours Anthropology and Cultural Heritage  HUCH",
-		"responses": "The requirements for BSc Honours Anthropology and Cultural Heritage  HUCH  are \r\n  5 “O” level passes, including English Language with a B or better and any 2 “A” level passes."
+		"responses": "The requirements for BSc Honours Anthropology and Cultural Heritage  HUCH  are \r\n  5 “O” level passes including English Language with a B or better and any 2 “A” level passes."
 	},
 	{
 		"tag": "HCS",
 		"patterns": "BSc Honours Criminology and Society HCS , undergraduate  Honours Criminology and Society HCS , I want to do BSc Honours Criminology and Society HCS",
-		"responses": "The requirements for BSc Honours Criminology and Society HCS  are \r\n  5 “O” level passes, including English and any 2 “A” level passes."
+		"responses": "The requirements for BSc Honours Criminology and Society HCS  are \r\n  5 “O” level passes including English and any 2 “A” level passes."
 	},
 	{
 		"tag": "BCLL",
@@ -1682,7 +1682,7 @@
 	{
 		"tag": "HSSM",
 		"patterns": "BSc Honours Human Settlement Spatiality and Mobility HSSM , undergraduate  Honours Human Settlement Spatiality and Mobility HSSM , I want to do BSc Honours Human Settlement Spatiality and Mobility HSSM",
-		"responses": "The requirements for BSc Honours Human Settlement Spatiality and Mobility HSSM  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus any 2 A’ Level passes in any one of the following subjects Business Studies, Accounting, Geography, Computer Science or Economics. ‘A’ level Mathematics\r\nor Statistics is compulsory."
+		"responses": "The requirements for BSc Honours Human Settlement Spatiality and Mobility HSSM  are \r\n  5 “O” level passes including English and Mathematics at grade C or better plus any 2 A’ Level passes in any one of the following subjects Business Studies Accounting Geography Computer Science or Economics. ‘A’ level Mathematics\r\nor Statistics is compulsory."
 	},
 	{
 		"tag": "HPSAD",
@@ -1692,27 +1692,27 @@
 	{
 		"tag": "HIOP",
 		"patterns": "BSc Honours Organisational and Industrial Psychology HIOP , undergraduate  Honours Organisational and Industrial Psychology HIOP , I want to do BSc Honours Organisational and Industrial Psychology HIOP",
-		"responses": "The requirements for BSc Honours Organisational and Industrial Psychology HIOP  are \r\n  5 “O” level passes, including Mathematics at grade B or better, and a relevant\r\nScience subject plus at least any 2 “A” level passes in Arts, Sciences or Commercials."
+		"responses": "The requirements for BSc Honours Organisational and Industrial Psychology HIOP  are \r\n  5 “O” level passes including Mathematics at grade B or better and a relevant\r\nScience subject plus at least any 2 “A” level passes in Arts Sciences or Commercials."
 	},
 	{
 		"tag": "HCDP",
 		"patterns": "BSc Honours Child Development and Psychology HCDP , undergraduate  Honours Child Development and Psychology HCDP , I want to do BSc Honours Child Development and Psychology HCDP",
-		"responses": "The requirements for BSc Honours Child Development and Psychology HCDP  are \r\n  5 “O” level passes, including Mathematics at grade C or better, and a relevant Science subject plus at least any 2 “A” level passes."
+		"responses": "The requirements for BSc Honours Child Development and Psychology HCDP  are \r\n  5 “O” level passes including Mathematics at grade C or better and a relevant Science subject plus at least any 2 “A” level passes."
 	},
 	{
 		"tag": "HDP",
 		"patterns": "BSc Honours Developmental Psychology HDP , undergraduate  Honours Developmental Psychology HDP , I want to do BSc Honours Developmental Psychology HDP",
-		"responses": "The requirements for BSc Honours Developmental Psychology HDP  are \r\n  5 “O” level passes, including Mathematics at grade B or better, and a relevant Science subject plus at least any 2 “A” level passes in Arts, Sciences or Commercials."
+		"responses": "The requirements for BSc Honours Developmental Psychology HDP  are \r\n  5 “O” level passes including Mathematics at grade B or better and a relevant Science subject plus at least any 2 “A” level passes in Arts Sciences or Commercials."
 	},
 	{
 		"tag": "HFPC",
 		"patterns": "BSc Honours Forensic Psychology and Criminology HFPC , undergraduate  Honours Forensic Psychology and Criminology HFPC , I want to do BSc Honours Forensic Psychology and Criminology HFPC",
-		"responses": "The requirements for BSc Honours Forensic Psychology and Criminology HFPC  are \r\n  5 “O” level passes, including Mathematics at grade B or better, and a relevant Science subject plus any at least 2 “A” level passes in Arts, Sciences or Commercials."
+		"responses": "The requirements for BSc Honours Forensic Psychology and Criminology HFPC  are \r\n  5 “O” level passes including Mathematics at grade B or better and a relevant Science subject plus any at least 2 “A” level passes in Arts Sciences or Commercials."
 	},
 	{
 		"tag": "HTSD",
 		"patterns": "BSc Transport Systems and Development HTSD , undergraduate  Transport Systems and Development HTSD , I want to do BSc Transport Systems and Development HTSD",
-		"responses": "The requirements for BSc Transport Systems and Development HTSD  are \r\n  5 “O” level passes, including English and Mathematics at grade C or better plus at least 2 A’ Level passes in the following subjects Business Studies, Geography, Computer Science or Economics. ‘A’ level Mathematics or Statistics is compulsory."
+		"responses": "The requirements for BSc Transport Systems and Development HTSD  are \r\n  5 “O” level passes including English and Mathematics at grade C or better plus at least 2 A’ Level passes in the following subjects Business Studies, Geography, Computer Science or Economics. ‘A’ level Mathematics or Statistics is compulsory."
 	},
 	{
 		"tag": "HSW",
@@ -1722,22 +1722,22 @@
 	{
 		"tag": "HVSB",
 		"patterns": "BSc Honours  Veterinary Bioengineering HVSB , undergraduate  Honours  Veterinary Bioengineering HVSB , I want to do BSc Honours  Veterinary Bioengineering HVSB",
-		"responses": "The requirements for BSc Honours  Veterinary Bioengineering HVSB  are \r\n  A. Candidates should have the following:\r\n1) Normal entry: At least five (5) O level subjects, including Mathematics and English\r\n2) At least three (3) A level passes in Mathematics, Chemistry, Physics and Biology. Passes in Mathematics and Physics are compulsory\r\nB. Special entry may be considered for candidates who have obtained an appropriate BSc degree from a recognised University"
+		"responses": "The requirements for BSc Honours  Veterinary Bioengineering HVSB  are \r\n  A. Candidates should have the following:\r\n1) Normal entry: At least five (5) O level subjects including Mathematics and English\r\n2) At least three (3) A level passes in Mathematics Chemistry Physics and Biology. Passes in Mathematics and Physics are compulsory\r\nB. Special entry may be considered for candidates who have obtained an appropriate BSc degree from a recognised University"
 	},
 	{
 		"tag": "lms_website",
 		"patterns": "How do I log into lms,How do I log into my e-learning account,log into lms, help lms,How do I sign in on lms, signing in lms,How do I sign in to my e-learning account,",
-		"responses": "To  log  in  to  your e-learning account,  enter  the  following  URL  into  your browser’s address bar: lms.uz.ac.zw \\n then  enter  your UZ student ID  as  your username and password. \\n The e-learning portal is also accessible from both eMhare and the UZ website. \\n By default, login credentials are set to: \\n Username: your Student Registration number in lowercase \\n Password: The barcode number on your student id, which you change at initial login. \\n Clickon the Log In button to log in."
+		"responses": "To  log  in  to  your e-learning account: \\n  Enter  the  following  URL  into  your browser’s address bar: lms.uz.ac.zw \\n Enter  your UZ student ID  as  your username and your barcode as the password. \\n The e-learning portal is also accessible from both eMhare and the UZ website. \\n By default login credentials are set to: \\n Username: your Student Registration number in lowercase \\n Password: The barcode number on your student id, which you change at initial login. \\n Clickon the Log In button to log in."
 	},
 	{
 		"tag": "lms_courses",
 		"patterns": "How do I find my courses on lms,where are my courses on lms,How do I access my courses on lms, courses on lms",
-		"responses": "After logging in, you will find your courses listed below the image in the center of the page. Selecting a course in this list will take you to that course’s home page.Please note that you are automatically enrolled for a course after your course registration in EMhare. \\n You can also view all the courses you are enrolled for by clicking the My Courses tab  on the left of your screen. You can select the course you want to access you want from there."
+		"responses": "After logging in you will find your courses listed below the image in the center of the page. Selecting a course in this list will take you to that course’s home page. Please note that you are automatically enrolled for a course after your course registration in EMhare. \\n You can also view all the courses you are enrolled for by clicking the My Courses tab  on the left of your screen. You can select the course you want to access you want from there."
 	},
 	{
 		"tag": "lms_upload document",
 		"patterns": "How do I upload documents on lms,How do I upload private files on lms, How do I add private documents on lms, How do I add private files on lms",
-		"responses": "Navigate to Private Files on the panel on the left of the screen. You can drag and drop files, folders or pictures. Then select Save changes."
+		"responses": "Navigate to Private Files on the panel on the left of the screen. You can drag and drop files or folders or pictures. Then select Save changes."
 	},
 	{
 		"tag": "lms_log_out",
@@ -1787,6 +1787,6 @@
 	{
 		"tag": "application_online",
 		"patterns": "How do you apply online, online application",
-		"responses": "ONLINE APPLICATIONS\\r\\nApplicants are also required to make an on- line application at UZ campus on www.emhare.uz.ac.zw. Click application link, complete and submit the application. Applicants can go to http://www.emhare.uz.ac.zw/applicantsdetails/download for instructions on how to complete the online application form. Successful applicants will be notified by through the uz website, facebook, through the press, sms and the addresses provided. Successful applicants will be expected to register as soon as possible.\\r\\nNB: NO PART OF THE UZ ADMISSION SELECTION PROCESS REQUIRES APPLICANTS TO PAY ANYONE EXCEPT THE APPLICATION FEE INDICATED ABOVE."
+		"responses": "ONLINE APPLICATIONS\\r\\nApplicants are also required to make an on- line application at UZ campus on www.emhare.uz.ac.zw. Click application link then complete and submit the application. Applicants can go to http://www.emhare.uz.ac.zw/applicantsdetails/download for instructions on how to complete the online application form. Successful applicants will be notified by through the uz website, facebook, through the press, sms and the addresses provided. Successful applicants will be expected to register as soon as possible.\\r\\nNB: NO PART OF THE UZ ADMISSION SELECTION PROCESS REQUIRES APPLICANTS TO PAY ANYONE EXCEPT THE APPLICATION FEE INDICATED ABOVE."
 	}
 ]}
