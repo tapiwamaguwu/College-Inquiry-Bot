@@ -17,7 +17,7 @@
 	{
 		"tag": "noanswer",
 		"patterns": "",
-		"responses": "Sorry, can't understand you,Please give me more info,Not sure I understand"
+		"responses": "Sorry, can't understand you,Please give me more info,Not sure I understand. Kindly rephrase the question, Kindly rephrase the question"
 	},
 	{
 		"tag": "options",

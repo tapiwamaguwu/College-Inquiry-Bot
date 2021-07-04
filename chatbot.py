@@ -55,10 +55,10 @@ def predict_class(sentence, model):
     # filter out predictions below a threshold
     p = bow(sentence, words,show_details=False)
     res = model.predict(np.array([p]))[0]
-    #TODO uncomment the error threshold
-    #ERROR_THRESHOLD = 0.25
-    #results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]
-    results = [[i,r] for i,r in enumerate(res)]
+    
+    ERROR_THRESHOLD = 0.25
+    results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]
+    #results = [[i,r] for i,r in enumerate(res)]
 
     # sort by strength of probability
     results.sort(key=lambda x: x[1], reverse=True)
@@ -69,7 +69,11 @@ def predict_class(sentence, model):
 
 def getResponse(ints, intents_json):
     print("ints: ",ints)
-    tag = ints[0]['intent']
+    if ints.len()==0:
+        tag='noanswer'
+    else:    
+        tag = ints[0]['intent']
+
     print("tag: ",tag)
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
