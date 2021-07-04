@@ -1727,12 +1727,12 @@
 	{
 		"tag": "lms_website",
 		"patterns": "How do I log into lms,How do I log into my e-learning account,log into lms, help lms,How do I sign in on lms, signing in lms,How do I sign in to my e-learning account,",
-		"responses": "To  log  in  to  your e-learning account: \\n  Enter  the  following  URL  into  your browser’s address bar: lms.uz.ac.zw \\n Enter  your UZ student ID  as  your username and your barcode as the password. \\n The e-learning portal is also accessible from both eMhare and the UZ website. \\n By default login credentials are set to: \\n Username: your Student Registration number in lowercase \\n Password: The barcode number on your student id, which you change at initial login. \\n Clickon the Log In button to log in."
+		"responses": "To  log  in  to  your e-learning account: \n  Enter  the  following  URL  into  your browser’s address bar: lms.uz.ac.zw \n Enter  your UZ student ID  as  your username and your barcode as the password. \n The e-learning portal is also accessible from both eMhare and the UZ website. \n By default login credentials are set to: \n Username: your Student Registration number in lowercase \n Password: The barcode number on your student id, which you change at initial login. \n Clickon the Log In button to log in."
 	},
 	{
 		"tag": "lms_courses",
 		"patterns": "How do I find my courses on lms,where are my courses on lms,How do I access my courses on lms, courses on lms",
-		"responses": "After logging in you will find your courses listed below the image in the center of the page. Selecting a course in this list will take you to that course’s home page. Please note that you are automatically enrolled for a course after your course registration in EMhare. \\n You can also view all the courses you are enrolled for by clicking the My Courses tab  on the left of your screen. You can select the course you want to access you want from there."
+		"responses": "After logging in you will find your courses listed below the image in the center of the page. Selecting a course in this list will take you to that course’s home page. Please note that you are automatically enrolled for a course after your course registration in EMhare. \n You can also view all the courses you are enrolled for by clicking the My Courses tab  on the left of your screen. You can select the course you want to access you want from there."
 	},
 	{
 		"tag": "lms_upload document",
@@ -1747,46 +1747,46 @@
 	{
 		"tag": "diplomas_art",
 		"patterns": "What diplomas are offered in the faculty of arts and humanities, faculty of arts and humanities diplomas, diplomas faculty of arts and humanities",
-		"responses": "The faculty of Art and Humanties offers: \\n Diploma in translation and interpretation studies and Diploma in translation"
+		"responses": "The faculty of Art and Humanties offers: \n Diploma in translation and interpretation studies and Diploma in translation"
 	},
 	{
 		"tag": "diplomas_business",
 		"patterns": "What diplomas are offered in the faculty of Business Management Sciences and Economics, faculty of Business Management Sciences and Economics diplomas, diplomas Faculty of Business Management Sciences and Economics",
-		"responses": "The faculty of Business Management Sciences and Economics offers: \\n Diploma in business management"
+		"responses": "The faculty of Business Management Sciences and Economics offers: \n Diploma in business management"
 	},
 	{
 		"tag": "diplomas_education",
 		"patterns": "What diplomas are offered in the faculty of education, faculty of education, diplomas, diplomas Faculty of education",
-		"responses": "The faculty of Education offers: \\n Diploma in adult education \\n Graduate diploma in education \\n Diploma in educational planning \\n Diploma in technical vocational education \\n Diploma in infrastructual planning, design and development"
+		"responses": "The faculty of Education offers: \n Diploma in adult education \n Graduate diploma in education \n Diploma in educational planning \n Diploma in technical vocational education \n Diploma in infrastructual planning, design and development"
 	},
 	{
 		"tag": "diplomas_law",
 		"patterns": "What diplomas are offered in the faculty of law, faculty of law diplomas, diplomas Faculty of law",
-		"responses": "Diploma in women's law \\n Diploma in law "
+		"responses": "Diploma in women's law \n Diploma in law "
 	},
 	{
 		"tag": "diplomas_veterinary_sciences",
 		"patterns": "What diplomas are offered in the faculty of veterinary sciences, faculty of veterinary sciences diplomas, diplomas Faculty of veterinary sciences",
-		"responses": "The faculty of Veterinary Science offers: \\n Diploma in veterinary nursing"
+		"responses": "The faculty of Veterinary Science offers: \n Diploma in veterinary nursing"
 	},
 	{
 		"tag": "diplomas_ medicine_health_sciences",
 		"patterns": "What diplomas are offered in the faculty of  Medicine and Health Sciences, faculty of Medicine and Health Sciences diplomas, diplomas Faculty of  Medicine and Health Sciences",
-		"responses": "The faculty of Medicine and Health Science offers: \\n Postgraduate diploma in anaesthetics \\n Diploma in mental health \\n Postgraduate diploma in ophthalmology \\n Diploma in occupational safety an health "
+		"responses": "The faculty of Medicine and Health Science offers: \n Postgraduate diploma in anaesthetics \n Diploma in mental health \n Postgraduate diploma in ophthalmology \n Diploma in occupational safety an health "
 	},
 	{
 		"tag": "diplomas_ school_of_technology",
 		"patterns": "What diplomas are offered in the faculty of  School of Technology, faculty of School of Technology diplomas, diplomas Faculty of  School of Technology",
-		"responses": "The faculty of UZ School of Technology offers: \\n Diploma in applied information technology"
+		"responses": "The faculty of UZ School of Technology offers: \n Diploma in applied information technology"
 	},
 	{
 		"tag": "banking_details",
 		"patterns": "What is the school's bank account,which account should I pay my school fees to,UZ Banking Details,bank details",
-		"responses": "The Account details are as follows:\\r\\nAccount Name          : University of Zimbabwe\\r\\nBranch                     : Kwame Nkrumah Ave Harare\\r\\nAccount Number       : 01120770100042\\r\\nBranch Sort Code      : 6101 \\r\\nSwift Code            : COBZZWHA "
+		"responses": "The Account details are as follows: \r\n Account Name          : University of Zimbabwe \r\n Branch                     : Kwame Nkrumah Ave Harare \r\n Account Number       : 01120770100042\r\nBranch Sort Code      : 6101 \r\n Swift Code            : COBZZWHA "
 	},
 	{
 		"tag": "application_online",
 		"patterns": "How do you apply online, online application",
-		"responses": "ONLINE APPLICATIONS\\r\\nApplicants are also required to make an on- line application at UZ campus on www.emhare.uz.ac.zw. Click application link then complete and submit the application. Applicants can go to http://www.emhare.uz.ac.zw/applicantsdetails/download for instructions on how to complete the online application form. Successful applicants will be notified by through the uz website, facebook, through the press, sms and the addresses provided. Successful applicants will be expected to register as soon as possible.\\r\\nNB: NO PART OF THE UZ ADMISSION SELECTION PROCESS REQUIRES APPLICANTS TO PAY ANYONE EXCEPT THE APPLICATION FEE INDICATED ABOVE."
+		"responses": "ONLINE APPLICATIONS\r\nApplicants are also required to make an on- line application at UZ campus on www.emhare.uz.ac.zw. Click application link then complete and submit the application. Applicants can go to http://www.emhare.uz.ac.zw/applicantsdetails/download for instructions on how to complete the online application form. Successful applicants will be notified by through the uz website, facebook, through the press, sms and the addresses provided. Successful applicants will be expected to register as soon as possible.\r\nNB: NO PART OF THE UZ ADMISSION SELECTION PROCESS REQUIRES APPLICANTS TO PAY ANYONE EXCEPT THE APPLICATION FEE INDICATED ABOVE."
 	}
 ]}
