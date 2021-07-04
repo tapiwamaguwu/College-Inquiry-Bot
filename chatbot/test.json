@@ -42,7 +42,7 @@
 	{
 		"tag": "diploma",
 		"patterns": "How to apply,i need to review results,i want to apply ,how do i apply,where can i apply ,Programs Offered,Program Duration",
-		"responses": "Navigating to Adverse drug reaction module"
+		"responses": "You can find a list of diploma programs here: https://www.uz.ac.zw/index.php/admissions/fees-schedule "
 	},
 	{
 		"tag": "MCC",
