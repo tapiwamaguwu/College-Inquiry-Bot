@@ -1787,6 +1787,6 @@
 	{
 		"tag": "application_online",
 		"patterns": "How do you apply online, online application",
-		"responses": "ONLINE APPLICATIONS \r\n Applicants are also required to make an on- line application at UZ campus on www.emhare.uz.ac.zw. Click application link then complete and submit the application. Applicants can go to http://www.emhare.uz.ac.zw/applicantsdetails/download for instructions on how to complete the online application form. Successful applicants will be notified by through the uz website, facebook, through the press, sms and the addresses provided. Successful applicants will be expected to register as soon as possible. \r\n NB: NO PART OF THE UZ ADMISSION SELECTION PROCESS REQUIRES APPLICANTS TO PAY ANYONE EXCEPT THE APPLICATION FEE INDICATED ABOVE."
+		"responses": "ONLINE APPLICATIONS \r\n Applicants are also required to make an on-line application at UZ campus on www.emhare.uz.ac.zw. Click application link then complete and submit the application. Applicants can go to http://www.emhare.uz.ac.zw/applicantsdetails/download for instructions on how to complete the online application form. Successful applicants will be notified by through the uz website or facebook or through the press or sms and the addresses provided. Successful applicants will be expected to register as soon as possible. \r\n NB: NO PART OF THE UZ ADMISSION SELECTION PROCESS REQUIRES APPLICANTS TO PAY ANYONE EXCEPT THE APPLICATION FEE INDICATED ABOVE."
 	}
 ]}
