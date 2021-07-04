@@ -23,10 +23,12 @@ def chat():
         # if mpty string is received
         if msg == '':
             response.message(chatbot.chatbot_response("Hi"))
+            #return chatbot.chatbot_response("Hi")
             
         # if string is not empty
         response.message(chatbot.chatbot_response(msg))
         return str(response)
+        #return chatbot.chatbot_response(msg)
 
 if __name__ == "__main__":
     app.run(port=5000,threaded=True)

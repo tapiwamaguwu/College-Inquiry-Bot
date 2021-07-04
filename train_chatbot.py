@@ -20,7 +20,7 @@ words=[]
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file = open('chatbot/test.json', encoding="utf8").read()
+data_file = open('test2.json', encoding="utf8").read()
 intents = json.loads(data_file)
 
 
@@ -111,7 +111,7 @@ adm = tf.keras.optimizers.Adam(
 model.compile(loss='categorical_crossentropy', optimizer=adm, metrics=['accuracy'])
 
 #training and saving the model 
-hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+hist = model.fit(np.array(train_x), np.array(train_y), epochs=1000, batch_size=5, verbose=1)
 model.save('chatbot/da_model.h5', hist)
 
 print("model created")
